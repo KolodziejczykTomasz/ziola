@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../component/Header/Header';
-import Fotter from '../../component/Footer/Fotter';
+import Slide from '../../component/Slide/Slide';
+import Footer from '../../component/Footer/Footer';
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,7 +12,8 @@ class Root extends Component {
       <>
         <div>
           <Header />
-          <Fotter />
+          <Slide />
+          <Footer />
         </div>
       </>
     );
