@@ -1,87 +1,112 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { Link, BrowserRouter } from "react-router-dom";
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
-} from 'reactstrap';
-import Logo from '../../../assets/images/logo/logoStowMin.jpg';
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from "reactstrap";
 
-const Navigation = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
+import Logo from "../../../assets/images/logo/logoStowMin.jpg";
 
-    const toggle = () => setIsOpen(!isOpen);
+import styles from "./Navigation.module.scss";
 
-    return (
-        <div>
-            <Navbar color="light" light expand="md">
-                <NavbarBrand href="/">
-                < img src={Logo} alt="Logo Stowarzyszenia" />                
-                </NavbarBrand>
-                <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/components/">Home</NavLink>            
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">Noclegi</NavLink>
-                        </NavItem>
-                        <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
-                                Edukacja
-              </DropdownToggle>
-                            <DropdownMenu right>
-                                <DropdownItem>
-                                    Poznaj zioła
-                </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Przepisy
-                </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Ogródek ziołowy
-                </DropdownItem>
-                            </DropdownMenu>
-                        </UncontrolledDropdown>
-                        <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
-                                Stowarzyszenie
-              </DropdownToggle>
-                            <DropdownMenu right>
-                                <DropdownItem>
-                                    Władze
-                </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Historia
-                </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Działalność
-                </DropdownItem>
-                            </DropdownMenu>
-                        </UncontrolledDropdown>
-                        <NavItem>
-                            <NavLink href="/components/">Galeria</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/components/">Kontakt</NavLink>
-                        </NavItem>
-                    </Nav>
-                </Collapse>
+const Navigation = props => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
 
-            </Navbar>
-        </div>
-    );
-}
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">
+            <img src={Logo} alt="Logo Stowarzyszenia" />
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="mr-auto" navbar>
+              <Nav className="mr-auto" navbar>
+                <NavItem>
+                  <Link as={Link} to="/">
+                    Home
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link as={Link} to="/flat">
+                    Noclegi
+                  </Link>
+                </NavItem>
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret>
+                    Edukacja
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      <Link as={Link} to="/herbs">
+                        Poznaj zioła
+                      </Link>
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                      <Link as={Link} to="/recipes">
+                        Przepisy
+                      </Link>
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                      <Link as={Link} to="/garden">
+                        Ogródek ziołowy
+                      </Link>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret>
+                    Stowarzyszenie
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      <Link as={Link} to="/government">
+                        Władze
+                      </Link>
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                      <Link as={Link} to="/history">
+                        Historia
+                      </Link>
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                      <Link as={Link} to="/activity">
+                        Działalność
+                      </Link>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <NavItem>
+                  <Link as={Link} to="/gallery">
+                    Galeria
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link as={Link} to="/contact">
+                    Kontakt
+                  </Link>
+                </NavItem>
+              </Nav>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </BrowserRouter>
+    </div>
+  );
+};
 
 export default Navigation;

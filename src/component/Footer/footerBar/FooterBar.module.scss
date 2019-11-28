@@ -1,0 +1,10 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+
+  .images {
+    width: 309px;
+    height: auto;
+  }
+}
