@@ -5,19 +5,21 @@ import FooterBar from "../Footer/footerBar/FooterBar";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 
+import styles from "./Footer.module.scss"
+
 const Footer = () => (
   <>
     <FooterBar />
-    <div>
-      <img src={ProwLogo} alt="Logo PROW" />
+    <div className={styles.wrapper} > 
+      <img className={styles.wrapperimg} src={ProwLogo} alt="Logo PROW" />
     </div>
-    <div>
-      {" "}
-      <span>©2017. Zielarska Wieś Blanki - All Rights Reserved.</span>
+    <div className={styles.copyright} >
+      
+      <span className={styles.copyrighttext} >©2017. Zielarska Wieś Blanki - All Rights Reserved.</span>
     </div>
-    <div>
-      <FacebookIcon color="action" style={{ fontSize: 30 }} />
-      <InstagramIcon color="action" style={{ fontSize: 30 }} />
+    <div className={styles.social} >
+      <FacebookIcon className={styles.socialicon} color="action" style={{ fontSize: 30 }} />
+      <InstagramIcon className={styles.socialicon} color="action" style={{ fontSize: 30 }} />
     </div>
   </>
 );

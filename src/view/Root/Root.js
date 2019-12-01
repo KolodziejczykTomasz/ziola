@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Header from '../../component/Header/Header';
-import Slide from '../../component/Slide/Slide';
-import Footer from '../../component/Footer/Footer';
+import Home from '../Home/Home';
+
 
 
 import Activity from '../Club/Activity';
@@ -27,15 +26,10 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class Root extends Component {
   render() {
     return (
-      <>
-      
-          <Header />
-          <Slide />
-          <Footer />
-        
+      <>  
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" />
+            <Route exact path="/" component={Home}/>
             <Route path="/club" component={Club} />
             <Route path="/activity" component={Activity} />
             <Route path="/government" component={Government} />

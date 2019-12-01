@@ -24,84 +24,107 @@ const Navigation = props => {
   return (
     <div>
       <BrowserRouter>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">
+        <Navbar  color="light" light expand="md">
+          
+          <NavbarBrand href="/" className={styles.logobox} >
             <img src={Logo} alt="Logo Stowarzyszenia" />
           </NavbarBrand>
+
+
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
-              <Nav className="mr-auto" navbar>
-                <NavItem>
-                  <Link as={Link} to="/">
+            
+            
+            <Nav navbar className={styles.topnav}>
+
+              <Nav navbar className={styles.navigationmenu}>
+                <NavItem >
+                  <Link as={Link} to="/" className={styles.navigationlink}>
                     Home
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link as={Link} to="/flat">
+                  <Link as={Link} to="/flat" className={styles.navigationlink}>
                     Noclegi
                   </Link>
                 </NavItem>
+
+
                 <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
+                  
+                  
+                  <DropdownToggle nav caret className={styles.navigationdropdown}> 
                     Edukacja
                   </DropdownToggle>
+
+                  
                   <DropdownMenu right>
-                    <DropdownItem>
-                      <Link as={Link} to="/herbs">
+                    <DropdownItem >
+                      <Link as={Link} to="/herbs" className={styles.navigationdropdownitemlink}>
                         Poznaj zioła
                       </Link>
                     </DropdownItem>
+                    
+                    
                     <DropdownItem divider />
+                    
+                    
+                    
                     <DropdownItem>
-                      <Link as={Link} to="/recipes">
+                      <Link as={Link} to="/recipes" className={styles.navigationdropdownitemlink}>
                         Przepisy
                       </Link>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                      <Link as={Link} to="/garden">
+                      <Link as={Link} to="/garden" className={styles.navigationdropdownitemlink}>
                         Ogródek ziołowy
                       </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
+
+
+                <UncontrolledDropdown nav inNavbar >
+                  <DropdownToggle nav caret className={styles.navigationdropdown}>
                     Stowarzyszenie
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem>
-                      <Link as={Link} to="/government">
+                      <Link as={Link} to="/government" className={styles.navigationdropdownitemlink}>
                         Władze
                       </Link>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                      <Link as={Link} to="/history">
+                      <Link as={Link} to="/history" className={styles.navigationdropdownitemlink}>
                         Historia
                       </Link>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                      <Link as={Link} to="/activity">
+                      <Link as={Link} to="/activity" className={styles.navigationdropdownitemlink}>
                         Działalność
                       </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <Link as={Link} to="/gallery">
+                  <Link as={Link} to="/gallery" className={styles.navigationlink}>
                     Galeria
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link as={Link} to="/contact">
+                  <Link as={Link} to="/contact" className={styles.navigationlink}>
                     Kontakt
                   </Link>
                 </NavItem>
               </Nav>
+
             </Nav>
+
+
+
           </Collapse>
         </Navbar>
       </BrowserRouter>

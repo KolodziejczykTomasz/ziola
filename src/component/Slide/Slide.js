@@ -10,6 +10,8 @@ import {
     CarouselCaption
 } from 'reactstrap';
 
+import styles from "./Slide.module.scss";
+
 const items = [
     {
         src: Sjad1,
@@ -52,11 +54,12 @@ const Slide = (props) => {
     const slides = items.map((item) => {
         return (
             <CarouselItem
+                className={styles.carousel}
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <img className={styles.carouselimage} src={item.src} alt={item.altText} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );

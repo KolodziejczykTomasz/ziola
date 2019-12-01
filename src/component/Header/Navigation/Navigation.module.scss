@@ -1,0 +1,53 @@
+.logobox {
+    background-color: #ffffff;
+	height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    z-index: 1030;    
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    min-height: 70px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.navigationmenu {
+    display: block;
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+
+.navigationlink, .navigationdropdown, .navigationdropdown:focus {
+    display: block;
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px 15px;
+}
+
+.navigationdropdown {
+    margin-top: 13px;
+}
+.navigationdropdownitemlink, nav {
+    color: #353535;
+}
