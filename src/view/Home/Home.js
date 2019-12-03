@@ -6,6 +6,7 @@ import Slide from "../../component/Slide/Slide";
 import Footer from "../../component/Footer/Footer";
 import List from "../../component/HomeList/List";
 import Homeaside from "../../component/Homeaside/Homeaside";
+
 import "semantic-ui-css/semantic.min.css";
 
 const Home = () => (

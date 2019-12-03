@@ -3,7 +3,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 
 const ListItem = ({ title, src, text }) => {
   return (
-    <li>
+    <>
       <Grid key={title}>
         <Grid.Column width={5}>
           <Image src={src} alt={title} />
@@ -14,7 +14,7 @@ const ListItem = ({ title, src, text }) => {
           <p>{text} </p>
         </Grid.Column>
       </Grid>
-    </li>
+    </>
   );
 };
 

@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from '../../component/Header/Header';
-
+import React from "react";
+import Header from "../../component/Header/Header";
+import Footer from "../../component/Footer/Footer";
 
 const Activity = () => (
-    <div>
-        <Header />
-        <footer />
-    </div>
+  <>
+    <Header />
+    <Footer />
+  </>
 );
 
-export default Activity;  
+export default Activity;

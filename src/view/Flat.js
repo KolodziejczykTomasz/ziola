@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from '../component/Header/Header';
+import Footer from '../component/Footer/Footer';
 
 const Flat = () => (
-    <div>
-        Flat
-    </div>
+    <>
+    <Header />
+    <Footer />
+</>
 );
 
 export default Flat;  

@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
+import Header from "../../component/Header/Header";
+import Footer from "../../component/Footer/Footer";
 
 const Club = () => (
-    <div>
-        Club
-    </div>
+  <>
+    <Header />
+    <Footer />
+  </>
 );
 
-export default Club;  
+export default Club;
