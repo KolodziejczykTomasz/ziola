@@ -41,9 +41,18 @@ const Navigation = props => {
                   Noclegi
                 </Link>
               </NavItem>
+              <NavItem>
+                <Link
+                  as={Link}
+                  to="/education"
+                  className={styles.navigationlink}
+                >
+                  Edukacja
+                </Link>
+              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret className={styles.navigationdropdown}>
-                  Edukacja
+                  Zioła
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
