@@ -15,8 +15,19 @@ import Recipes from '../Herbs/Recipes';
 import About from '../About';
 import Contact from '../Contact';
 import Education from '../Education';
-import Flat from '../Flat';
+import Flat from '../Flat/Flat';
 import Gallery from '../Gallery';
+
+import GalleryListActivity from '../../view/Gallery/GalleryListActivity';
+import GalleryListHerbs from '../../view/Gallery/GalleryListHerbs';
+import GalleryListProduct from '../../view/Gallery/GalleryListProduct';
+import GalleryListGarden from '../../view/Gallery/GalleryListGarden';
+
+import FlatAramowicz from '../Flat/FlatAramowicz';
+import FlatBaranowska from '../Flat/FlatBaranowska';
+import FlatKolecka from '../Flat/FlatKolecka';
+import FlatGabrys from '../Flat/FlatGabrys';
+import FlatLiminowicz from '../Flat/FlatLiminowicz';
 
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -30,6 +41,7 @@ class Root extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home}/>
+
             <Route path="/club" component={Club} />
             <Route path="/activity" component={Activity} />
             <Route path="/government" component={Government} />
@@ -40,8 +52,19 @@ class Root extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/education" component={Education} />
+
             <Route path="/flat" component={Flat} />
+            <Route path="/flatAramowicz" component={FlatAramowicz} />
+            <Route path="/flatBaranowska" component={FlatBaranowska} />
+            <Route path="/flatKolecka" component={FlatKolecka} />
+            <Route path="/flatGabrys" component={FlatGabrys} />
+            <Route path="/flatLiminowicz" component={FlatLiminowicz} />
+
             <Route path="/gallery" component={Gallery} />
+            <Route path="/galleryAcitivity" component={GalleryListActivity} />
+            <Route path="/galleryHerbs" component={GalleryListHerbs} />
+            <Route path="/galleryGarden" component={GalleryListGarden} />
+            <Route path="/galleryProduct" component={GalleryListProduct} />    
           </Switch>
         </BrowserRouter>
       </>

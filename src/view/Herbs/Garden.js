@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
-import GalleryGarden from "../../component/GalleryList/GalleryGarden";
+import GalleryGarden from "../../component/Gallery/GalleryGarden";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
