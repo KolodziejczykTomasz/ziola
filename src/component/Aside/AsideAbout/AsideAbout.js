@@ -2,11 +2,11 @@ import React from "react";
 import { Grid, Image} from 'semantic-ui-react';
 
 
-import Logo from "../../assets/images/home/Logo.jpg";
-import styles from "./Homeaside.module.scss";
+import Logo from "../../../assets/images/home/Logo.jpg";
+import styles from "../AsideAbout/AsideAbout.module.scss";
 
 
-const Homeaside = () => (
+const AsideAbout = () => (
 <Grid>  
     <Grid.Column width={15}>
         <Grid.Row>
@@ -26,4 +26,4 @@ const Homeaside = () => (
   </Grid>  
   );
 
-export default Homeaside;
+export default AsideAbout;

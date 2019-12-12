@@ -3,8 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from '../Home/Home';
 
-
-
 import Activity from '../Club/Activity';
 import Club from '../Club/Club';
 import Government from '../Club/Government';
@@ -29,9 +27,22 @@ import FlatKolecka from '../Flat/FlatKolecka';
 import FlatGabrys from '../Flat/FlatGabrys';
 import FlatLiminowicz from '../Flat/FlatLiminowicz';
 
+import HerbsAronia from '../Herbs/HerbsAronia';
+import HerbsBylica from '../Herbs/HerbsBylica';
+import HerbsDeren from '../Herbs/HerbsDeren';
+import HerbsDziurawiec from '../Herbs/HerbsDziurawiec';
+import HerbsLubczyk from '../Herbs/HerbsLubczyk';
+import HerbsMelisa from '../Herbs/HerbsMelisa';
+import HerbsRokitnik from '../Herbs/HerbsRokitnik';
+import HerbsRoza from '../Herbs/HerbsRoza';
+import HerbsRozmaryn from '../Herbs/HerbsRozmaryn';
+import HerbsRumianek from '../Herbs/HerbsRumianek';
+import HerbsStevia from '../Herbs/HerbsStevia';
+import HerbsSzalwia from '../Herbs/HerbsSzalwia';
+import HerbsWaleriana from '../Herbs/HerbsWaleriana';
+import HerbsWiesiolek from '../Herbs/HerbsWiesiolek';
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
 
 
 class Root extends Component {
@@ -45,13 +56,27 @@ class Root extends Component {
             <Route path="/club" component={Club} />
             <Route path="/activity" component={Activity} />
             <Route path="/government" component={Government} />
-            <Route path="/history" component={History} />
-            <Route path="/herbs" component={Herbs} />
+            <Route path="/history" component={History} />            
             <Route path="/garden" component={Garden} />
             <Route path="/recipes" component={Recipes} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/education" component={Education} />
+            <Route path="/herbs" component={Herbs} />
+            <Route path="/herbsAronia" component={HerbsAronia} />
+            <Route path="/herbsBylica" component={HerbsBylica} />
+            <Route path="/herbsDeren" component={HerbsDeren} />
+            <Route path="/herbsDziurawiec" component={HerbsDziurawiec} />
+            <Route path="/herbsLubczyk" component={HerbsLubczyk} />
+            <Route path="/herbsMelisa" component={HerbsMelisa} />
+            <Route path="/herbsRokitnik" component={HerbsRokitnik} />
+            <Route path="/herbsRoza" component={HerbsRoza} />
+            <Route path="/herbsRozmaryn" component={HerbsRozmaryn} />
+            <Route path="/herbsRumianek" component={HerbsRumianek} />
+            <Route path="/herbsStevia" component={HerbsStevia} />
+            <Route path="/herbsSzalwia" component={HerbsSzalwia} />
+            <Route path="/herbsWaleriana" component={HerbsWaleriana} />
+            <Route path="/herbsWiesiolek" component={HerbsWiesiolek} />
 
             <Route path="/flat" component={Flat} />
             <Route path="/flatAramowicz" component={FlatAramowicz} />

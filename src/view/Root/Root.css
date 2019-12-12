@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+
+body {
+    font-family: Lora, serif;
+    color: #555;
+}

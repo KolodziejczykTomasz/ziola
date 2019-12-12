@@ -15,18 +15,18 @@ import styles from "./Slide.module.scss";
 const items = [
     {
         src: Sjad1,
-        altText: 'Slide 1',
-        caption: 'Slide 1'
+        altText: 'Zielarska Wieś Blanki',
+        caption: 'Zapraszamy do nas'
     },
     {
         src: Sjad2,
-        altText: 'Slide 2',
-        caption: 'Slide 2'
+        altText: 'Zielarska Wieś Blanki',
+        caption: 'Zapraszamy do nas'
     },
     {
         src: Sjad3,
-        altText: 'Slide 3',
-        caption: 'Slide 3'
+        altText: 'Zielarska Wieś Blanki',
+        caption: 'Zapraszamy do nas'
     }
 ];
 
@@ -60,7 +60,7 @@ const Slide = (props) => {
                 key={item.src}
             >
                 <img className={styles.carouselimage} src={item.src} alt={item.altText} />
-                <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+                <CarouselCaption className={styles.carouselimageCaption} captionText={item.caption} captionHeader={item.altText} />
             </CarouselItem>
         );
     });
