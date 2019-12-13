@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "semantic-ui-react";
+import { Grid, Segment } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Slide from "../../component/Slide/Slide";
@@ -17,41 +17,50 @@ const Home = () => (
     <Header />
     <Slide />
     <Grid>
-      <Grid.Column width={11}>
+      <Grid.Column width={12}>
         <Grid.Row>
-          <div class="text-center post-header">
-            <h2 class="post-title">Babki Zielarki</h2>
-          </div>
+          <Segment>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Babki Zielarki</h2>
+              </div>
+            </Segment>
 
-          <div class="post-preview">
-            <img
-              src={BabkiZielarki}
-              alt="Babki Zielarki"
-              class="img-fluid rounded"
-            />
-          </div>
-          <div class="post-content">
-            <p>
-              Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
-              Zielarki” korzystają z kwiatów czarnego bzu, mniszka lekarskiego,
-              owoców pigwowca, dzikiej róży, aronii, jarzębiny, poziomek, malin
-              czy korzenia arcydzięgla. Nalewki i syropy o wyjątkowych nazwach
-              są bez wątpienia flagowym produktem Blanek, a wśród nowości
-              polecana jest nalewka z rzewienia oraz z dziewanny.
-            </p>
+            <div class="post-preview">
+              <img
+                src={BabkiZielarki}
+                alt="Babki Zielarki"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="post-content">
+              <p>
+                Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
+                Zielarki” korzystają z kwiatów czarnego bzu, mniszka
+                lekarskiego, owoców pigwowca, dzikiej róży, aronii, jarzębiny,
+                poziomek, malin czy korzenia arcydzięgla. Nalewki i syropy o
+                wyjątkowych nazwach są bez wątpienia flagowym produktem Blanek,
+                a wśród nowości polecana jest nalewka z rzewienia oraz z
+                dziewanny.
+              </p>
 
-            <p>
-              Na bazie naturalnych surowców powstają również niezwykłe dania i
-              wypieki np. zupa z pokrzywy, pierogi z kapustą i grzybami z
-              miejscowego lasu, gołąbki z soczewicą czy naleśniki z serem i
-              pokrzywą oraz ciastka ze skwarek.
-            </p>
-          </div>
-        </Grid.Row>
-        <Grid.Row>
-          <List />
+              <p>
+                Na bazie naturalnych surowców powstają również niezwykłe dania i
+                wypieki np. zupa z pokrzywy, pierogi z kapustą i grzybami z
+                miejscowego lasu, gołąbki z soczewicą czy naleśniki z serem i
+                pokrzywą oraz ciastka ze skwarek.
+              </p>
+            </div>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Aktualności</h2>
+              </div>
+            </Segment>
+            <List />
+          </Segment>
         </Grid.Row>
       </Grid.Column>
+
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />

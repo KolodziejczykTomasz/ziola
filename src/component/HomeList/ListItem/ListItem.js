@@ -1,20 +1,20 @@
 import React from "react";
-import { Grid, Image, Divider } from "semantic-ui-react";
+import { Image, Divider, Segment } from "semantic-ui-react";
 
 const ListItem = ({ title, src, text }) => {
   return (
-    <>
-      <Grid key={title}>
-        <Grid.Column width={5}>
+    <Segment>
+      <div key={title}>
+        <div>
           <Image src={src} alt={title} />
-        </Grid.Column>
-        <Grid.Column width={11}>
+        </div>
+        <div>
           <h1>{title}</h1>
           <Divider />
           <p>{text} </p>
-        </Grid.Column>
-      </Grid>
-    </>
+        </div>
+      </div>
+    </Segment>
   );
 };
 

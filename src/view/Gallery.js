@@ -13,6 +13,7 @@ import Product from "../assets/images/gallery/logo/Product.jpg";
 const Gallery = () => (
     <>
     <Header />
+    <Segment>
     <h1>Galeria</h1>
     <Segment>
       <Grid.Column mobile={1} tablet={2} computer={4}>
@@ -62,6 +63,7 @@ const Gallery = () => (
           </Grid.Column>          
         </Grid.Row>
       </Grid.Column>
+    </Segment>
     </Segment>
 
    

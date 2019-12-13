@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Image} from 'semantic-ui-react';
+import {Image, Segment} from 'semantic-ui-react';
 
 
 import Logo from "../../../assets/images/home/Logo.jpg";
@@ -7,12 +7,12 @@ import styles from "../AsideAbout/AsideAbout.module.scss";
 
 
 const AsideAbout = () => (
-<Grid>  
-    <Grid.Column width={15}>
-        <Grid.Row>
+<Segment className={styles.wrapper}>  
+    
+        <div>
            <Image src={Logo} alt="Photo_image" className={styles.imagesperview}/> 
-        </Grid.Row>
-    <Grid.Row>
+        </div>
+    <div>
          <p>
             Zielarska Wieś Blanki to miejsce na Warmii i Mazurach, gdzie pomysł
             na wieś narodził się z małego zielnika. Lokalizacja i zrównoważona
@@ -20,10 +20,9 @@ const AsideAbout = () => (
             ciszę, spokój oraz kontakt z naturą. Inicjatorkami powołania wsi
             tematycznej są jej mieszkanki – pasjonatki zielarstwa.
           </p>
-    </Grid.Row>
-         
-    </Grid.Column>
-  </Grid>  
+    </div>
+  
+  </Segment>  
   );
 
 export default AsideAbout;

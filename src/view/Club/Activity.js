@@ -1,15 +1,50 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
+import { Grid, Segment, Image } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+
+import Dzialajlokalnie from "../../assets/images/activity/dzialajlokalnie.jpg";
+import Magiaziol from "../../assets/images/activity/magiaziol.jpg";
+import Festiwal1 from "../../assets/images/activity/2fz1.jpg";
+import Festiwal2 from "../../assets/images/activity/2fz2.jpg";
+import Festiwal3 from "../../assets/images/activity/2fz3.jpg";
+import Nockupaly1 from "../../assets/images/activity/mnk1.jpg";
+import Nockupaly2 from "../../assets/images/activity/mnk3.jpg";
+import Nockupaly3 from "../../assets/images/activity/mnk3.jpg";
+import Nockupaly4 from "../../assets/images/activity/nk1.jpg";
+import Nockupaly5 from "../../assets/images/activity/nc2.jpg";
+import Nockupaly6 from "../../assets/images/activity/nk3.jpg";
+import Pachnaceblanki1 from "../../assets/images/activity/bzp1.jpg";
+import Pachnaceblanki2 from "../../assets/images/activity/bzp2.jpg";
+import Pachnaceblanki3 from "../../assets/images/activity/bzp3.jpg";
+import Rhede from "../../assets/images/activity/rhede4.jpg";
+import Wizyta1 from "../../assets/images/activity/wswb1.jpg";
+import Wizyta2 from "../../assets/images/activity/wswb2.jpg";
+import Wizyta3 from "../../assets/images/activity/wswb3.jpg";
+import Zielarskawies1 from "../../assets/images/activity/zwb.jpg";
+import Zielarskawies2 from "../../assets/images/activity/zwb2.jpg";
+import Zielarskawies3 from "../../assets/images/activity/zwb3.jpg";
 
 const Activity = () => (
   <>
     <Header />
 
-    <div>
-    <Segment vertical>
+    <Grid>
+      <Grid.Column width={12}>
+        <Grid.Row>
+          <Segment >
+    <Segment>
+
+    <Segment>
+        <Image src={Dzialajlokalnie} alt="Logo Działaj Lokalnie"/>
+              <div class="text-center post-header">
+                <h2 class="post-title">Projekt „Lecznicza magia ziół”</h2>
+              </div>
+            </Segment>
+            
     <p>Miło nam jest poinformować, że Stowarzyszenie &bdquo;Babki Zielarki&rdquo; w dniu 8 sierpnia 2018 r. podpisało umowę o dofinansowanie projektu pn. &bdquo;Lecznicza magia zi&oacute;ł&rdquo;. Projekt ten możemy zrealizować dzięki Programowi &bdquo;Działaj Lokalnie&rdquo; Polsko-Amerykańskiej Fundacji Wolności kt&oacute;ry jest realizowany przez Akademię Rozwoju Filantropii w Polsce i Lokalną Grupę Działania &bdquo;Warmiński Zakątek&rdquo;.</p>
 
 <p>W ramach projektu w okresie VIII &ndash; XI 2018 r. zostaną przeprowadzone następujące działania:</p>
@@ -33,16 +68,17 @@ const Activity = () => (
 <p>Każdy z moduł&oacute;w poprowadzi inny trener-specjalista pracownik UWM Olsztyn. Szkolenia będą prowadzone w świetlicy wiejskiej w Blankach &bdquo;Zielarska Chata&rdquo;</p>
 
 <p>Serdecznie zapraszamy do uczestnictwa w projekcie!</p>
-<center>
-                                <div class="col-lg-6 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="magia_ziol.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="magia_ziol.jpg" /> </a></div>
-                            </center>
+<Image src={Magiaziol} alt="Magia Ziół"/>
 
     </Segment>
-    <Segment vertical>
-    <div class="text-center post-header">
+    <Segment>
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">II Festiwal Ziół w Blankach</h2>
+              </div>
+            </Segment>
 
-<h2 class="post-title">II Festiwal Zi&oacute;ł w Blankach </h2>
-</div>
+ 
 
 <div class="post-preview"></div>
 
@@ -56,28 +92,28 @@ const Activity = () => (
 <p>Odbyły się także konkursy z nagrodami: konkurs na najładniejszy bukiet z polnych kwiat&oacute;w, ziołowa micha, ziołowe lekarstwo i ziołowa nalewka.</p>
 
 <div class="text-center post-header">
-    <div class="gallery">
-        <div class="row text-center text-lg-center">
-            <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/2fz1.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/2fz1.jpg" /> </a></div>
-
-            <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/2fz2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/2fz2.jpg" /> </a></div>
-
-            <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/2fz3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/2fz3.jpg" /> </a></div>
-        </div>
+    <Segment>
+    <Image src={Festiwal1} alt="Festiwal Ziół"/>
+    <Image src={Festiwal2} alt="Festiwal Ziół"/>
+    <Image src={Festiwal3} alt="Festiwal Ziół"/>
+    </Segment>
     </div>
 </div>
 &nbsp;
-
+<div>
 <p>Tekst/Foto: gminalidzbark.com</p>
 </div>
     
     
     
     </Segment>
-    <Segment vertical>
-    <div class="text-center post-header">
-                            <h2 class="post-title">Magiczna Noc Kupały</h2>
-                        </div>
+    <Segment>
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Magiczna Noc Kupały</h2>
+              </div>
+            </Segment>
+   
 
                         <div class="post-preview"></div>
 
@@ -94,11 +130,11 @@ const Activity = () => (
 
                             <div class="gallery">
                                 <div class="row text-center text-lg-center">
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/mnk1.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/mnk1.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/mnk2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/mnk2.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/mnk3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/mnk3.jpg" /> </a></div>
+                                <Segment>
+    <Image src={Nockupaly1} alt="Magiczna Noc Kupały"/>
+    <Image src={Nockupaly2} alt="Magiczna Noc Kupały"/>
+    <Image src={Nockupaly3} alt="Magiczna Noc Kupały"/>
+    </Segment>
                                 </div>
                             </div>
                             &nbsp;
@@ -108,10 +144,13 @@ const Activity = () => (
     </Segment>
 
 
-    <Segment vertical>
-    <div class="text-center post-header">
-                            <h2 class="post-title">Blanki ziołami pachnące</h2>
-                        </div>
+    <Segment >
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Blanki ziołami pachnące</h2>
+              </div>
+            </Segment>
+    
 
                         <div class="post-preview"></div>
 
@@ -124,25 +163,25 @@ const Activity = () => (
 
                             <p>R&oacute;wnolegle na scenie przez cały dzień odbywały się występy r&oacute;żnych artyst&oacute;w. Zaprezentowały się: Baby z Babińca, zesp&oacute;ł wokalny Madzik z Gminnego Ośrodka Kultury i Sportu w Pilniku, Zesp&oacute;ł pieśni i tańca Ignalin, Kapela Furman z Kraszewa, solistka Hania Damszel, zesp&oacute;l muzyczny z Gminnego Ośrodka Kultury i Sportu w Pilniku oraz Kapela ludowa Rog&oacute;żanie.</p>
 
-                            <div class="gallery">
-                                <div class="row text-center text-lg-center">
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/bzp1.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/bzp1.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/bzp2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/bzp2.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/bzp3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/bzp3.jpg" /> </a></div>
-                                </div>
-                            </div>
+                            <Segment>
+    <Image src={Pachnaceblanki1} alt="Blanki ziołami pachnące"/>
+    <Image src={Pachnaceblanki2} alt="Blanki ziołami pachnące"/>
+    <Image src={Pachnaceblanki3} alt="Blanki ziołami pachnące"/>
+    </Segment>
                             &nbsp;
 
                             <p>Tekst/Foto: gminalidzbark.com</p>
                         </div>
     </Segment>
 
-    <Segment vertical>
+    <Segment>
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Noc Kupały</h2>
+              </div>
+            </Segment>
     <div class="text-center post-header">
-                            <h2 class="post-title">Noc Kupały</h2>
-                        </div>
+  
 
                         <div class="post-preview"></div>
 
@@ -153,25 +192,24 @@ const Activity = () => (
 
                             <p>Podczas imprezy Zesp&oacute;ł Blask Reaktywacja, wykonał taniec przy ognisku w rytm muzyki etno w wykonaniu Bębniarzy z Lidzbarka Warmińskiego. Opr&oacute;cz tego odbyła się gawęda Babki Zielarki z Blanek, występ Bard&oacute;w z Bartoszyc, konkursy i zabawy: puszczanie wiank&oacute;w czy szukanie kwiatu paproci.</p>
 
-                            <div class="gallery">
-                                <div class="row text-center text-lg-center">
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/nk1.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/nk1.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/nc2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/nc2.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/nk3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/nk3.jpg" /> </a></div>
-                                </div>
-                            </div>
+                            <Segment>
+    <Image src={Nockupaly4} alt="Noc Kupały"/>
+    <Image src={Nockupaly5} alt="Noc Kupały"/>
+    <Image src={Nockupaly6} alt="Noc Kupały"/>
+    </Segment>
                             &nbsp;
 
                             <p>Tekst/Foto: gminalidzbark.com</p>
-                        </div>
+                        </div></div>
     </Segment>
 
-    <Segment vertical>
-    <div class="text-center post-header">
-                            <h2 class="post-title">Wizyta delegacji niemieckiej z Gminy Rhede (Ems) </h2>
-                        </div>
+    <Segment>
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Wizyta delegacji niemieckiej z Gminy Rhede (Ems)</h2>
+              </div>
+            </Segment>
+   
 
                         <div class="post-preview"></div>
 
@@ -180,21 +218,19 @@ const Activity = () => (
 
                             <p>Naleśniki z pokrzywą, żeberka w sosie brzoskwiniowym, szynka z dzika, kark&oacute;wka ze śliwkami, nalewki &bdquo;Babskie łzy&rdquo; i &bdquo;Babki zielarki&rdquo;, wiśni&oacute;wka oraz mięt&oacute;wka to niekt&oacute;re tylko przysmaki jakie mogli spr&oacute;bować niemieccy goście podczas prezentacji zielarskiej we wsi Blanki przygotowanej przez Stowarzyszenie &bdquo;Babki Zielarki&rdquo;.</p>
 
-                            <div class="gallery">
-                                <div class="row text-center text-lg-center">
-                                    <div class="col-lg-12 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/rhede4.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/rhede4.jpg" /></a></div>
-                                </div>
-                            </div>
+                            <Image src={Rhede} alt="Wizyta z Rhede"/>
                             &nbsp;
 
                             <p>Tekst/Foto: gminalidzbark.com</p>
                         </div>
     </Segment>
 
-    <Segment vertical>
-    <div class="text-center post-header">
-                            <h2 class="post-title">Wizyta studyjna w Blankach</h2>
-                        </div>
+    <Segment >
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Wizyta studyjna w Blankach</h2>
+              </div>
+            </Segment> 
 
                         <div class="post-preview"></div>
 
@@ -205,82 +241,54 @@ const Activity = () => (
 
                             <p>Przybyli goście mogli zasmakować wypiek&oacute;w i spr&oacute;bować nektaru z zi&oacute;ł.</p>
 
-                            <div class="gallery">
-                                <div class="row text-center text-lg-center">
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/wswb1.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/wswb1.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/wswb2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/wswb2.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/wswb3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/wswb3.jpg" /> </a></div>
-                                </div>
-                            </div>
+                            <Segment>
+    <Image src={Wizyta1} alt="Wizyta studyjna w Blankach"/>
+    <Image src={Wizyta2} alt="Wizyta studyjna w Blankach"/>
+    <Image src={Wizyta3} alt="Wizyta studyjna w Blankach"/>
+    </Segment>
                             &nbsp;
 
                             <p>Tekst/Foto: gminalidzbark.com</p>
                         </div>
     </Segment>
-    <Segment vertical>
-    <div class="text-center post-header">
-                            <h2 class="post-title">Zielarska Wioska Blanki</h2>
-                        </div>
+    <Segment>
+    <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Zielarska Wioska Blanki</h2>
+              </div>
+            </Segment>
+   
 
                         <div class="post-preview"></div>
 
                         <div class="post-content">
-                            <p>Blanki to wieś położona na Warmii, w gminie Lidzbark Warmiński, nad pięknym jeziorem Blanki. Dookoła lasy i pola uprawne. A co kilka kilometr&oacute;w gospodarstwa agroturystyczne, kt&oacute;re oferują wypoczynek wśr&oacute;d malowniczych wiejskich scenerii. Niezwykła lokalizacja wsi zapewnia ciszę, spok&oacute;j, czyste powietrze oraz bliski kontakt z naturą.</p>
+   <p>Blanki to wieś położona na Warmii, w gminie Lidzbark Warmiński, nad pięknym jeziorem Blanki. Dookoła lasy i pola uprawne. A co kilka kilometr&oacute;w gospodarstwa agroturystyczne, kt&oacute;re oferują wypoczynek wśr&oacute;d malowniczych wiejskich scenerii. Niezwykła lokalizacja wsi zapewnia ciszę, spok&oacute;j, czyste powietrze oraz bliski kontakt z naturą.</p>
 
-                            <p>Pomysł założenia Klubu Babki Zielarki kiełkował w Blankach przez kilka lat. Zaczęło się jednak od projektu, zrealizowanym z nauczycielkami i rodzicami w Szkole Podstawowej we wsi Kłębowo, celem kt&oacute;rego było założenie ogr&oacute;dka z ziołami. To przyczyniło się do pomysłu założenia w 2011 r. nieformalnego Klubu &bdquo;Babki Zielarki&rdquo;, kt&oacute;ry z początkiem 2015 r. został przekształcony w stowarzyszenie &bdquo;Babki Zielarki&rdquo;. Jednym z gł&oacute;wnych cel&oacute;w tej działalności jest promowanie gminy Lidzbark Warmiński poprzez zielarstwo i ekologię, integracja lokalnej społeczności, poprawa warunk&oacute;w życia mieszkańc&oacute;w oraz promocja produkt&oacute;w regionalnych.</p>
+   <p>Pomysł założenia Klubu Babki Zielarki kiełkował w Blankach przez kilka lat. Zaczęło się jednak od projektu, zrealizowanym z nauczycielkami i rodzicami w Szkole Podstawowej we wsi Kłębowo, celem kt&oacute;rego było założenie ogr&oacute;dka z ziołami. To przyczyniło się do pomysłu założenia w 2011 r. nieformalnego Klubu &bdquo;Babki Zielarki&rdquo;, kt&oacute;ry z początkiem 2015 r. został przekształcony w stowarzyszenie &bdquo;Babki Zielarki&rdquo;. Jednym z gł&oacute;wnych cel&oacute;w tej działalności jest promowanie gminy Lidzbark Warmiński poprzez zielarstwo i ekologię, integracja lokalnej społeczności, poprawa warunk&oacute;w życia mieszkańc&oacute;w oraz promocja produkt&oacute;w regionalnych.</p>
 
-                            <p>Za sprawą Pani Lucji Kuczyńskiej i Anny Pacanowskiej, gł&oacute;wnych założycielek Klubu a teraz i stowarzyszenia, wieś Blanki słynie już z produkt&oacute;w powstałych z miejscowych zi&oacute;ł, gł&oacute;wnie pokrzywy. Do wytwarzania nalewek i syrop&oacute;w używane są także dziko rosnące rośliny lecznicze tj. czarny bez, sosna, mniszek lekarski. &bdquo;Babki Zielarki&rdquo; korzystają z kwiat&oacute;w bzu czarnego, zielonych pączk&oacute;w brzozy, aronii, owoc&oacute;w pigwy, dzikiej r&oacute;ży, malin, poziomek, korzeni arcydzięgiela. Z tych wszystkich składnik&oacute;w i sięgających do tradycji przepis&oacute;w, powstają nalewki lecznicze o oryginalnych i kuszących nazwach, jak chociażby lubczykowy eliksir miłości, nalewka jubilerska z płatkami złota, starowarmińska żenicha z dzikiej r&oacute;ży na miodzie, czy eliksir Kopernika &ndash; wino z szafranem i figą na dobry żołądek i niestrawność. Stowarzyszenie tworzy syropy, dżemy, ryby w zalewie, piecze ciasta na oryginalnych starych przepisach. Produkty te prezentowane są na licznych festynach, jarmarkach, kiermaszach.</p>
+  <p>Za sprawą Pani Lucji Kuczyńskiej i Anny Pacanowskiej, gł&oacute;wnych założycielek Klubu a teraz i stowarzyszenia, wieś Blanki słynie już z produkt&oacute;w powstałych z miejscowych zi&oacute;ł, gł&oacute;wnie pokrzywy. Do wytwarzania nalewek i syrop&oacute;w używane są także dziko rosnące rośliny lecznicze tj. czarny bez, sosna, mniszek lekarski. &bdquo;Babki Zielarki&rdquo; korzystają z kwiat&oacute;w bzu czarnego, zielonych pączk&oacute;w brzozy, aronii, owoc&oacute;w pigwy, dzikiej r&oacute;ży, malin, poziomek, korzeni arcydzięgiela. Z tych wszystkich składnik&oacute;w i sięgających do tradycji przepis&oacute;w, powstają nalewki lecznicze o oryginalnych i kuszących nazwach, jak chociażby lubczykowy eliksir miłości, nalewka jubilerska z płatkami złota, starowarmińska żenicha z dzikiej r&oacute;ży na miodzie, czy eliksir Kopernika &ndash; wino z szafranem i figą na dobry żołądek i niestrawność. Stowarzyszenie tworzy syropy, dżemy, ryby w zalewie, piecze ciasta na oryginalnych starych przepisach. Produkty te prezentowane są na licznych festynach, jarmarkach, kiermaszach.</p>
+<p>Klub &bdquo;Babki Zielarki&rdquo; brał udział w projekcie Transgraniczna Przedsiębiorczość Leader Blekinge / Warmia &ndash; Mazury, polegającym na tworzeniu sieci wsp&oacute;łpracy między Przedsiębiorcami z Polski i Szwecji. W toku prowadzonej działalności powstał pomysł wsi tematycznej &bdquo;Zielarska Wioska Blanki&rdquo;. Panie ze stowarzyszenia o swoich pasjach i produktach opowiadają na warsztatach, kt&oacute;re organizują dla gości podczas wizyt studyjnych i nie tylko.</p>
 
-                            <p>Klub &bdquo;Babki Zielarki&rdquo; brał udział w projekcie Transgraniczna Przedsiębiorczość Leader Blekinge / Warmia &ndash; Mazury, polegającym na tworzeniu sieci wsp&oacute;łpracy między Przedsiębiorcami z Polski i Szwecji. W toku prowadzonej działalności powstał pomysł wsi tematycznej &bdquo;Zielarska Wioska Blanki&rdquo;. Panie ze stowarzyszenia o swoich pasjach i produktach opowiadają na warsztatach, kt&oacute;re organizują dla gości podczas wizyt studyjnych i nie tylko.</p>
-
-                            <div class="gallery">
-                                <div class="row text-center text-lg-center">
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/zwb.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/zwb.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/zwb2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/zwb2.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/zwb3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/zwb3.jpg" /> </a></div>
-                                </div>
-                            </div>
+                            <Segment>
+    <Image src={Zielarskawies1} alt="Zielarska Wieś"/>
+    <Image src={Zielarskawies2} alt="Zielarska Wieś"/>
+    <Image src={Zielarskawies3} alt="Zielarska Wieś"/>
+    </Segment>
 
                             <p>Tekst/Foto: gminalidzbark.com</p>
                         </div>
     </Segment>
-    <Segment vertical>
-    <div class="text-center post-header">
-                            <h2 class="post-title">Zielarska Wioska Blanki</h2>
-                        </div>
-
-                        <div class="post-preview"></div>
-
-                        <div class="post-content">
-                            <p>Blanki to wieś położona na Warmii, w gminie Lidzbark Warmiński, nad pięknym jeziorem Blanki. Dookoła lasy i pola uprawne. A co kilka kilometr&oacute;w gospodarstwa agroturystyczne, kt&oacute;re oferują wypoczynek wśr&oacute;d malowniczych wiejskich scenerii. Niezwykła lokalizacja wsi zapewnia ciszę, spok&oacute;j, czyste powietrze oraz bliski kontakt z naturą.</p>
-
-                            <p>Pomysł założenia Klubu Babki Zielarki kiełkował w Blankach przez kilka lat. Zaczęło się jednak od projektu, zrealizowanym z nauczycielkami i rodzicami w Szkole Podstawowej we wsi Kłębowo, celem kt&oacute;rego było założenie ogr&oacute;dka z ziołami. To przyczyniło się do pomysłu założenia w 2011 r. nieformalnego Klubu &bdquo;Babki Zielarki&rdquo;, kt&oacute;ry z początkiem 2015 r. został przekształcony w stowarzyszenie &bdquo;Babki Zielarki&rdquo;. Jednym z gł&oacute;wnych cel&oacute;w tej działalności jest promowanie gminy Lidzbark Warmiński poprzez zielarstwo i ekologię, integracja lokalnej społeczności, poprawa warunk&oacute;w życia mieszkańc&oacute;w oraz promocja produkt&oacute;w regionalnych.</p>
-
-                            <p>Za sprawą Pani Lucji Kuczyńskiej i Anny Pacanowskiej, gł&oacute;wnych założycielek Klubu a teraz i stowarzyszenia, wieś Blanki słynie już z produkt&oacute;w powstałych z miejscowych zi&oacute;ł, gł&oacute;wnie pokrzywy. Do wytwarzania nalewek i syrop&oacute;w używane są także dziko rosnące rośliny lecznicze tj. czarny bez, sosna, mniszek lekarski. &bdquo;Babki Zielarki&rdquo; korzystają z kwiat&oacute;w bzu czarnego, zielonych pączk&oacute;w brzozy, aronii, owoc&oacute;w pigwy, dzikiej r&oacute;ży, malin, poziomek, korzeni arcydzięgiela. Z tych wszystkich składnik&oacute;w i sięgających do tradycji przepis&oacute;w, powstają nalewki lecznicze o oryginalnych i kuszących nazwach, jak chociażby lubczykowy eliksir miłości, nalewka jubilerska z płatkami złota, starowarmińska żenicha z dzikiej r&oacute;ży na miodzie, czy eliksir Kopernika &ndash; wino z szafranem i figą na dobry żołądek i niestrawność. Stowarzyszenie tworzy syropy, dżemy, ryby w zalewie, piecze ciasta na oryginalnych starych przepisach. Produkty te prezentowane są na licznych festynach, jarmarkach, kiermaszach.</p>
-
-                            <p>Klub &bdquo;Babki Zielarki&rdquo; brał udział w projekcie Transgraniczna Przedsiębiorczość Leader Blekinge / Warmia &ndash; Mazury, polegającym na tworzeniu sieci wsp&oacute;łpracy między Przedsiębiorcami z Polski i Szwecji. W toku prowadzonej działalności powstał pomysł wsi tematycznej &bdquo;Zielarska Wioska Blanki&rdquo;. Panie ze stowarzyszenia o swoich pasjach i produktach opowiadają na warsztatach, kt&oacute;re organizują dla gości podczas wizyt studyjnych i nie tylko.</p>
-
-                            <div class="gallery">
-                                <div class="row text-center text-lg-center">
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/zwb.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/zwb.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/zwb2.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/zwb2.jpg" /> </a></div>
-
-                                    <div class="col-lg-4 col-md-3 col-xs-3"><a data-lightbox="Vacation" href="images/kal/zwb3.jpg"><img alt="foto" class="img-fluid img-thumbnail" src="images/kal/thum/zwb3.jpg" /> </a></div>
-                                </div>
-                            </div>
-
-                            <p>Tekst/Foto: gminalidzbark.com</p>
-                        </div>
-    </Segment>
-
     
 
-  </div>
+    </Segment>
+        </Grid.Row>
+      </Grid.Column>
+
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
+    </Grid>
 
     <Footer />
   </>
