@@ -1,6 +1,10 @@
 import React from "react";
+import { Segment, Grid, Image } from "semantic-ui-react";
+
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
@@ -10,37 +14,52 @@ import Stevia from "../../assets/images/herbs/stevia_rebaudiana.jpg";
 const HerbsStevia = () => (
   <>
     <Header />
-    <div class="text-center post-header">
-      <h2 class="post-title">Stewia (łac. Stevia rebaudiana) </h2>
+    <Grid>
+      <Grid.Column width={12}>
+        <Grid.Row>
+          <Segment>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Stewia (łac. Stevia rebaudiana)</h2>
+              </div>
+            </Segment>
 
-      <div class="post-preview">
-        <img src={Stevia} class="img-responsive" alt="Stewia" />
-      </div>
-    </div>
+            <div class="post-preview">
+              <Image src={Stevia} alt="Stewia" />
+            </div>
 
-    <div class="post-content">
-      <p>
-        Wytwarza niewielkie 3–5-centymetrowe liście i drobne, białe kwiaty. Jest
-        byliną, jednak nie odporną na mróz. Kwiaty pojawiają się już w pierwszym
-        roku uprawy.{" "}
-      </p>
+            <div class="post-content">
+              <p>
+                Wytwarza niewielkie 3–5-centymetrowe liście i drobne, białe
+                kwiaty. Jest byliną, jednak nie odporną na mróz. Kwiaty
+                pojawiają się już w pierwszym roku uprawy.{" "}
+              </p>
 
-      <p>
-        Właściwości i działanie: Jest z powodzeniem wykorzystywana jako słodzik,
-        dzięki wysokiej zawartości glikozydów stewiolowych. Stewię można
-        spożywać w różnej formie: proszku, tabletek, suszonych lub świeżych
-        liści. Najbardziej wartościowe są liście i kwiaty (korzenie nie
-        zawierają dobroczynnych związków). Świeże liście stewii można dodawać do
-        potraw, sałatek i napojów, sproszkowane zaś mogą posłużyć jako słodzik.
-        Spożywanie stewii pobudza apetyt, działa regenerująco na trzustkę,
-        zwalcza nadciśnienie i oczywiście pomaga w walce z cukrzycą. Stosowana
-        natomiast w formie maseczek i okładów pozytywnie wpływa na zanikanie
-        trądziku, zamykanie porów, gojenie się ran oraz dezynfekuje skórę. Żucie
-        świeżych listków lub łodyżek stewii zapobiega próchnicy zębów.
-      </p>
-      <ButtonBack />
-    </div>
-
+              <p>
+                Właściwości i działanie: Jest z powodzeniem wykorzystywana jako
+                słodzik, dzięki wysokiej zawartości glikozydów stewiolowych.
+                Stewię można spożywać w różnej formie: proszku, tabletek,
+                suszonych lub świeżych liści. Najbardziej wartościowe są liście
+                i kwiaty (korzenie nie zawierają dobroczynnych związków). Świeże
+                liście stewii można dodawać do potraw, sałatek i napojów,
+                sproszkowane zaś mogą posłużyć jako słodzik. Spożywanie stewii
+                pobudza apetyt, działa regenerująco na trzustkę, zwalcza
+                nadciśnienie i oczywiście pomaga w walce z cukrzycą. Stosowana
+                natomiast w formie maseczek i okładów pozytywnie wpływa na
+                zanikanie trądziku, zamykanie porów, gojenie się ran oraz
+                dezynfekuje skórę. Żucie świeżych listków lub łodyżek stewii
+                zapobiega próchnicy zębów.
+              </p>
+              <ButtonBack />
+            </div>
+          </Segment>
+        </Grid.Row>
+      </Grid.Column>
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
+    </Grid>
     <ScrollUpButton />
     <Footer />
   </>

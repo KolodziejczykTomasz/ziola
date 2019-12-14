@@ -1,6 +1,10 @@
 import React from "react";
+import { Grid, Segment, Image } from "semantic-ui-react";
+
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import Baranowska from "../../assets/images/flat/baranowska.jpg";
 
@@ -9,20 +13,18 @@ import ScrollUpButton from "react-scroll-up-button";
 const FlatBaranowska = () => (
   <>
     <Header />
-    <div class="text-center post-header">
-      <h2 class="post-title">
-        <a href="standard-post.html" title="">
-          Agroturystyka "Mario"
-        </a>
-      </h2>
-      <div class="post-preview">
-        <img
-          src={Baranowska}
-          class="img-responsive"
-          alt="Agroturystyka Mario"
-        />
-      </div>
-    </div>
+    <Grid>
+      <Grid.Column width={12}>
+        <Grid.Row>
+          <Segment>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Agroturystyka "Mario"</h2>
+              </div>
+            </Segment>
+            <Image src={Baranowska}          
+          alt="Agroturystyka Mario" />
+   
     <div class="post-content">
       <p>
         Gospodarstwo Agroturystyczne „Mario” znajduje się 13 km od Lidzbarka
@@ -39,8 +41,15 @@ const FlatBaranowska = () => (
 
       <p>Źródło: http://www.suryty16.pl </p>
     </div>
-
-    <ScrollUpButton />
+    </Segment>
+        </Grid.Row>
+      </Grid.Column>
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
+    </Grid>
+    <ScrollUpButton />    
     <Footer />
   </>
 );

@@ -1,6 +1,11 @@
 import React from "react";
+import { Grid, Segment, Image } from "semantic-ui-react";
+
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+
 import Liminowicz from "../../assets/images/flat/liminowicz.jpg";
 
 import ScrollUpButton from "react-scroll-up-button";
@@ -8,14 +13,23 @@ import ScrollUpButton from "react-scroll-up-button";
 const FlatLiminowicz = () => (
   <>
     <Header />
+    <Grid>
+      <Grid.Column width={12}>
+        <Grid.Row>
+          <Segment>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">
+                  Gospodarstwo Agroturystyczne Teresa Liminowicz
+                </h2>
+              </div>
+            </Segment>
+            <Image
+               src={Liminowicz}              
+               alt="TERESA LIMINOWICZ"
+            />
 
-    <div class="post-preview">
-      <img
-        src={Liminowicz}
-        class="img-responsive"
-        alt="TERESA LIMINOWICZ"
-      />
-    </div>
+   
     <div class="post-content">
       <p>
         Chcesz uciec od miejskiego gwaru, ryku klaksonów, korków, świateł i
@@ -64,6 +78,15 @@ const FlatLiminowicz = () => (
 
       <p>Źródło: http://www.suryty.eu </p>
     </div>
+    </Segment>
+        </Grid.Row>
+      </Grid.Column>
+
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
+    </Grid>
     <ScrollUpButton />
     <Footer />
   </>

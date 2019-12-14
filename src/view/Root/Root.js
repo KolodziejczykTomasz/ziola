@@ -14,7 +14,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Education from '../Education';
 import Flat from '../Flat/Flat';
-import Gallery from '../Gallery';
+import Gallery from '../Gallery/Gallery';
 
 import GalleryListActivity from '../../view/Gallery/GalleryListActivity';
 import GalleryListHerbs from '../../view/Gallery/GalleryListHerbs';

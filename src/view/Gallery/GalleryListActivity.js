@@ -1,6 +1,10 @@
 import React from "react";
-import Header from '../../component/Header/Header';
-import Footer from '../../component/Footer/Footer';
+import { Grid, Segment } from "semantic-ui-react";
+
+import Header from "../../component/Header/Header";
+import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import GalleryActivity from "../../component/Gallery/GalleryActivity";
 import ScrollUpButton from "react-scroll-up-button";
@@ -8,9 +12,24 @@ import ScrollUpButton from "react-scroll-up-button";
 const GalleryListActivity = () => (
   <>
     <Header />
-    <h1>Galeria</h1>
-    <h2>Działalność</h2>
-    <GalleryActivity />
+    <Grid>
+      <Grid.Column width={12}>
+        <Grid.Row>
+          <Segment>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Galeria - działalność</h2>
+              </div>
+            </Segment>
+            <GalleryActivity />
+          </Segment>
+        </Grid.Row>
+      </Grid.Column>
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
+    </Grid>
     <ScrollUpButton />
     <Footer />
   </>

@@ -1,7 +1,6 @@
 import Image2 from "../assets/images/gallery/activity/2.jpg";
 import Image3 from "../assets/images/gallery/activity/3.jpg";
 import Image4 from "../assets/images/gallery/activity/4.jpg";
-import Image5 from "../assets/images/gallery/activity/5.jpg";
 import Image6 from "../assets/images/gallery/activity/6.jpg";
 import Image7 from "../assets/images/gallery/activity/7.jpg";
 import Image8 from "../assets/images/gallery/activity/8.jpg";
@@ -44,8 +43,8 @@ const galleryActivity = [
 
   {
     src: Image2,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image3,
@@ -54,18 +53,14 @@ const galleryActivity = [
   },
   {
     src: Image4,
-    width: 1,
-    height: 1
-  },
-  {
-    src: Image5,
     width: 4,
     height: 3
   },
+
   {
     src: Image6,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image7,
@@ -74,8 +69,8 @@ const galleryActivity = [
   },
   {
     src: Image8,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image9,
@@ -84,8 +79,8 @@ const galleryActivity = [
   },
   {
     src: Image10,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image11,
@@ -94,8 +89,8 @@ const galleryActivity = [
   },
   {
     src: Image12,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image13,
@@ -104,8 +99,8 @@ const galleryActivity = [
   },
   {
     src: Image14,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image15,
@@ -114,8 +109,8 @@ const galleryActivity = [
   },
   {
     src: Image16,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image17,
@@ -124,8 +119,8 @@ const galleryActivity = [
   },
   {
     src: Image18,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image19,
@@ -134,8 +129,8 @@ const galleryActivity = [
   },
   {
     src: Image20,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image21,
@@ -144,8 +139,8 @@ const galleryActivity = [
   },
   {
     src: Image22,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image23,
@@ -154,8 +149,8 @@ const galleryActivity = [
   },
   {
     src: Image24,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image25,
@@ -164,8 +159,8 @@ const galleryActivity = [
   },
   {
     src: Image26,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image27,
@@ -174,8 +169,8 @@ const galleryActivity = [
   },
   {
     src: Image28,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image29,
@@ -184,8 +179,8 @@ const galleryActivity = [
   },
   {
     src: Image30,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image31,
@@ -194,8 +189,8 @@ const galleryActivity = [
   },
   {
     src: Image32,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image33,
@@ -204,8 +199,8 @@ const galleryActivity = [
   },
   {
     src: Image34,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image35,
@@ -214,8 +209,8 @@ const galleryActivity = [
   },
   {
     src: Image36,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image37,
@@ -224,8 +219,8 @@ const galleryActivity = [
   },
   {
     src: Image38,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src: Image39,
@@ -234,8 +229,8 @@ const galleryActivity = [
   },
   {
     src: Image40,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   }
 ];
 

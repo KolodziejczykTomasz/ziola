@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Segment, Grid, Image, Card } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import ScrollUpButton from "react-scroll-up-button";
 
 import Aronia from "../../assets/images/herbs/aronia.jpg";
 import Bylica from "../../assets/images/herbs/bylica_estragon.jpg";
@@ -19,12 +23,21 @@ import Szalwia from "../../assets/images/herbs/szalwia_lekarska.jpg";
 import Waleriana from "../../assets/images/herbs/waleriana.jpg";
 import Wiesiolek from "../../assets/images/herbs/wiesiolek.jpg";
 
-import { Grid, Image, Card } from "semantic-ui-react";
-import ScrollUpButton from "react-scroll-up-button";
+import styles from "./Herbs.module.scss";
+
 
 const Herbs = () => (
   <>
     <Header />
+    <Grid>
+      <Grid.Column width={12}>
+        <Grid.Row>
+          <Segment className={styles.wrapper}>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Zioła</h2>
+              </div>
+            </Segment>
     <Grid doubling columns={5}>
       <Grid.Column>
         <Link as={Link} to="/herbsAronia">
@@ -143,6 +156,14 @@ const Herbs = () => (
         </Card.Content>
       </Grid.Column>
       <Grid.Column></Grid.Column>
+    </Grid>
+    </Segment>
+        </Grid.Row>
+      </Grid.Column>
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
     </Grid>
     <ScrollUpButton />
     <Footer />

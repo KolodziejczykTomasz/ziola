@@ -1,82 +1,103 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Card, Image, Segment, Grid } from "semantic-ui-react";
+
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
+import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
+import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
-import { Card, Image, Segment, Grid } from "semantic-ui-react";
 import Aramowicz from "../../assets/images/flat/aramowicz.jpg";
 import Baranowska from "../../assets/images/flat/baranowska.jpg";
 import Gabrys from "../../assets/images/flat/gabrys.jpg";
 import Kolecka from "../../assets/images/flat/kolecka.jpg";
 import Liminowicz from "../../assets/images/flat/liminowicz.jpg";
 
+import styles from "./Flat.module.scss";
+
 const Flat = () => (
   <>
     <Header />
-    <h1>Baza noclegowa</h1>
-    <Segment>
-      <Grid.Column mobile={1} tablet={2} computer={5}>
+    <Grid>
+      <Grid.Column width={12}>
         <Grid.Row>
-          <Grid.Column>
-            <Link as={Link} to="/flatAramowicz">
-              <Card>
-                <Image src={Aramowicz} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>Domek na Wzgórzu</Card.Header>
-                  <Card.Description>Blanki</Card.Description>
-                </Card.Content>
-              </Card>{" "}
-            </Link>
-          </Grid.Column>
-          <Grid.Column>
-            <Link as={Link} to="/flatBaranowska">
-              <Card>
-                <Image src={Baranowska} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>Agroturystyka "Mario"</Card.Header>
-                  <Card.Description>Suryty</Card.Description>
-                </Card.Content>
-              </Card>{" "}
-            </Link>
-          </Grid.Column>
-          <Grid.Column>
-            <Link as={Link} to="/flatGabrys">
-              <Card>
-                <Image src={Gabrys} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>Gospodarstwo Agroturystyczne GABRYŚ</Card.Header>
-                  <Card.Description>Suryty</Card.Description>
-                </Card.Content>
-              </Card>{" "}
-            </Link>
-          </Grid.Column>
-          <Grid.Column>
-            <Link as={Link} to="/flatKolecka">
-              <Card>
-                <Image src={Kolecka} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>
-                    Gospodarstwo Agroturystyczne Janina Zach- Kołecka
-                  </Card.Header>
-                  <Card.Description>Suryty</Card.Description>
-                </Card.Content>
-              </Card>{" "}
-            </Link>
-          </Grid.Column>
-          <Grid.Column>
-            <Link as={Link} to="/flatLiminowicz">
-              <Card>
-                <Image src={Liminowicz} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>TERESA LIMINOWICZ</Card.Header>
-                  <Card.Description>Suryty</Card.Description>
-                </Card.Content>
-              </Card>{" "}
-            </Link>
-          </Grid.Column>
+          <Segment className={styles.wrapper}>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Noclegi</h2>
+              </div>
+            </Segment>
+            <Grid.Column mobile={1} tablet={2} computer={5}>
+              <Grid.Row>
+                <Grid.Column>
+                  <Link as={Link} to="/flatAramowicz">
+                    <Card>
+                      <Image src={Aramowicz} wrapped ui={false} />
+                      <Card.Content>
+                        <Card.Header>Domek na Wzgórzu</Card.Header>
+                        <Card.Description>Blanki</Card.Description>
+                      </Card.Content>
+                    </Card>{" "}
+                  </Link>
+                </Grid.Column>
+                <Grid.Column>
+                  <Link as={Link} to="/flatBaranowska">
+                    <Card>
+                      <Image src={Baranowska} wrapped ui={false} />
+                      <Card.Content>
+                        <Card.Header>Agroturystyka "Mario"</Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>{" "}
+                  </Link>
+                </Grid.Column>
+                <Grid.Column>
+                  <Link as={Link} to="/flatGabrys">
+                    <Card>
+                      <Image src={Gabrys} wrapped ui={false} />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne GABRYŚ
+                        </Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>{" "}
+                  </Link>
+                </Grid.Column>
+                <Grid.Column>
+                  <Link as={Link} to="/flatKolecka">
+                    <Card>
+                      <Image src={Kolecka} wrapped ui={false} />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne Janina Zach- Kołecka
+                        </Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>{" "}
+                  </Link>
+                </Grid.Column>
+                <Grid.Column>
+                  <Link as={Link} to="/flatLiminowicz">
+                    <Card>
+                      <Image src={Liminowicz} wrapped ui={false} />
+                      <Card.Content>
+                        <Card.Header>TERESA LIMINOWICZ</Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>{" "}
+                  </Link>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid.Column>
+          </Segment>
         </Grid.Row>
       </Grid.Column>
-    </Segment>
+      <Grid.Column width={4}>
+        <AsideAbout />
+        <AsideSocial />
+      </Grid.Column>
+    </Grid>
     <Footer />
   </>
 );
