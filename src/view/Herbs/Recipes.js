@@ -5,6 +5,9 @@ import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
+import FormRecipes from "../../component/Form/FormRecipes/FormRecipes";
+import ScrollUpButton from "react-scroll-up-button";
 
 import Piernik from "../../assets/images/recipes/piernik.JPG";
 import Syrop from "../../assets/images/recipes/syrop.jpg";
@@ -119,16 +122,19 @@ const Recipes = () => (
             <Segment>
               <h2 class="text-center">Podziel się przepisem</h2>
             </Segment>
-            <Segment>Formularz</Segment>
+            <Segment>            
+                <FormRecipes/>  
+            </Segment>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />
+        <AsideHerbs />
       </Grid.Column>
     </Grid>
+    <ScrollUpButton />
     <Footer />
   </>
 );

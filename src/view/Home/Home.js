@@ -12,6 +12,7 @@ import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 import BabkiZielarki from "../../assets/images/logo/babkizielarki.jpg";
 
 import "semantic-ui-css/semantic.min.css";
+import styles from "./Home.module.scss";
 
 const Home = () => (
   <>
@@ -19,8 +20,8 @@ const Home = () => (
     <Slide />
     <Grid>
       <Grid.Column width={12}>
-        <Grid.Row>
-          <Segment>
+        <Grid.Row>          
+          <Segment className={styles.wrapper}>
             <Segment>
               <div class="text-center post-header">
                 <h2 class="post-title">Babki Zielarki</h2>
@@ -31,11 +32,11 @@ const Home = () => (
               <img
                 src={BabkiZielarki}
                 alt="Babki Zielarki"
-                class="img-fluid rounded"
+                className={styles.photo}
               />
             </div>
-            <div class="post-content">
-              <p>
+            <div className={styles.description}>
+              <p >
                 Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
                 Zielarki” korzystają z kwiatów czarnego bzu, mniszka
                 lekarskiego, owoców pigwowca, dzikiej róży, aronii, jarzębiny,
@@ -54,7 +55,7 @@ const Home = () => (
             </div>
             <Segment>
               <div class="text-center post-header">
-                <h2 class="post-title">Aktualności</h2>
+                <h2 class="post-title"><strong>Aktualności</strong></h2>
               </div>
             </Segment>
             <List />

@@ -1,0 +1,30 @@
+.wrapper {
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.input, .textarea  {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin: 30px 30px;
+}
+
+.button {
+  display: block;
+  margin: 30px 30px;
+}
+
+.textarea {
+  height: 150px;
+}
+
+.button {
+  width: 90px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  background-color: grey;
+  color: #fff;
+}
