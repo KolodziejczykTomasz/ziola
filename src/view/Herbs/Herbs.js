@@ -24,6 +24,7 @@ import Waleriana from "../../assets/images/herbs/waleriana.jpg";
 import Wiesiolek from "../../assets/images/herbs/wiesiolek.jpg";
 
 import styles from "./Herbs.module.scss";
+import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 
 
 const Herbs = () => (
@@ -163,6 +164,7 @@ const Herbs = () => (
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />
+        <AsideHerbs />
       </Grid.Column>
     </Grid>
     <ScrollUpButton />

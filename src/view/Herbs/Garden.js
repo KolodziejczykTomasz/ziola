@@ -6,6 +6,8 @@ import Footer from "../../component/Footer/Footer";
 import GalleryGarden from "../../component/Gallery/GalleryGarden";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
+
 import ScrollUpButton from "react-scroll-up-button";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -48,6 +50,7 @@ const Garden = () => (
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />
+        <AsideHerbs />
       </Grid.Column>
     </Grid>
     <ScrollUpButton />

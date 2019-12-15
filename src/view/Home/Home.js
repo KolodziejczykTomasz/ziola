@@ -7,6 +7,7 @@ import Footer from "../../component/Footer/Footer";
 import List from "../../component/HomeList/List";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 
 import BabkiZielarki from "../../assets/images/logo/babkizielarki.jpg";
 
@@ -64,6 +65,7 @@ const Home = () => (
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />
+        <AsideHerbs />
       </Grid.Column>
     </Grid>
     <Footer />

@@ -10,6 +10,7 @@ import Garden from "../../assets/images/gallery/logo/Garden.JPG";
 import Product from "../../assets/images/gallery/logo/Product.jpg";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 
 import styles from "../Gallery/Gallery.module.scss";
 
@@ -75,6 +76,7 @@ const Gallery = () => (
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />
+        <AsideHerbs />
       </Grid.Column>
     </Grid>
 

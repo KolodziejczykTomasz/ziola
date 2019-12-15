@@ -1,5 +1,5 @@
 import React from "react";
-import {Image, Segment} from 'semantic-ui-react';
+import {Image, Segment, Divider} from 'semantic-ui-react';
 
 
 import Logo from "../../../assets/images/home/Logo.jpg";
@@ -8,6 +8,8 @@ import styles from "../AsideAbout/AsideAbout.module.scss";
 
 const AsideAbout = () => (
 <Segment className={styles.wrapper}>  
+<h3>O NAS</h3>
+    <Divider />
     
         <div>
            <Image src={Logo} alt="Photo_image" className={styles.imagesperview}/> 
