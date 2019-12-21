@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../component/Header/Header";
 import Footer from "../component/Footer/Footer";
 import { Grid, Divider, Image } from "semantic-ui-react";
-import Form from "../component/Form/Form";
+import FormContact from "../component/Form/FormContact";
 import Logo from "../assets/images/home/Logo.jpg";
 
 import styles from "./Contact.module.scss";
@@ -29,7 +29,7 @@ const Contact = () => (
     <Divider />
     <div className={styles.wrapperContact}>
       <h2 className={styles.wrapperText} >Napisz do nas</h2>
-      <Form />
+      <FormContact />
     </div>
 
     <Footer />

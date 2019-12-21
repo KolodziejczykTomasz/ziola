@@ -13,6 +13,7 @@ import Piernik from "../../assets/images/recipes/piernik.JPG";
 import Syrop from "../../assets/images/recipes/syrop.jpg";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./Recipes.module.scss";
 
 const Recipes = () => (
   <>
@@ -119,12 +120,13 @@ const Recipes = () => (
                 </div>{" "}
               </div>
             </Segment>
-            <Segment>
-              <h2 class="text-center">Podziel się przepisem</h2>
-            </Segment>
-            <Segment>            
-                <FormRecipes/>  
-            </Segment>
+            
+            <div className={styles.wrapperContact}>
+      <h2 className={styles.wrapperText} >Podziel się przepisem</h2>
+      <FormRecipes/> 
+    </div>
+           
+
           </Segment>
         </Grid.Row>
       </Grid.Column>

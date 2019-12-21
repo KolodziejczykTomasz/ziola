@@ -2,19 +2,20 @@ import React, { Component } from "react";
 import * as emailjs from 'emailjs-com'
 
 import { Button, Form, FormGroup, Input } from 'reactstrap'
-class FormRecipes extends Component {
+class FormContact extends Component {
   state = {
-    name: '',   
-    subject: '', 
+    name: '',
+    email: '',
+    phone: '',
     message: '',
   }
 handleSubmit(e) {
     e.preventDefault()
-    const { email, message, subject } = this.state
+    const { name, email, message } = this.state
     let templateParams = {
       from_name: email,
-      to_name: '<YOUR_EMAIL_ID>',   
-      subject: subject,  
+      to_name: '<YOUR_EMAIL_ID>',
+      subject: name,
       message_html: message,
      }
      emailjs.send(
@@ -27,9 +28,10 @@ handleSubmit(e) {
  }
 resetForm() {
     this.setState({
-      name: '',     
+      name: '',
+      email: '',
+      phone: '',
       message: '',
-      subject: ''
     })
   }
 handleChange = (param, e) => {
@@ -39,8 +41,7 @@ render() {
     return (
       <>
         <div>
-         <FormGroup controlId="formBasicName">
-            
+         <FormGroup controlId="formBasicName">             
               <Input
                 type="text"
                 name="name"
@@ -49,32 +50,42 @@ render() {
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Imię"
               />
-            </FormGroup>            
-          <Form onSubmit={this.handleSubmit.bind(this)}>      
-
-          <FormGroup controlId="formBasicSubject">      
+            </FormGroup>
+            <FormGroup controlId="formBasicSubject">          
               <Input
                 type="text"
-                name="subject"
+                name="phone"
                 className="text-primary"
-                value={this.state.subject}
-                onChange={this.handleChange.bind(this, 'subject')}
-                placeholder="Nazwa potrawy"
+                value={this.state.phone}
+                onChange={this.handleChange.bind(this, 'phone')}
+                placeholder="Telefon"
               />
             </FormGroup>
-<FormGroup controlId="formBasicMessage">
-            
+          <Form onSubmit={this.handleSubmit.bind(this)}>
+            <FormGroup controlId="formBasicEmail">            
+              <Input
+                type="email"
+                name="email"
+                value={this.state.email}
+                className="text-primary"
+                onChange={this.handleChange.bind(this, 'email')}
+                placeholder="Email"
+              />
+            </FormGroup>
+
+
+<FormGroup controlId="formBasicMessage">            
               <Input
                 type="textarea"
                 name="message"
                 className="text-primary"
+                placeholder="Treść wiadomości"
                 value={this.state.message}
-                placeholder='Podaj składniki i sposób wykonania'
                 onChange={this.handleChange.bind(this, 'message')}
               />
             </FormGroup>
 <Button variant="primary" type="submit">
-             Prześlij przepis
+              Wyślij
             </Button>
           </Form>
         </div>
@@ -83,4 +94,4 @@ render() {
   }
 };
 
-export default FormRecipes;
+export default FormContact;
