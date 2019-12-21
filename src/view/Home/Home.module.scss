@@ -2,21 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  
-  @import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
-  
+}
 
-.wrapper, h2 {
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+
+
+.wrapper,
+h2 {
     font-family: Lora, serif;
 }
 
 
 .wrapper {
-    display: block;    
+    display: block;
     width: 90vw;
-    margin: 0 0 0 30px;    
+    margin: 0 0 0 30px;
 }
 
 
@@ -26,6 +27,7 @@
     width: 60%;
     margin: 0 auto;
     border-radius: 2%;
+    box-shadow: 15px 15px 15px rgba(102, 25, 25, 0.1);
 }
 
 .description {
@@ -35,4 +37,3 @@
     margin: 40px auto;
     line-height: 14px;
 }
-

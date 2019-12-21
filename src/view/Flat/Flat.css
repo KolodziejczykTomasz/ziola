@@ -1,0 +1,26 @@
+.Logo {
+    display: block;
+    width: 30vw;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(102, 25, 25, 0.1);
+}
+
+.description {
+    width: 99%;
+    margin: 10px 20px 30px 10px;
+}
+
+.contact {
+    text-align: center;
+    color: grey;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.source {
+    color: grey;
+    font-size: .8rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

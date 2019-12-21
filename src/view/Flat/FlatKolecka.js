@@ -1,14 +1,16 @@
 import React from "react";
-import { Grid, Segment, Image } from "semantic-ui-react";
+import { Grid, Segment } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import ScrollUpButton from "react-scroll-up-button";
 
 import Kolecka from "../../assets/images/flat/kolecka.jpg";
 
-import ScrollUpButton from "react-scroll-up-button";
+import "./Flat.css";
+import ButtonBackFlat from "../../component/Button/ButtonBackFlat";
 
 const FlatKolecka = () => (
   <>
@@ -24,19 +26,20 @@ const FlatKolecka = () => (
                 </h2>
               </div>
             </Segment>
-            <Image
+            <img
+              class="Logo"
               src={Kolecka}
               alt="Gospodarstwo Agroturystyczne Janina Zach- Kołecka"
             />
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Dom położony jest na półwyspie o powierzchni 23.000 m2, z linią
                 brzegową o długości 800 metrów. W pobliży sklep spożywczy (1
                 km), piękne lasy i miasto Lidzbark Warmiński (12 km)
               </p>
 
-              <p>
+              <p class="description">
                 Oferuję dom całoroczny, na 6 osób, piętrowy. Parter – salon z
                 kominkiem i TV-sat, kuchnia z pełnym wyposażeniem i łazienka z
                 prysznicem i wc. Poza tym duży taras z widokiem na jezioro,
@@ -44,17 +47,18 @@ const FlatKolecka = () => (
                 umywalką i wc.
               </p>
 
-              <p>
+              <p class="description">
                 Do dyspozycji gości kąpielisko wyposażone w dwa pomosty, łódź
                 motorowa, łódź wiosłowa, rowery, dla dzieci huśtawka,
                 piaskownica.
               </p>
-              <p>
+              <p class="contact">
                 Kontakt: Suryty 18, 11-100 Lidzbark Warmiński | Tel: (+48) 89
                 766 17 60, kom. 503 505 887
               </p>
 
-              <p>Źródło: http://gminalidzbark.com/ </p>
+              <p class="source">Źródło: http://gminalidzbark.com/ </p>
+              <ButtonBackFlat />
             </div>
           </Segment>
         </Grid.Row>

@@ -1,14 +1,16 @@
 import React from "react";
-import { Grid, Segment, Image } from "semantic-ui-react";
+import { Grid, Segment } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
+import ScrollUpButton from "react-scroll-up-button";
 
 import Gabrys from "../../assets/images/flat/gabrys.jpg";
 
-import ScrollUpButton from "react-scroll-up-button";
+import "./Flat.css";
+import ButtonBackFlat from "../../component/Button/ButtonBackFlat";
 
 const FlatGabrys = () => (
   <>
@@ -22,25 +24,31 @@ const FlatGabrys = () => (
                 <h2 class="post-title">Gospodarstwo Agroturystyczne GABRYŚ</h2>
               </div>
             </Segment>
-            <Image src={Gabrys}
-         
-          alt="Gospodarstwo Agroturystyczne GABRYŚ" />
- 
-    <div class="post-content">
-      <p>
-        Gospodarstwo Agroturystyczne znajdujące się nad Jeziorem Blanki w
-        malowniczo położonej wsi Suryty i oferuje całoroczny wypoczynek dla
-        ludzi szukających ciszy i spokoju. W okolicy nie brakuje pięknych
-        krajobrazów, czystych i pięknych lasów i atrakcyjnych miejsc do
-        zwiedzania. Jesteśmy w stanie zapewnić państwu wypoczynek po którym nikt
-        nie będzie chciał stąd wyjechać.
-      </p>
-      <p>Kontakt: Suryty 9, 11-100 Lidzbark Warmiński | Tel: +48 501 642 195</p>
+            <img
+              class="Logo"
+              src={Gabrys}
+              alt="Gospodarstwo Agroturystyczne GABRYŚ"
+            />
 
-      <p>Źródło: http://gabrys.lidzbark.com/ </p>
-    </div>
+            <div class="post-content">
+              <p class="description">
+                Gospodarstwo Agroturystyczne znajdujące się nad Jeziorem Blanki
+                w malowniczo położonej wsi Suryty i oferuje całoroczny
+                wypoczynek dla ludzi szukających ciszy i spokoju. W okolicy nie
+                brakuje pięknych krajobrazów, czystych i pięknych lasów i
+                atrakcyjnych miejsc do zwiedzania. Jesteśmy w stanie zapewnić
+                państwu wypoczynek po którym nikt nie będzie chciał stąd
+                wyjechać.
+              </p>
+              <p class="contact">
+                Kontakt: Suryty 9, 11-100 Lidzbark Warmiński | Tel: +48 501 642
+                195
+              </p>
 
-    </Segment>
+              <p class="source"> Źródło: http://gabrys.lidzbark.com/ </p>
+              <ButtonBackFlat />
+            </div>
+          </Segment>
         </Grid.Row>
       </Grid.Column>
 

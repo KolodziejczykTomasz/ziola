@@ -1,9 +1,13 @@
 .wrapper {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 5px double black;
-    border-radius: 5px;
-    margin: 120px 0;
-  }
-  
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px double black;
+  border-radius: 5px;
+  margin: 120px 0;
+}
+
+.buttonList {
+  display: inline-block;
+  text-align: center;
+}

@@ -22,7 +22,7 @@ const Navigation = props => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/" className={styles.logobox}>
           <img src={Logo} alt="Logo Stowarzyszenia" />
