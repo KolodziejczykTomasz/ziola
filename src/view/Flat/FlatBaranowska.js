@@ -6,6 +6,9 @@ import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 import ScrollUpButton from "react-scroll-up-button";
+import PhoneIcon from "../../component/Icon/Phone/PhoneIcon";
+import AddressIcon from "../../component/Icon/Address/AddressIcon";
+import EmailIcon from "../../component/Icon/Email//EmailIcon";
 
 import Baranowska from "../../assets/images/flat/baranowska.jpg";
 
@@ -37,8 +40,8 @@ const FlatBaranowska = () => (
                 wymarzone miejsce na odpoczynek od codziennego życia w biegu.
               </p>
               <p class="contact">
-                Kontakt: Teresa Baranowska Suryty 16, 11-100 Lidzbark Warmiński
-                | Tel: +48 662 113 470, (89) 766 17 28 | E-mail: suryty16@wp.pl
+                <AddressIcon/> Teresa Baranowska Suryty 16, 11-100 Lidzbark Warmiński
+                | <PhoneIcon/> +48 662 113 470, (89) 766 17 28 | <EmailIcon/> suryty16@wp.pl
               </p>
 
               <p class="source">Źródło: http://www.suryty16.pl </p>

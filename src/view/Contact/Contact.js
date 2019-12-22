@@ -6,6 +6,8 @@ import FormContact from "../../component/Form/FormContact";
 import Logo from "../../assets/images/home/Logo.jpg";
 
 import styles from "./Contact.module.scss";
+import PhoneIcon from "../../component/Icon/Phone/PhoneIcon";
+import EmailIcon from "../../component/Icon/Email/EmailIcon";
 
 const Contact = () => (
   <>
@@ -21,6 +23,9 @@ const Contact = () => (
               <p>Stowarzyszenie „Babki Zielarki”</p>
               <p>Blanki 50</p>
               <p>11-100 Lidzbark Warmiński</p>
+            </div>
+            <div className={styles.wrapperAddressTextContact}>
+             <PhoneIcon/> 508 221 057 | <EmailIcon/> poczta@zielarskawiesblanki.pl
             </div>
           </div>
         </Grid.Column>

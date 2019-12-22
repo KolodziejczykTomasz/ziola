@@ -6,6 +6,8 @@ import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 import ScrollUpButton from "react-scroll-up-button";
+import PhoneIcon from "../../component/Icon/Phone/PhoneIcon";
+import AddressIcon from "../../component/Icon/Address/AddressIcon";
 
 import Gabrys from "../../assets/images/flat/gabrys.jpg";
 
@@ -41,7 +43,7 @@ const FlatGabrys = () => (
                 wyjechać.
               </p>
               <p class="contact">
-                Kontakt: Suryty 9, 11-100 Lidzbark Warmiński | Tel: +48 501 642
+                <AddressIcon /> Suryty 9, 11-100 Lidzbark Warmiński | <PhoneIcon /> +48 501 642
                 195
               </p>
 

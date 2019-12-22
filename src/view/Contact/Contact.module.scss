@@ -1,4 +1,6 @@
-.wrapperImage, .wrapperContact, .wrapperAddress {
+.wrapperImage,
+.wrapperContact,
+.wrapperAddress {
     display: block;
     top: 0;
     left: 0;
@@ -18,6 +20,11 @@
     display: inline;
     text-align: center;
     font-size: 1.4rem;
+    &Contact {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.0 rem;
+    }
 }
 
 .wrapperContact {

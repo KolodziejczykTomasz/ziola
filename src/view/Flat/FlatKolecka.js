@@ -6,6 +6,9 @@ import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 import ScrollUpButton from "react-scroll-up-button";
+import PhoneIcon from "../../component/Icon/Phone/PhoneIcon";
+import MobileIcon from "../../component/Icon/Phone/MobileIcon";
+import AddressIcon from "../../component/Icon/Address/AddressIcon";
 
 import Kolecka from "../../assets/images/flat/kolecka.jpg";
 
@@ -53,8 +56,8 @@ const FlatKolecka = () => (
                 piaskownica.
               </p>
               <p class="contact">
-                Kontakt: Suryty 18, 11-100 Lidzbark Warmiński | Tel: (+48) 89
-                766 17 60, kom. 503 505 887
+                <AddressIcon/> Suryty 18, 11-100 Lidzbark Warmiński | <PhoneIcon/> (+48) 89
+                766 17 60 | <MobileIcon/> 503 505 887
               </p>
 
               <p class="source">Źródło: http://gminalidzbark.com/ </p>

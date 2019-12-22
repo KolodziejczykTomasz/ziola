@@ -1,23 +1,30 @@
+ @import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
 
-.social {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 5px double black;
-  border-radius: 5px;
-  font-family: Lora, serif;
 
-  &icon {
-    display: block;
-    top: 0;
-    left: 0;
-    margin: 20px auto;
-    width: 100px;
-  }
-}
+ .wrapperHeader,
+ p {
+   font-family: Lora, serif;
+ }
+
+ .social {
+   display: block;
+   width: 100%;
+   height: auto;
+   border: 5px double black;
+   border-radius: 5px;
+   font-family: Lora, serif;
+
+   &icon {
+     display: block;
+     top: 0;
+     left: 0;
+     margin: 20px auto;
+     width: 100px;
+   }
+ }

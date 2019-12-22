@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+
+
+.cardHeader {
+    display: flex;
+    justify-content: center;
+    font-family: Lora, serif;    
+    margin: 10px auto;
+}
+
+
 .wrapper {
     width: 100vw;
+}
+
+.cardItem {
+    width: 250px;
+    margin: 5px 5px;
+    height: 250px;
+    margin: 10px 10px;
+
+}
+
+.cardImage {
+    width: 100%;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 5px auto;
+}
+
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
 }

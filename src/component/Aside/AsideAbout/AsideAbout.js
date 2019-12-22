@@ -6,7 +6,7 @@ import styles from "../AsideAbout/AsideAbout.module.scss";
 
 const AsideAbout = () => (
   <Segment className={styles.wrapper}>
-    <h3>O NAS</h3>
+    <h3 className={styles.wrapperHeader}>O NAS</h3>
     <Divider />
 
     <div>

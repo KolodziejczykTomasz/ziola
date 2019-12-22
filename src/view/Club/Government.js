@@ -24,52 +24,55 @@ class Government extends Component {
     return (
       <>
         <Header />
-        <Grid >
+        <Grid>
           <Grid.Column width={12}>
             <Grid.Row>
               <Segment className={styles.wrapper}>
                 <Segment>
-                <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title">Zarząd</h2>
-              </div>
-            </Segment>
-                 
+                  <Segment>
+                    <div className={styles.postHeader}>
+                      <h2 className={styles.postHeaderTitle}>Zarząd</h2>
+                    </div>
+                  </Segment>
+
                   <table class="table table-hover">
-                    <tr>
+                    <tr className={styles.cell}>
                       <td>Wiącek Jolanta</td> <td>Prezes</td>
                     </tr>
-                    <tr>
+                    <tr className={styles.cell}>
                       <td>Aramowicz Elwira</td> <td>Z-ca Prezesa</td>
                     </tr>
-                    <tr>
+                    <tr className={styles.cell}>
                       <td>Lipska Urszula</td> <td>Skarbnik</td>
                     </tr>
-                    <tr>
+                    <tr className={styles.cell}>
                       <td>Magun Iwona</td> <td>Sekretarz</td>
                     </tr>
-                    <tr>
+                    <tr className={styles.cell}>
                       <td>Wiącek Grzegorz</td> <td>Członek Zarządu</td>
                     </tr>
                   </table>
 
                   <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title">Komisja Rewizyjna</h2>
-              </div>
-            </Segment>
-
-                  <table class="table table-hover">
-                    <tr>
-                      <td>Plaskota Iwona</td>
-                    </tr>
-                    <tr>
-                      <td>Pacanowska Anna</td>
-                    </tr>
-                    <tr>
-                      <td>Łozowski Dariusz</td>
-                    </tr>
-                  </table>
+                    <div className={styles.postHeader}>
+                      <h2 className={styles.postHeaderTitle}>
+                        Komisja Rewizyjna
+                      </h2>
+                    </div>
+                  </Segment>
+                  <Segment>
+                    <table class="table table-hover">
+                      <tr className={styles.cell}>
+                        <td>Plaskota Iwona</td>
+                      </tr>
+                      <tr className={styles.cell}>
+                        <td>Pacanowska Anna</td>
+                      </tr>
+                      <tr className={styles.cell} >
+                        <td>Łozowski Dariusz</td>
+                      </tr>
+                    </table>
+                  </Segment>
                 </Segment>
                 <Segment>
                   <Accordion fluid styled>
@@ -84,54 +87,44 @@ class Government extends Component {
                     <Accordion.Content active={activeIndex === 0}>
                       <p>
                         Celem stowarzyszenia jest:
-                        <ul>
+                        <ul className={styles.list}>
                           <li>
-                            {" "}
                             rozwój edukacyjny, kulturowy i materialny dzieci i
                             młodzieży terenów wiejskich gminy Lidzbark
                             Warmiński;
                           </li>
                           <li>
-                            {" "}
                             wzbogacanie osobowości i integracja mieszkańców;
                           </li>
                           <li>
-                            {" "}
                             działania na rzecz zwiększania szans życiowych
                             mieszkańców wsi, zwłaszcza młodych ludzi;
                           </li>
                           <li>
-                            {" "}
                             promocja aktywnego trybu życia, sportu i turystyki;
                           </li>
                           <li>
-                            {" "}
                             kształtowanie postaw odpowiedzialności za wspólne
                             przedsięwzięcia;
                           </li>
                           <li>
-                            {" "}
                             ochrona środowiska i zasobów naturalnych, edukacja
                             ekologiczna, promocja zdrowej żywności;
                           </li>
                           <li>
-                            {" "}
                             kreowanie i rozwój produktów regionalnych,
                             kultywowanie tradycji regionalnych;
                           </li>
                           <li>
-                            {" "}
                             przeciwdziałanie przemocy w środowisku wiejskim,
                             nietolerancji i patologiom społecznym;
                           </li>
                           <li> działania na rzecz promocji wsi i okolic;</li>
                           <li>
-                            {" "}
                             rozwój turystyki aktywnej i tworzenie zintegrowanego
                             produktu turystycznego;
                           </li>
                           <li>
-                            {" "}
                             współpraca z instytucjami i organizacjami
                             pozarządowymi krajów Unii Europejskiej.
                           </li>
@@ -148,7 +141,7 @@ class Government extends Component {
                       STATUT STOWARZYSZENIA
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 1}>
-                      <a href="upload/statut.pdf">Statut</a>
+                      <a className={styles.list} href="upload/statut.pdf">Statut</a>
                     </Accordion.Content>
                   </Accordion>
                 </Segment>

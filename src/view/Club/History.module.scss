@@ -1,8 +1,44 @@
 .wrapper {
     margin: 20px 0;
-    height: 60vh;
+    height: auto;
 }
 
 .description {
-    height: 40vh;    
+    height: 40vh;
+}
+
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
+}
+
+.post {
+    margin: 50px auto;
+
+    &Descritpion {
+        display: block;
+        width: 99%;
+        margin: 50px auto;
+
+        &Text {
+            display: block;
+            width: 99%;
+            margin: 50px auto;
+        }
+    }
+}
+
+.photo {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 2%;
+    box-shadow: 15px 10px 10px rgba(83, 83, 83, 0.63);
+
 }

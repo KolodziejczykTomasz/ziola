@@ -6,6 +6,8 @@ import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 import ScrollUpButton from "react-scroll-up-button";
+import PhoneIcon from "../../component/Icon/Phone/PhoneIcon";
+import MobileIcon from "../../component/Icon/Phone/MobileIcon";
 
 import Liminowicz from "../../assets/images/flat/liminowicz.jpg";
 
@@ -74,7 +76,7 @@ const FlatLiminowicz = () => (
                 próbować swoich sił na łyżwach. A może zostaniesz na cały rok...
               </p>
 
-              <p class="contact">Tel: 89 767 59 00, Kom: 606 251 325 </p>
+              <p class="contact"><PhoneIcon/> 89 767 59 00, <MobileIcon /> 606 251 325 </p>
 
               <p class="source">Źródło: http://www.suryty.eu </p>
               <ButtonBackFlat />

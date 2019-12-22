@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
 
-import { Card, Image, Segment, Grid } from "semantic-ui-react";
+import { Card, Segment, Grid } from "semantic-ui-react";
 import Activity from "../../assets/images/gallery/logo/Activity.jpg";
 import Herbs from "../../assets/images/gallery/logo/Herbs.jpg";
 import Garden from "../../assets/images/gallery/logo/Garden.JPG";
@@ -22,50 +22,69 @@ const Gallery = () => (
         <Grid.Row>
           <Segment className={styles.wrapper}>
             <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title">Galerie</h2>
+              <div className={styles.postHeader}>
+                <h2 className={styles.postHeaderTitle}>Galerie</h2>
               </div>
             </Segment>
             <Grid.Column mobile={1} tablet={2} computer={4}>
               <Grid.Row>
-                <Grid.Column>
+                <Grid.Column className={styles.cardItem}>
                   <Link as={Link} to="/galleryProduct">
                     <Card>
-                      <Image src={Product} wrapped ui={false} />
+                      <img
+                        alt="Galeria - produkt"
+                        src={Product}
+                        className={styles.cardImage}
+                      />
                       <Card.Content>
-                        <Card.Header>Produkty</Card.Header>
+                        <Card.Header>
+                          <span className={styles.cardHeader}>
+                          Produkty</span></Card.Header>
                       </Card.Content>
                     </Card>{" "}
                   </Link>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className={styles.cardItem}>
                   <Link as={Link} to="/galleryGarden">
                     <Card>
-                      <Image src={Garden} wrapped ui={false} />
+                      <img
+                        alt="Galeria - ogród"
+                        src={Garden}
+                        className={styles.cardImage}
+                      />
                       <Card.Content>
-                        <Card.Header>Ogródek ziołowy</Card.Header>
+                        <Card.Header>
+                          <span className={styles.cardHeader}>Ogródek ziołowy</span></Card.Header>
                       </Card.Content>
                     </Card>{" "}
                   </Link>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className={styles.cardItem}>
                   <Link as={Link} to="/galleryHerbs">
                     <Card>
-                      <Image src={Herbs} wrapped ui={false} />
+                      <img
+                        alt="Galeria - zioła"
+                        src={Herbs}
+                        className={styles.cardImage}
+                      />
                       <Card.Content>
-                        <Card.Header>Zioła</Card.Header>
+                        <Card.Header><span className={styles.cardHeader}>Zioła </span></Card.Header>
                       </Card.Content>
                     </Card>{" "}
                   </Link>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className={styles.cardItem}>
                   <Link as={Link} to="/galleryAcitivity">
                     <Card>
-                      <Image src={Activity} wrapped ui={false} />
+                      <img
+                        alt="Galeria - działalność"
+                        src={Activity}
+                        className={styles.cardImage}
+                      />
                       <Card.Content>
-                        <Card.Header>Działalność</Card.Header>
+                        <Card.Header> <span className={styles.cardHeader}>Działalność</span></Card.Header>
                       </Card.Content>
-                    </Card>{" "}
+                    </Card>
                   </Link>
                 </Grid.Column>
               </Grid.Row>

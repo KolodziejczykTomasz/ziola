@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
 
 
 .wrapper,
@@ -27,7 +26,8 @@ h2 {
     width: 60%;
     margin: 0 auto;
     border-radius: 2%;
-    box-shadow: 15px 15px 15px rgba(102, 25, 25, 0.1);
+    box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+
 }
 
 .description {
@@ -36,4 +36,16 @@ h2 {
     width: 90%;
     margin: 40px auto;
     line-height: 14px;
+}
+
+
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
 }

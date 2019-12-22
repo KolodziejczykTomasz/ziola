@@ -6,6 +6,10 @@ import Footer from "../../component/Footer/Footer";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 import ScrollUpButton from "react-scroll-up-button";
+import PhoneIcon from "../../component/Icon/Phone/PhoneIcon";
+import MobileIcon from "../../component/Icon/Phone/MobileIcon";
+import AddressIcon from "../../component/Icon/Address/AddressIcon";
+import EmailIcon from "../../component/Icon/Email//EmailIcon";
 
 import Aramowicz from "../../assets/images/flat/aramowicz.jpg";
 
@@ -56,8 +60,8 @@ const FlatAramowicz = () => (
               </p>
 
               <p class="contact">
-                Kontakt: Blanki 7, 11-100 Lidzbark Warmiński | Tel: 089
-                766-24-97, Kom: 604 526 099 | Email: tadeuszaramowicz@gmail.com
+                <AddressIcon/> Blanki 7, 11-100 Lidzbark Warmiński | <PhoneIcon/> 089
+                766-24-97 | <MobileIcon/> 604 526 099 | <EmailIcon/> tadeuszaramowicz@gmail.com
               </p>
 
               <p class="source">Źródło: http://www.domek-blanki.pl </p>

@@ -14,3 +14,36 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
+}
+
+.singleImg {
+    display: block;
+    width: 90%;
+    margin: 20px 10px 50px 100px;
+    border-radius: 7%;
+    box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+
+}
+
+.Descritpion {
+    display: block;
+    width: 99%;
+    margin: 30px auto;
+
+    &Text {
+        display: block;
+        width: 99%;
+        margin: 20px auto;     
+    }
+}

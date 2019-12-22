@@ -23,18 +23,19 @@ const Home = () => (
         <Grid.Row>          
           <Segment className={styles.wrapper}>
             <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title">Babki Zielarki</h2>
+              <div className={styles.postHeader}>
+                <h2 className={styles.postHeaderTitle}>                  
+                  Babki Zielarki</h2>
               </div>
             </Segment>
 
-            <div class="post-preview">
+          
               <img
                 src={BabkiZielarki}
                 alt="Babki Zielarki"
                 className={styles.photo}
               />
-            </div>
+       
             <div className={styles.description}>
               <p >
                 Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
@@ -54,8 +55,9 @@ const Home = () => (
               </p>
             </div>
             <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title"><strong>Aktualności</strong></h2>
+              <div className={styles.postHeader}>
+                <h2 className={styles.postHeaderTitle}>                   
+                  <strong>Aktualności</strong></h2>
               </div>
             </Segment>
             <List />

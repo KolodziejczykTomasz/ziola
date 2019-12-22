@@ -8,7 +8,7 @@ import { Divider, Segment } from "semantic-ui-react";
 
 const AsideSocial = () => (
   <Segment className={styles.social}>
-    <h3>SUBSKRYPCJE</h3>
+    <h3 className={styles.wrapperHeader}>SUBSKRYPCJE</h3>
     <Divider />
     <div className={styles.socialicon}>
       <FacebookIcon color="action" style={{ fontSize: 50 }} />

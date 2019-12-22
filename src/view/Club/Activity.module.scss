@@ -1,0 +1,85 @@
+.wrapper {
+    width: 75vw;
+}
+
+.logoLokalnie {
+    display: block;
+    margin: 0 auto;
+    border-radius: 2%;
+    box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+
+}
+
+.poster {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 2%;
+    box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+
+}
+
+.post {
+    margin: 50px auto;
+
+    &Descritpion {
+        display: block;
+        width: 99%;
+        margin: 30px auto;
+
+        &Text {
+            display: block;
+            width: 99%;
+            margin: 40px auto;
+        }
+    }
+}
+
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
+}
+
+.listStyleNone {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.listStyleNumber {
+    margin-left: 60px
+}
+
+.source {
+    display: block;
+    color: grey;
+    margin: 15px 30px;
+}
+
+.galleryList {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    &Item {
+        height: 230px;
+        border-radius: 7%;
+        box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+        max-width: 300px;
+    }
+}
+
+
+.singleImg {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 7%;
+    box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+
+}

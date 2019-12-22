@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Education.module.scss";
 
 import { Segment, Grid } from "semantic-ui-react";
+import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 
 const Education = () => (
   <>
@@ -128,7 +129,7 @@ const Education = () => (
             </Segment>
             <Segment>
               <div className={styles.postHeader}>
-                <h2 class="post-title">WARSZTATY KULINARNE</h2>
+                <h2 className={styles.postHeaderTitle}>WARSZTATY KULINARNE</h2>
               </div>
               <div className={styles.post}>
                 <p className={styles.postDescription}>
@@ -148,6 +149,7 @@ const Education = () => (
       <Grid.Column width={4}>
         <AsideAbout />
         <AsideSocial />
+        <AsideHerbs />
       </Grid.Column>
     </Grid>
 

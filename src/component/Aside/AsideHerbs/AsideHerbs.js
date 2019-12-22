@@ -7,7 +7,7 @@ import styles from "./AsideHerbs.module.scss";
 
 const AsideHerbs = () => (
   <Segment className={styles.wrapper}>
-    <h3>ZIOŁA</h3>
+    <h3 className={styles.wrapperHeader}>ZIOŁA</h3>
     <Divider />
     <div className={styles.buttonList}>
       <Button href="/herbsRozmaryn">ROZMARYN LEKARSKI</Button>{" "}
