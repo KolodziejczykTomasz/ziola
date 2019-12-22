@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+
+
+.wrapper,
+h1 {
+    font-family: Lora, serif;
+}
+
+
+.logo {
+    display: block;
+    width: 30vw;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(102, 25, 25, 0.1);
+}
+
+.post {
+    margin: 50px auto;
+
+    &Description {
+        display: block;
+        width: 99%;
+        margin: 50px auto;
+    }
+}
+
+
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
+}

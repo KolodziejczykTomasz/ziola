@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,7 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Lubczyk from "../../assets/images/herbs/lubczyk_ogrodowy.jpg";
+import "./HerbsItem.css";
 
 const HerbsLubczyk = () => (
   <>
@@ -27,11 +28,11 @@ const HerbsLubczyk = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Lubczyk} alt="Lubczyk ogrodowy" />
+              <img class="Logo" src={Lubczyk} alt="Lubczyk ogrodowy" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 To silnie rosnąca bylina, wytwarzająca podziemne kłącze,
                 osiągająca nawet do 2 m wysokości. Liście mogą mieć lekko
                 czerwonawy odcień. Kwitnie latem, od przełomu czerwca i lipca do
@@ -43,7 +44,7 @@ const HerbsLubczyk = () => (
                 podziemnego kłącza roślina wypuszcza liczne młode liście i pędy.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Surowcem zielarskim jest korzeń
                 lubczyku, który zawiera przede wszystkim lotne olejki. Lubczyk
                 zwiększa ilość wydalanego moczu, pobudza wydzielanie soku

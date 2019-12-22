@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../component/Header/Header";
-import Footer from "../component/Footer/Footer";
+import Header from "../../component/Header/Header";
+import Footer from "../../component/Footer/Footer";
 import { Grid, Divider, Image } from "semantic-ui-react";
-import FormContact from "../component/Form/FormContact";
-import Logo from "../assets/images/home/Logo.jpg";
+import FormContact from "../../component/Form/FormContact";
+import Logo from "../../assets/images/home/Logo.jpg";
 
 import styles from "./Contact.module.scss";
 

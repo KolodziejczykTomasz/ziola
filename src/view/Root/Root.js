@@ -8,11 +8,11 @@ import Club from '../Club/Club';
 import Government from '../Club/Government';
 import History from '../Club/History';
 import Herbs from '../Herbs/Herbs';
-import Garden from '../Herbs/Garden';
+import Garden from '../Garden/Garden';
 import Recipes from '../Herbs/Recipes';
-import About from '../About';
-import Contact from '../Contact';
-import Education from '../Education';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Education from '../Education/Education';
 import Flat from '../Flat/Flat';
 import Gallery from '../Gallery/Gallery';
 

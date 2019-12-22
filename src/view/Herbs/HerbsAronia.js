@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ButtonBack from "../../component/Button/ButtonBack";
 import ScrollUpButton from "react-scroll-up-button";
 
 import Aronia from "../../assets/images/herbs/aronia.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsAronia = () => (
   <>
@@ -25,11 +27,11 @@ const HerbsAronia = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Aronia} alt="Aronia" />
+              <img class="Logo" src={Aronia} alt="Aronia" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description" >
                 To krzew liściasty posiadający owoce jagodowe w kolorze
                 ciemnogranatowym (prawie czarnym) o smaku słodko-cierpkim.
                 Liście przebarwiają się jesienią na kolor czerwony lub
@@ -39,7 +41,7 @@ const HerbsAronia = () => (
                 wymagań co do stanowiska.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Dobra na odporność. Zawiera ona bowiem
                 wiele witamin (A, C, P, E) i minerałów: magnez, potas, fosfor,
                 krzem. Dlatego osoby jedzące aronię nie chorują na anginy i

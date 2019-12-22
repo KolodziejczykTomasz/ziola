@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -9,6 +9,8 @@ import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import Dziurawiec from "../../assets/images/herbs/dziurawiec_zwyczajny.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsDziurawiec = () => (
   <>
@@ -26,11 +28,11 @@ const HerbsDziurawiec = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Dziurawiec} alt="Dziurawiec zwyczajny" />
+              <img class="Logo" src={Dziurawiec} alt="Dziurawiec zwyczajny" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Bylina dorastająca do ok. 40-60 cm. wysokości tworząc cienki,
                 sztywny, wyprostowany pęd, dość mocno rozgałęziający się od
                 połowy wysokości. Na szczycie rozgałęzionych pędów rozwijają się
@@ -41,7 +43,7 @@ const HerbsDziurawiec = () => (
                 miejscach przechowuje olejki eteryczne.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Gotowe ziele dziurawca zwyczajnego jest
                 bogate w olejki eteryczne, flawonoidy, garbniki bakteriobójcze,
                 sole mineralne, kwasy organiczne oraz zawiera wit. A i C. Ziele

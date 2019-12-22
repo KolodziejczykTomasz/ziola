@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Stevia from "../../assets/images/herbs/stevia_rebaudiana.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsStevia = () => (
   <>
@@ -25,17 +27,17 @@ const HerbsStevia = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Stevia} alt="Stewia" />
+              <img class="Logo" src={Stevia} alt="Stewia" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Wytwarza niewielkie 3–5-centymetrowe liście i drobne, białe
                 kwiaty. Jest byliną, jednak nie odporną na mróz. Kwiaty
                 pojawiają się już w pierwszym roku uprawy.{" "}
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Jest z powodzeniem wykorzystywana jako
                 słodzik, dzięki wysokiej zawartości glikozydów stewiolowych.
                 Stewię można spożywać w różnej formie: proszku, tabletek,

@@ -30,105 +30,90 @@ const Flat = () => (
             </Segment>
             <Grid.Column mobile={1} tablet={2} computer={3}>
               <Grid.Row>
-                <Grid.Column>
-                  <div>
-                    <Link as={Link} to="/flatAramowicz">
-                      <Card className={styles.cardItem}>
-                        <img
+                <Grid.Column className={styles.cardItem}>
+                  <Link as={Link} to="/flatAramowicz">
+                    <Card>
+                      <img
                         alt="Noclegi"
-                          className={styles.cardImage}
-                          src={Aramowicz}
-                          wrapped
-                          ui={false}
-                        />
-                        <Card.Content>
-                          <Card.Header>Domek na Wzgórzu</Card.Header>
-                          <Card.Description>Blanki</Card.Description>
-                        </Card.Content>
-                      </Card>
-                    </Link>
-                  </div>
+                        className={styles.cardImage}
+                        src={Aramowicz}
+                      />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne "Domek na Wzgórzu"
+                        </Card.Header>
+                        <Card.Description>Blanki</Card.Description>
+                      </Card.Content>
+                    </Card>
+                  </Link>
                 </Grid.Column>
-
-                <Grid.Column>
-                  <div>
-                    <Link as={Link} to="/flatBaranowska">
-                      <Card className={styles.cardItem}>
-                        <img
+                <Grid.Column className={styles.cardItem}>
+                  <Link as={Link} to="/flatGabrys">
+                    <Card>
+                      <img
                         alt="Noclegi"
-                          className={styles.cardImage}
-                          src={Baranowska}
-                          wrapped
-                          ui={false}
-                        />
-                        <Card.Content>
-                          <Card.Header>Agroturystyka "Mario"</Card.Header>
-                          <Card.Description>Suryty</Card.Description>
-                        </Card.Content>
-                      </Card>
-                    </Link>
-                  </div>
+                        className={styles.cardImage}
+                        src={Gabrys}
+                      />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne "GABRYŚ"
+                        </Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>
+                  </Link>
                 </Grid.Column>
-                <Grid.Column>
-                  <div>
-                    <Link as={Link} to="/flatGabrys">
-                      <Card className={styles.cardItem}>
-                        <img
+                <Grid.Column className={styles.cardItem}>
+                  <Link as={Link} to="/flatKolecka">
+                    <Card>
+                      <img
                         alt="Noclegi"
-                          className={styles.cardImage}
-                          src={Gabrys}
-                          wrapped
-                          ui={false}
-                        />
-                        <Card.Content>
-                          <Card.Header>
-                            Gospodarstwo Agroturystyczne GABRYŚ
-                          </Card.Header>
-                          <Card.Description>Suryty</Card.Description>
-                        </Card.Content>
-                      </Card>
-                    </Link>
-                  </div>
+                        className={styles.cardImage}
+                        src={Kolecka}
+                      />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne Janina Zach - Kołecka
+                        </Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>
+                  </Link>
                 </Grid.Column>
-                <Grid.Column>
-                  <div>
-                    <Link as={Link} to="/flatKolecka">
-                      <Card className={styles.cardItem}>
-                        <img
+                <Grid.Column className={styles.cardItem}>
+                  <Link as={Link} to="/flatLiminowicz">
+                    <Card>
+                      <img
                         alt="Noclegi"
-                          className={styles.cardImage}
-                          src={Kolecka}
-                          wrapped
-                          ui={false}
-                        />
-                        <Card.Content>
-                          <Card.Header>
-                            Gospodarstwo Agroturystyczne Janina Zach- Kołecka
-                          </Card.Header>
-                          <Card.Description>Suryty</Card.Description>
-                        </Card.Content>
-                      </Card>
-                    </Link>
-                  </div>
+                        className={styles.cardImage}
+                        src={Liminowicz}
+                      />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne Teresa Liminowicz
+                        </Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>
+                  </Link>
                 </Grid.Column>
-                <Grid.Column>
-                  <div>
-                    <Link as={Link} to="/flatLiminowicz">
-                      <Card className={styles.cardItem}>
-                        <img
+                <Grid.Column className={styles.cardItem}>
+                  <Link as={Link} to="/flatBaranowska">
+                    <Card>
+                      <img
                         alt="Noclegi"
-                          className={styles.cardImage}
-                          src={Liminowicz}
-                          wrapped
-                          ui={false}
-                        />
-                        <Card.Content>
-                          <Card.Header>TERESA LIMINOWICZ</Card.Header>
-                          <Card.Description>Suryty</Card.Description>
-                        </Card.Content>
-                      </Card>
-                    </Link>
-                  </div>
+                        className={styles.cardImage}
+                        src={Baranowska}
+                      />
+                      <Card.Content>
+                        <Card.Header>
+                          Gospodarstwo Agroturystyczne "Mario"
+                        </Card.Header>
+                        <Card.Description>Suryty</Card.Description>
+                      </Card.Content>
+                    </Card>
+                  </Link>
                 </Grid.Column>
               </Grid.Row>
             </Grid.Column>

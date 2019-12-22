@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import Melisa from "../../assets/images/herbs/melisa_lekarska.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsMelisa = () => (
   <>
@@ -26,11 +28,11 @@ const HerbsMelisa = () => (
               </div>
             </Segment>
             <div class="post-preview">
-              <Image src={Melisa} alt="Melisa lekarska" />
+              <img class="Logo" src={Melisa} alt="Melisa lekarska" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 To krzewinka, która tworzy kępy średnicy około 60 cm, złożone z
                 licznych wzniesionych, delikatnie owłosionych i rozgałęziających
                 się pędów dorastających do 60 cm wysokości. Kwitnie od czerwca
@@ -38,7 +40,7 @@ const HerbsMelisa = () => (
                 intensywny zapach cytryny.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Surowcem zielarskim jest liść melisy,
                 który zawiera olejek eteryczny, garbniki, żywice, goryczki,
                 glikozydy, kwasy organiczne, śluzy i witaminy. Melisa ma

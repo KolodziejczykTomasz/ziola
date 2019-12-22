@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Rozmaryn from "../../assets/images/herbs/rozmaryn_lekarski.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsRozmaryn = () => (
   <>
@@ -27,11 +29,11 @@ const HerbsRozmaryn = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Rozmaryn} alt="Rozmaryn lekarski" />
+              <img class="Logo" src={Rozmaryn} alt="Rozmaryn lekarski" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Bylina należąca do rodziny jasnotowatych. Jest półkrzewem, w
                 naszym klimacie to krzewinka dorastająca do 30–60 cm wysokości.
                 Tworzy szerokie kępy złożone z licznych, wzniesionych, ale
@@ -43,7 +45,7 @@ const HerbsRozmaryn = () => (
                 kwiatostanowych. Kwiaty są miododajne.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Ma zdecydowany, balsamiczny smak ,
                 gorzki zmierzający do słodkiego. Zawiera witaminy A, z grupy B,
                 C oraz wapń, żelazo, magnez czy potas. Przez działanie na serce

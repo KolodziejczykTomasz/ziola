@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import Waleriana from "../../assets/images/herbs/waleriana.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsWaleriana = () => (
   <>
@@ -27,11 +29,11 @@ const HerbsWaleriana = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Waleriana} alt="Waleriana" />
+              <img class="Logo" src={Waleriana} alt="Waleriana" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Rośnie na wilgotnych łąkach lub jest hodowana w ogrodach jako
                 roślina ozdobna. Jej czubki w kształcie parasoli wieńczą
                 wydrążoną w środku, prostą łodygę. Ma ciemno zielone liście,
@@ -40,7 +42,7 @@ const HerbsWaleriana = () => (
                 zapachu. Jej korzeń jest szaro brązowy, o przykrym zapachu.{" "}
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Wykazuje ona przede wszystkim działanie
                 uspokajające, dlatego znalazła zastosowanie głównie jako środek
                 wyciszający organizm w stanach łagodnego napięcia nerwowego i

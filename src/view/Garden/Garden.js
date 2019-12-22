@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Segment, Image } from "semantic-ui-react";
+import { Grid, Segment } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,9 +10,10 @@ import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 
 import ScrollUpButton from "react-scroll-up-button";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-
 import GardenHerbs from "../../assets/images/ogrodZiolowy.jpg";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./Garden.module.scss";
 
 const Garden = () => (
   <>
@@ -22,28 +23,38 @@ const Garden = () => (
         <Grid.Row>
           <Segment>
             <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title">Ogród Ziołowy</h2>
+              <div className={styles.postHeader}>
+                <h2 className={styles.postHeaderTitle}>
+                  Ogród Ziołowy</h2>
               </div>
             </Segment>
-            <div class="post-preview">
-              <Image src={GardenHerbs} alt="foto" class="img-fluid rounded" />
+            <div className={styles.post}>
+              <img
+                src={GardenHerbs}
+                alt="Ogród Ziołowy"
+                className={styles.logo}
+              />
             </div>
-            <div class="post-content">
-              <p>
+            <div className={styles.postDescritpion}>
+              <p className={styles.postDescritpionText}>
                 Przygody w ziołowym ogródku – zabawa, dzięki której nauczymy się
                 rozpoznawać rośliny lecznicze.
               </p>
-              <p>
+              <p className={styles.postDescritpionText}>
                 W skrzynkach możemy dostrzec zioła, których na co dzień używamy
                 w domach: estragon, mięta, lubczyk, tymianek, lawenda,
                 dziurawiec, malina, bylica jak również owoce pigwowca czy bzu
                 czarnego.
               </p>
             </div>
-            <div>
+            <Segment>
+              <div class="text-center post-header">
+                <h2 class="post-title">Galeria</h2>
+              </div>
+            </Segment>
+            <Segment>
               <GalleryGarden />
-            </div>
+            </Segment>
           </Segment>
         </Grid.Row>
       </Grid.Column>

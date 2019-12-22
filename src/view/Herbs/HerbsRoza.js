@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid} from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Roza from "../../assets/images/herbs/roza_omszona.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsRoza = () => (
   <>
@@ -25,11 +27,11 @@ const HerbsRoza = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Roza} class="img-responsive" alt="Róża omszona" />
+              <img class="Logo" src={Roza} alt="Róża omszona" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Ma pędy i pąki kwiatowe pokryte drobnymi, czerwonymi kolcami,
                 oraz szypułki kwiatowe pokryte drobnymi, czerwonymi gruczołkami
                 wydzielającymi bardzo silny zapach dzikich róż. Kwitnie bardzo
@@ -38,7 +40,7 @@ const HerbsRoza = () => (
                 ocienienie i gorsze gleby.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: płatki tej róży można wykorzystywać do
                 wykonywania konfitur. Na surowiec zielarski pozyskuje się owoce
                 pozorne Jej właściwości znał już Hipokrates. W średniowieczu

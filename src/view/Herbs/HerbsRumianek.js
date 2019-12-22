@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Rumianek from "../../assets/images/herbs/rumianek_pospolity.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsRumianek = () => (
   <>
@@ -27,11 +29,11 @@ const HerbsRumianek = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Rumianek} alt="Rozmaryn lekarski" />
+              <img class="Logo" src={Rumianek} alt="Rozmaryn lekarski" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Roślina jednoroczna z rodziny astrowatych. Jest to krzewinka
                 rosnąca do 60 -80 cm wysokości o nagich, wzniesionych, silnie
                 rozgałęzionych pędach. Pędy są porośnięte zielonymi liśćmi o
@@ -42,7 +44,7 @@ const HerbsRumianek = () => (
                 owoce zawierające liczne nasiona.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Rumianek jest przede wszystkim
                 wykorzystywany w medycynie naturalnej i kosmetyce. Leki z
                 rumianku działają antybakteryjnie, przyśpieszają gojenie się ran

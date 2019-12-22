@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Deren from "../../assets/images/herbs/deren.jpg";
+import "./HerbsItem.css";
+
 
 const HerbsDeren = () => (
   <>
@@ -25,11 +27,11 @@ const HerbsDeren = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Deren} alt="Dereń" />
+              <img class="Logo" src={Deren} alt="Dereń" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 To krzew dorastający zwykle do 3-5 m wysokości. Uprawia się go
                 głównie dla kwaskowatych owoców. Dereń jadalny dobrze rośnie w
                 półcieniu, ale na słonecznych stanowiskach wytwarza dorodniejsze
@@ -38,7 +40,7 @@ const HerbsDeren = () => (
                 dojrzewania mięsistych, czerwonych lub bordowych owoców.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: W medycynie ludowej zastosowanie
                 znalazły przede wszystkim owoce derenia, które zwierają wiele
                 pierwiastków mineralnych, przede wszystkim żelaza, a także

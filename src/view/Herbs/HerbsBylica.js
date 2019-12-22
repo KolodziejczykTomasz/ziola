@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import ScrollUpButton from "react-scroll-up-button";
 import ButtonBack from "../../component/Button/ButtonBack";
 
 import Bylica from "../../assets/images/herbs/bylica_estragon.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsBylica = () => (
   <>
@@ -27,11 +29,11 @@ const HerbsBylica = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image src={Bylica} alt="Bylica estragon" />
+              <img class="Logo" src={Bylica} alt="Bylica estragon" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 To roślina wieloletnia, która wytwarza proste i słabo
                 rozgałęzione łodygi, szybko się rozrasta, dorastając do około 1
                 m wysokości. Liście estragonu są zielone i mają lancetowaty
@@ -41,7 +43,7 @@ const HerbsBylica = () => (
                 smakiem.{" "}
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Wykazuje właściwości lecznicze: pobudza
                 apetyt i ułatwia trawienie (zwiększając wydzielanie soków
                 trawiennych), pobudza wytwarzanie żółci, zmniejsza napięcie

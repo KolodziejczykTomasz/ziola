@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import Wiesiolek from "../../assets/images/herbs/wiesiolek.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsWiesiolek = () => (
   <>
@@ -24,17 +26,17 @@ const HerbsWiesiolek = () => (
               </div>
             </Segment>
             <div class="post-preview">
-              <Image src={Wiesiolek} alt="Wiesiołek" />
+              <img class="Logo" src={Wiesiolek} alt="Wiesiołek" />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 Bylina o dekoracyjnych, zazwyczaj żółtych kwiatach. Rośnie na
                 polach, łąkach i nieużytkach. Ludowo zwany „świecą nocy”, gdyż
                 ciągu dnia jej kwiaty się zamykają a otwierają pod wieczór.
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Herbatki z nasion wiesiołka zaleca się
                 je spożywać przy problemach z miażdżycą, cukrzycą, sercem i
                 chorobami układu nerwowego. Związki zawarte w nasionach

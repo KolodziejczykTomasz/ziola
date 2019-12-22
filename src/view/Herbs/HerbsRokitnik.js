@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Grid, Image } from "semantic-ui-react";
+import { Segment, Grid } from "semantic-ui-react";
 
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -10,6 +10,8 @@ import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import Rokitnik from "../../assets/images/herbs/rokitnik.jpg";
+
+import "./HerbsItem.css";
 
 const HerbsRokitnik = () => (
   <>
@@ -25,14 +27,15 @@ const HerbsRokitnik = () => (
             </Segment>
 
             <div class="post-preview">
-              <Image
+              <img 
+              class="Logo"
                 src={Rokitnik}
                 alt="Rokitnik (łac. Hippophaë rhamnoides) "
               />
             </div>
 
             <div class="post-content">
-              <p>
+              <p class="description">
                 To krzew osiągający zwykle do 4-5 m wysokości. Rośnie jednak
                 bardzo wolno. Rokitnik to roślina dwupienna – co oznacza, że do
                 kwitnienia i owocowania wymaga posadzenia w pobliżu okazów
@@ -43,7 +46,7 @@ const HerbsRokitnik = () => (
                 suszę, zanieczyszczenia powietrza i mróz.{" "}
               </p>
 
-              <p>
+              <p class="description">
                 Właściwości i działanie: Owoce rokitnika zajmują drugą pozycję
                 na liście owoców, które posiadają najwięcej witaminy C. Pod
                 względem jej zawartości rokitnik ustępuje tylko owocom dzikiej
