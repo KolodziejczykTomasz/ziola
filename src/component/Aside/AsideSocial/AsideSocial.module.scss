@@ -5,26 +5,14 @@
    padding: 0;
    box-sizing: border-box;
  }
-
-
  .wrapperHeader,
  p {
    font-family: Lora, serif;
+   text-align: left;
  }
 
  .social {
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   border: 5px double black;
-   border-radius: 5px;
-   font-family: Lora, serif;
-
-   &icon {
-     display: block;
-     top: 0;
-     left: 0;
-     margin: 20px auto;
-     width: 100px;
-   }
+   text-align: center;  
  }

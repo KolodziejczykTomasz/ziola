@@ -10,6 +10,7 @@ import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 import AsideHerbs from "../../component/Aside/AsideHerbs/AsideHerbs";
 
 import BabkiZielarki from "../../assets/images/logo/babkizielarki.jpg";
+import CookieConsent from "react-cookie-consent";
 
 import "semantic-ui-css/semantic.min.css";
 import styles from "./Home.module.scss";
@@ -20,24 +21,22 @@ const Home = () => (
     <Slide />
     <Grid>
       <Grid.Column width={12}>
-        <Grid.Row>          
+        <Grid.Row>
           <Segment className={styles.wrapper}>
             <Segment>
               <div className={styles.postHeader}>
-                <h2 className={styles.postHeaderTitle}>                  
-                  Babki Zielarki</h2>
+                <h2 className={styles.postHeaderTitle}>Babki Zielarki</h2>
               </div>
             </Segment>
 
-          
-              <img
-                src={BabkiZielarki}
-                alt="Babki Zielarki"
-                className={styles.photo}
-              />
-       
+            <img
+              src={BabkiZielarki}
+              alt="Babki Zielarki"
+              className={styles.photo}
+            />
+
             <div className={styles.description}>
-              <p >
+              <p>
                 Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
                 Zielarki” korzystają z kwiatów czarnego bzu, mniszka
                 lekarskiego, owoców pigwowca, dzikiej róży, aronii, jarzębiny,
@@ -56,8 +55,9 @@ const Home = () => (
             </div>
             <Segment>
               <div className={styles.postHeader}>
-                <h2 className={styles.postHeaderTitle}>                   
-                  <strong>Aktualności</strong></h2>
+                <h2 className={styles.postHeaderTitle}>
+                  <strong>Aktualności</strong>
+                </h2>
               </div>
             </Segment>
             <List />
@@ -72,6 +72,17 @@ const Home = () => (
       </Grid.Column>
     </Grid>
     <Footer />
+    <CookieConsent
+      location="bottom"
+      buttonText="Wyrażam zgodę"
+      cookieName="myAwesomeCookieName2"
+      style={{ background: "#2B373B" }}
+      buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+      expires={150}
+    >
+      This website uses cookies to enhance the user experience.{" "}
+      <span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span>
+    </CookieConsent>
   </>
 );
 

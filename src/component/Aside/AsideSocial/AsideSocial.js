@@ -1,18 +1,17 @@
 import React from "react";
 
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
-
 import styles from "../AsideSocial/AsideSocial.module.scss";
 import { Divider, Segment } from "semantic-ui-react";
+import FacebookIcon from "../../Icon/Facebook/FacebookIcon";
+import InstagramIcon from "../../Icon/Instagram/InstagramIcon";
 
 const AsideSocial = () => (
   <Segment className={styles.social}>
     <h3 className={styles.wrapperHeader}>SUBSKRYPCJE</h3>
     <Divider />
     <div className={styles.socialicon}>
-      <FacebookIcon color="action" style={{ fontSize: 50 }} />
-      <InstagramIcon color="action" style={{ fontSize: 50 }} />
+      <FacebookIcon />
+      <InstagramIcon />
     </div>
   </Segment>
 );

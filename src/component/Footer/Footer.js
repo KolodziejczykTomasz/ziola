@@ -2,8 +2,8 @@ import React from "react";
 import ProwLogo from "../../assets/images/logo/prow_logo.jpg";
 import FooterBar from "../Footer/footerBar/FooterBar";
 
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "../Icon/Facebook/FacebookIcon";
+import InstagramIcon from "../Icon/Instagram/InstagramIcon";
 
 import styles from "./Footer.module.scss";
 
@@ -22,12 +22,12 @@ const Footer = () => (
       <FacebookIcon
         className={styles.socialicon}
         color="action"
-        style={{ fontSize: 30 }}
+        style={{ fontSize: 15 }}
       />
       <InstagramIcon
         className={styles.socialicon}
         color="action"
-        style={{ fontSize: 30 }}
+        style={{ fontSize: 15 }}
       />
     </div>
   </>
