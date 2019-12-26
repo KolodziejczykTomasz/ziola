@@ -10,16 +10,19 @@
 
 .post {
     margin: 50px auto;
+    font-family: 'Lato', sans-serif;
 
     &Descritpion {
         display: block;
         width: 99%;
         margin: 50px auto;
+        font-family: 'Lato', sans-serif;
 
         &Text {
             display: block;
             width: 99%;
             margin: 50px auto;
+            font-family: 'Lato', sans-serif;
         }
     }
 }
@@ -28,9 +31,11 @@
     display: block;
     text-align: center;
     margin: 20px auto;
+    font-family: 'Lato', sans-serif;
 
     &Title {
         display: inline;
         text-align: center;
+        font-family: 'Lato', sans-serif;
     }
 }

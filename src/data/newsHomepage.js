@@ -23,7 +23,7 @@ const newsHomepage = [
     text1:
       "24 października 2019 r. Zielarska Wieś Blanki gościła grupę około 40 osób, biorących udział w V Wojewódzkim Forum Odnowy Wsi w Ostródzie.",
     text2:
-      "Województwo warmińsko – mazurskie reprezentowały m.in. Babki Zielarki z Blanek, jako wieś tematyczna „Zielarska Wieś Blanki”, które wpWieś Blanki była jedną z trzech miejscowości, którą odwiedzili aktywnie działający liderzy wsi z terenu województwa warmińsko – mazurskiego. rowadzały wszystkich w świat ziół. ",
+      "Wieś Blanki była jedną z trzech miejscowości, którą odwiedzili aktywnie działający liderzy wsi z terenu województwa warmińsko – mazurskiego. ",
     text3:
       "Babki Zielarki prezentowały mocne strony zielarskiej wsi, w tym zrealizowane inwestycje. Opowiadały o ziołach, które rosną wokół nas i ich wykorzystaniu w codziennym życiu. Goście mogli spróbować niespotykanych potraw z pokrzywą oraz ziołowych syropów.",
     text4: null,

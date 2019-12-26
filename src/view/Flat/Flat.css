@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
+
 .Logo {
     display: block;
     width: 30vw;
@@ -8,20 +10,26 @@
 }
 
 .description {
+    display: inline-block;
     width: 99%;
     margin: 10px 20px 30px 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .contact {
+    display: inline-block;
     text-align: center;
-    color: grey;
-    font-weight: 700;
+    color: black;
+    font-weight: 400;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 .source {
+    display: block;
     color: grey;
     font-size: .8rem;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: 'Lato', sans-serif;
 }

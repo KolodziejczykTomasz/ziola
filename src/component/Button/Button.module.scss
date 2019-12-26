@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
 
-.button, .secondary {
-  font-family: Lora, serif;
+.button,
+.secondary {
+  font-family: 'Lato', sans-serif;
 }
 
 .button {
-    display: inline-flex;     
-    padding: 5px 5px; 
-    margin: 2px 2px; 
-    font-size: 12px;
-    text-decoration: none;    
-    font-weight: 500;
-    background: none;
-    border: 2px solid rgba(238, 238, 238, .7);
-    color: black;
-    cursor: pointer;
-  }
-  
-  .secondary {
-    @extend .button;  
-    background-color: rgba(238, 238, 238, .7);
-    color: white;
-    font-weight: 700;
-    font-size: .8em; 
-  }
+  display: inline-flex;
+  padding: 5px 5px;
+  margin: 2px 2px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  background: none;
+  border: 2px solid rgba(238, 238, 238, .7);
+  color: black;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+
+.secondary {
+  @extend .button;
+  background-color: rgba(238, 238, 238, .7);
+  color: white;
+  font-weight: 700;
+  font-size: .8em;
+}

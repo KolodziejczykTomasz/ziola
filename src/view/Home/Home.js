@@ -56,9 +56,7 @@ const Home = () => (
             </div>
             <Segment>
               <div className={styles.postHeader}>
-                <h2 className={styles.postHeaderTitle}>
-                  <strong>Aktualności</strong>
-                </h2>
+                <h2 className={styles.postHeaderTitle}>Aktualności</h2>
               </div>
             </Segment>
             <List />
@@ -66,7 +64,7 @@ const Home = () => (
         </Grid.Row>
       </Grid.Column>
 
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only='computer'>
         <AsideAbout />
         <AsideSocial />
         <AsideHerbs />

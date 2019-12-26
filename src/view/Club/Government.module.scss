@@ -7,17 +7,21 @@
     display: block;
     text-align: center;
     margin: 20px auto;
+    font-family: 'Lato', sans-serif;
 
     &Title {
         display: inline;
         text-align: center;
+        font-family: 'Lato', sans-serif;
     }
 }
 
-.cell {    
+.cell {
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .list {
     margin-left: 40px;
+    font-family: 'Lato', sans-serif;
 }

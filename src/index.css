@@ -1,9 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css?family=Lora|Mukta+Mahee:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
 
 body {
-    font-family: Lora, serif;
-    color: #555;
+    color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -16,6 +15,11 @@ a:hover {
 }
 
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Lora', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
 }

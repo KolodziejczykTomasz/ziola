@@ -64,7 +64,7 @@ const History = () => (
         </Grid.Row>
       </Grid.Column>
 
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only='computer'>
         <AsideAbout />
         <AsideSocial />
         <AsideHerbs />

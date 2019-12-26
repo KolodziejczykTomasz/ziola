@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
+
 .wrapperContact {
     display: block;
     top: 0;
     left: 0;
     margin: 30px auto;
+    font-family: 'Lato', sans-serif;
 }
 
 
 .wrapperContact {
     width: 30vw;
+    font-family: 'Lato', sans-serif;
 }
 
 .wrapperText {
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -20,10 +25,12 @@
     display: block;
     text-align: center;
     margin: 20px auto;
+    font-family: 'Lato', sans-serif;
 
     &Title {
         display: inline;
         text-align: center;
+        font-family: 'Lato', sans-serif;
     }
 }
 
@@ -44,6 +51,6 @@
     &Text {
         display: block;
         width: 99%;
-        margin: 20px auto;     
+        margin: 20px auto;
     }
 }
