@@ -1,13 +1,45 @@
 .wrapper {
-    width: 100%;   
+    width: 100%;
 }
 
 p {
-font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
-.item{
+.post {
     min-height: 350px;
     height: auto;
-    
+}
+
+.postHeader {
+    display: block;
+    text-align: left;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+    }
+}
+
+.description {
+    display: flexbox;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 20px auto;
+    line-height: 14px;
+
+    &Text {
+        display: flex;
+    }
+}
+
+
+.postImage {
+    display: block;
+    float: left;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 10px 10px 10px 0;
+
 }

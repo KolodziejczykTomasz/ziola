@@ -1,31 +1,26 @@
 import React from "react";
-import { Image, Divider, Segment } from "semantic-ui-react";
+import { Divider, Segment } from "semantic-ui-react";
 
 import styles from "./ListItem.module.scss";
 
-const ListItem = ({ title, src, text }) => {
+const ListItem = ({ title, src, text1, text2, text3, text4, text5 }) => {
   return (
-
-<Segment key={title} className={styles.wrapper}>
-  <Segment className={styles.item}>
-
-    <Image src={src} size='small' floated='left' alt={title}/>
-    <p>
-    <h1>{title}</h1>
-
-    </p>
-    <Divider />
-    <p>
-       „Zioło daje moc” – tym hasłem przywitał zebranych zespół Czerwony Tulipan na II Festiwalu Ziół, który odbył się w niedzielę, w zielarskiej wsi Blanki. Jest to kolejna impreza prężnie działającego Stowarzyszenia „Babki Zielarki” i bardzo aktywnej pani sołtys wsi – Lucji Kuczyńskiej.
-    </p>
-    <p>
-      O niezwykłej mocy ziół przekonywały wszystkich panie ze Stowarzyszenia „Babki Zielarki”. Podczas Festiwalu można było skosztować nalewki i syropy z miejscowych ziół i owoców, ciasteczka z kwiatami oraz zupę z pokrzyw.
-    </p>
-    <p>
-      Festyn ten nie odbyłby się gdyby nie wsparcie finansowe samorządu województwa warmińsko-mazurskiego. Dzięki pozyskanemu dofinansowaniu można było zobaczyć na scenie tak wspaniały zespół, jakim jest „Czerwony Tulipan”.
-    </p>
+    <Segment key={title} className={styles.wrapper}>
+      <Segment className={styles.post}>
+        <div className={styles.postHeader}>
+          <h3 className={styles.postHeaderTitle}>{title} </h3>
+        </div>
+        <Divider /> 
+        <img src={src} alt={title} className={styles.postImage} />
+        <div className={styles.description}>
+          <p className={styles.descriptionText}>{text1}</p>
+          <p className={styles.descriptionText}>{text2}</p>
+          <p className={styles.descriptionText}>{text3}</p>
+          <p className={styles.descriptionText}>{text4}</p>
+          <p className={styles.descriptionText}>{text5}</p>
+        </div>
+      </Segment>
     </Segment>
-  </Segment>   
   );
 };
 

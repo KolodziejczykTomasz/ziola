@@ -4,6 +4,7 @@ import { Grid, Segment } from "semantic-ui-react";
 import Header from "../../component/Header/Header";
 import Slide from "../../component/Slide/Slide";
 import Footer from "../../component/Footer/Footer";
+import ScrollUpButton from "react-scroll-up-button";
 import List from "../../component/HomeList/List";
 import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
@@ -36,7 +37,7 @@ const Home = () => (
             />
 
             <div className={styles.description}>
-              <p>
+              <p className={styles.descriptionText}>
                 Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
                 Zielarki” korzystają z kwiatów czarnego bzu, mniszka
                 lekarskiego, owoców pigwowca, dzikiej róży, aronii, jarzębiny,
@@ -46,7 +47,7 @@ const Home = () => (
                 dziewanny.
               </p>
 
-              <p>
+              <p className={styles.descriptionText}>
                 Na bazie naturalnych surowców powstają również niezwykłe dania i
                 wypieki np. zupa z pokrzywy, pierogi z kapustą i grzybami z
                 miejscowego lasu, gołąbki z soczewicą czy naleśniki z serem i
@@ -72,6 +73,7 @@ const Home = () => (
       </Grid.Column>
     </Grid>
     <Footer />
+    <ScrollUpButton />
     <CookieConsent
       location="bottom"
       buttonText="Wyrażam zgodę"

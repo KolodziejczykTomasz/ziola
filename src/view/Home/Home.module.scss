@@ -15,7 +15,7 @@ h2 {
 
 .wrapper {
     display: block;
-    width: 90vw;
+    width: 95vw;
     margin: 0 0 0 30px;
 }
 
@@ -33,9 +33,13 @@ h2 {
 .description {
     display: block;
     font-size: 1.2rem;
-    width: 90%;
+    width: 95%;
     margin: 40px auto;
     line-height: 14px;
+
+    &Text {
+        display: block;
+    }
 }
 
 
