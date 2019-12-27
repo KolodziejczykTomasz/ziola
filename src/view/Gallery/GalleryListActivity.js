@@ -21,11 +21,13 @@ const GalleryListActivity = () => (
                 <h2 class="post-title">Galeria - działalność</h2>
               </div>
             </Segment>
-            <GalleryActivity />
+            <Segment style={{ marginTop: 60, marginBottom: 60 }}>
+              <GalleryActivity />
+            </Segment>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4} only='computer'>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

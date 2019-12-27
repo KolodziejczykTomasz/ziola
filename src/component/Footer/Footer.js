@@ -7,6 +7,7 @@ import InstagramIcon from "../Icon/Instagram/InstagramIcon";
 
 import styles from "./Footer.module.scss";
 import { Link } from "react-router-dom";
+import AdminIcon from "../Icon/Admin/AdminIcon";
 
 const Footer = () => (
   <>
@@ -30,6 +31,7 @@ const Footer = () => (
         color="action"
         style={{ fontSize: 15 }}
       />
+      <AdminIcon />
     </div>
   </>
 );

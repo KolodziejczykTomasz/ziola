@@ -21,11 +21,13 @@ const GalleryListGarden = () => (
                 <h2 class="post-title">Galeria - ogródek</h2>
               </div>
             </Segment>
-            <GalleryGarden />
+            <Segment style={{ marginTop: 60, marginBottom: 60 }}>
+              <GalleryGarden />
+            </Segment>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4} only='computer'>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

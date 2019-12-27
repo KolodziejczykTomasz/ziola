@@ -21,7 +21,8 @@ const GalleryListHerbs = () => (
                 <h2 class="post-title">Galeria - zioła</h2>
               </div>
             </Segment>
-            <GalleryHerbs />
+            <Segment style={{ marginTop: 60, marginBottom: 60 }}>
+            <GalleryHerbs /></Segment>
           </Segment>
         </Grid.Row>
       </Grid.Column>

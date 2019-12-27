@@ -21,7 +21,8 @@ const GalleryListProduct = () => (
                 <h2 class="post-title">Galeria - produkty</h2>
               </div>
             </Segment>
-            <GalleryProduct />
+            <Segment style={{ marginTop: 60, marginBottom: 60 }}>
+            <GalleryProduct /></Segment>
           </Segment>
         </Grid.Row>
       </Grid.Column>

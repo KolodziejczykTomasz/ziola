@@ -28,7 +28,7 @@
 .social {
   display: flexbox;
   float: right;
-  width: 200px;
+  width: 300px;
 
   &icon {
     float: right;
@@ -39,4 +39,8 @@
 
 .footerRodoLink {
   color: black;
+}
+
+.footerRodoLink:hover {
+  color: orange;
 }

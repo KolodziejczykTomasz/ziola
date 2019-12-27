@@ -28,8 +28,8 @@ const Flat = () => (
                 <h2 class="post-title">Noclegi</h2>
               </div>
             </Segment>
-            <Grid.Column mobile={1} tablet={2} computer={3}>
-              <Grid.Row>
+            <Grid.Column >
+              <Grid.Row>              
                 <Grid.Column className={styles.cardItem}>
                   <Link as={Link} to="/flatAramowicz">
                     <Card>
@@ -40,7 +40,7 @@ const Flat = () => (
                       />
                       <Card.Content>
                         <Card.Header>
-                          Gospodarstwo Agroturystyczne "Domek na Wzgórzu"
+                          <p className={styles.Header}>Gospodarstwo Agroturystyczne "Domek na Wzgórzu"</p>
                         </Card.Header>
                         <Card.Description>Blanki</Card.Description>
                       </Card.Content>
@@ -57,7 +57,7 @@ const Flat = () => (
                       />
                       <Card.Content>
                         <Card.Header>
-                          Gospodarstwo Agroturystyczne "GABRYŚ"
+                          <p className={styles.Header}> Gospodarstwo Agroturystyczne "GABRYŚ" </p>
                         </Card.Header>
                         <Card.Description>Suryty</Card.Description>
                       </Card.Content>
@@ -74,7 +74,7 @@ const Flat = () => (
                       />
                       <Card.Content>
                         <Card.Header>
-                          Gospodarstwo Agroturystyczne Janina Zach - Kołecka
+                          <p className={styles.Header}>Gospodarstwo Agroturystyczne Janina Zach - Kołecka </p>
                         </Card.Header>
                         <Card.Description>Suryty</Card.Description>
                       </Card.Content>
@@ -91,7 +91,7 @@ const Flat = () => (
                       />
                       <Card.Content>
                         <Card.Header>
-                          Gospodarstwo Agroturystyczne Teresa Liminowicz
+                          <p className={styles.Header}>Gospodarstwo Agroturystyczne Teresa Liminowicz </p>
                         </Card.Header>
                         <Card.Description>Suryty</Card.Description>
                       </Card.Content>
@@ -108,13 +108,13 @@ const Flat = () => (
                       />
                       <Card.Content>
                         <Card.Header>
-                          Gospodarstwo Agroturystyczne "Mario"
+                          <p className={styles.Header}>Gospodarstwo Agroturystyczne "Mario" </p>
                         </Card.Header>
                         <Card.Description>Suryty</Card.Description>
                       </Card.Content>
                     </Card>
                   </Link>
-                </Grid.Column>
+                </Grid.Column>             
               </Grid.Row>
             </Grid.Column>
           </Segment>

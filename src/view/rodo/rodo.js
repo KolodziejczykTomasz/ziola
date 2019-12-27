@@ -7,7 +7,6 @@ import AsideAbout from "../../component/Aside/AsideAbout/AsideAbout";
 import AsideSocial from "../../component/Aside/AsideSocial/AsideSocial";
 
 import styles from "./rodo.module.scss";
-import { Link } from "react-router-dom";
 
 const rodo = () => (
   <>
@@ -117,51 +116,62 @@ const rodo = () => (
                 <p className={styles.postDescritpionText}>
                   <ul className={styles.postList}>
                     <li>
-                      <Link
+                      <a
                         className={styles.Link}
-                        role="link"
+                        role="button"
                         target="_blank"
                         rel="noopener noreferrer"
-                        to="http://windows.microsoft.com/pl-PL/windows7/How-to-manage-cookies-in-Internet-Explorer-9"
+                        href="http://windows.microsoft.com/pl-PL/windows7/How-to-manage-cookies-in-Internet-Explorer-9"
                       >
                         w przeglądarce Internet Explorer
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
+                      <a
                         className={styles.Link}
-                        role="link"
+                        role="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://support.microsoft.com/pl-pl/help/17442/windows-internet-explorer-delete-manage-cookies"
+                      >
+                        w przeglądarce Edge
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className={styles.Link}
+                        role="button"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="kliknij tu aby otworzć link"
-                        to="http://support.mozilla.org/pl/kb/ciasteczka"
+                        href="http://support.mozilla.org/pl/kb/ciasteczka"
                       >
                         w przeglądarce Mozilla Firefox
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
+                      <a
                         className={styles.Link}
-                        role="link"
+                        role="button"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="kliknij tu aby otworzć link"
-                        to="http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+                        href="http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
                       >
                         w przeglądarce Chrome
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
+                      <a
                         className={styles.Link}
-                        role="link"
+                        role="button"
                         rel="noopener noreferrer"
                         aria-label="kliknij tu aby otworzć link"
                         target="_blank"
-                        to="http://support.apple.com/kb/HT1677?viewlocale=pl_PL&locale=pl_PL"
+                        href="http://support.apple.com/kb/HT1677?viewlocale=pl_PL&locale=pl_PL"
                       >
                         w przeglądarce Safari
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </p>
