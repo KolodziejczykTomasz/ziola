@@ -1,6 +1,7 @@
 .wrapper {
   width: 100vw;
   margin: 10px 10px;
+
   &img {
     display: block;
     top: 0;
@@ -20,7 +21,7 @@
     display: block;
     margin: 0 auto;
     width: 950px;
-    color: grey;
+    color: black;
   }
 }
 
@@ -28,9 +29,14 @@
   display: flexbox;
   float: right;
   width: 200px;
+
   &icon {
     float: right;
     margin-right: 5px;
     margin-bottom: 15px;
   }
+}
+
+.footerRodoLink {
+  color: black;
 }

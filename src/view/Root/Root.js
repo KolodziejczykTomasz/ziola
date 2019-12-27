@@ -4,13 +4,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from '../Home/Home';
 
 import Activity from '../Club/Activity';
-import Club from '../Club/Club';
 import Government from '../Club/Government';
 import History from '../Club/History';
 import Herbs from '../Herbs/Herbs';
 import Garden from '../Garden/Garden';
 import Recipes from '../Herbs/Recipes';
-import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Education from '../Education/Education';
 import Flat from '../Flat/Flat';
@@ -43,6 +41,7 @@ import HerbsWaleriana from '../Herbs/HerbsWaleriana';
 import HerbsWiesiolek from '../Herbs/HerbsWiesiolek';
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import rodo from '../rodo/rodo';
 
 
 class Root extends Component {
@@ -53,13 +52,11 @@ class Root extends Component {
           <Switch>
             <Route exact path="/" component={Home}/>
 
-            <Route path="/club" component={Club} />
             <Route path="/activity" component={Activity} />
             <Route path="/government" component={Government} />
             <Route path="/history" component={History} />            
             <Route path="/garden" component={Garden} />
-            <Route path="/recipes" component={Recipes} />
-            <Route path="/about" component={About} />
+            <Route path="/recipes" component={Recipes} />            
             <Route path="/contact" component={Contact} />
             <Route path="/education" component={Education} />
             <Route path="/herbs" component={Herbs} />
@@ -89,7 +86,8 @@ class Root extends Component {
             <Route path="/galleryAcitivity" component={GalleryListActivity} />
             <Route path="/galleryHerbs" component={GalleryListHerbs} />
             <Route path="/galleryGarden" component={GalleryListGarden} />
-            <Route path="/galleryProduct" component={GalleryListProduct} />    
+            <Route path="/galleryProduct" component={GalleryListProduct} /> 
+            <Route path="/rodo" component={rodo} />    
           </Switch>
         </BrowserRouter>
       </>

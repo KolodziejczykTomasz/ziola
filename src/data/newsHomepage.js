@@ -19,7 +19,7 @@ const newsHomepage = [
   },
   {
     src: Forum,
-    title: "V Wojewódzkie Forum Odnowy Wsi",
+    title: "Wojewódzkie Forum Odnowy Wsi",
     text1:
       "24 października 2019 r. Zielarska Wieś Blanki gościła grupę około 40 osób, biorących udział w V Wojewódzkim Forum Odnowy Wsi w Ostródzie.",
     text2:

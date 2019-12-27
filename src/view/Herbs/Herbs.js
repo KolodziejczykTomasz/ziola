@@ -30,7 +30,7 @@ const Herbs = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
         <Grid.Row>
           <Segment className={styles.wrapper}>
             <Segment>

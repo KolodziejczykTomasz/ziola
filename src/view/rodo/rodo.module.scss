@@ -1,0 +1,40 @@
+.postHeader {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    &Title {
+        display: inline;
+        text-align: center;
+
+        &Second {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+        }
+    }
+}
+
+.post {
+    margin: 50px auto;
+
+    &Descritpion {
+        display: block;
+        width: 99%;
+        margin: 30px auto;
+
+        &Text {
+            display: block;
+            width: 99%;
+            margin: 40px auto;
+        }
+    }
+}
+
+.postList {
+    margin-left: 40px;
+}
+
+.Link {
+    color: black;
+}
