@@ -9,6 +9,8 @@ p {
 .post {
     min-height: 350px;
     height: auto;
+    border: none;
+  
 }
 
 .postHeader {
@@ -32,6 +34,11 @@ p {
         display: flex;
     }
 }
+
+
+
+
+
 
 .postImage {
     display: block;

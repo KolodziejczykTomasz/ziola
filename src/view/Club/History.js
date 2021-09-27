@@ -24,7 +24,7 @@ const History = () => (
                 </h2>
               </div>
             </Segment>
-            <Segment className={styles.post}>
+            <div className={styles.post}>
               <div className={styles.postDescritpion}>
                 <img
                   src={Logo}
@@ -59,7 +59,7 @@ const History = () => (
                   prawdziwego ogrodu ziołowego.
                 </p>
               </div>
-            </Segment>
+            </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>

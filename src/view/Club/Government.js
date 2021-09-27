@@ -35,12 +35,15 @@ class Government extends Component {
                     </div>
                   </Segment>
 
-                  <table class="table table-hover">
+                  <table
+                    class="table table-hover"
+                    style={{ marginBottom: "100px" }}
+                  >
                     <tr className={styles.cell}>
-                      <td>Wiącek Jolanta</td> <td>Prezes</td>
+                      <td>Plaskota Iwona</td> <td>Prezes</td>
                     </tr>
                     <tr className={styles.cell}>
-                      <td>Aramowicz Elwira</td> <td>Z-ca Prezesa</td>
+                      <td>Lucja Kuczyńska</td> <td>Z-ca Prezesa</td>
                     </tr>
                     <tr className={styles.cell}>
                       <td>Lipska Urszula</td> <td>Skarbnik</td>
@@ -60,19 +63,21 @@ class Government extends Component {
                       </h2>
                     </div>
                   </Segment>
-                  <Segment>
-                    <table class="table table-hover">
-                      <tr className={styles.cell}>
-                        <td>Plaskota Iwona</td>
-                      </tr>
-                      <tr className={styles.cell}>
-                        <td>Pacanowska Anna</td>
-                      </tr>
-                      <tr className={styles.cell} >
-                        <td>Łozowski Dariusz</td>
-                      </tr>
-                    </table>
-                  </Segment>
+
+                  <table
+                    class="table table-hover"
+                    style={{ marginBottom: "100px" }}
+                  >
+                    <tr className={styles.cell}>
+                      <td>Anna Pacanowska</td>
+                    </tr>
+                    <tr className={styles.cell}>
+                      <td>Franciszek Podskarbis</td>
+                    </tr>
+                    <tr className={styles.cell}>
+                      <td>Katarzyna Powideł</td>
+                    </tr>
+                  </table>
                 </Segment>
                 <Segment>
                   <Accordion fluid styled>
@@ -141,7 +146,9 @@ class Government extends Component {
                       STATUT STOWARZYSZENIA
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 1}>
-                      <a className={styles.list} href="upload/statut.pdf">Statut</a>
+                      <a className={styles.list} href="upload/statut.pdf">
+                        Statut
+                      </a>
                     </Accordion.Content>
                   </Accordion>
                 </Segment>
@@ -149,7 +156,7 @@ class Government extends Component {
             </Grid.Row>
           </Grid.Column>
 
-          <Grid.Column width={4} only='computer'>
+          <Grid.Column width={4} only="computer">
             <AsideAbout />
             <AsideSocial />
           </Grid.Column>

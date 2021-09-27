@@ -39,7 +39,7 @@ const Activity = () => (
         <Grid.Row>
           <Segment className={styles.wrapper}>
             <Segment className={styles.post}>
-              <Segment className={styles.postHeader}>
+              <div className={styles.postHeader}>
                 <h2 className={styles.postHeaderTitle}>
                   Projekt „Lecznicza magia ziół”
                 </h2>
@@ -48,7 +48,7 @@ const Activity = () => (
                   alt="Logo Działaj Lokalnie"
                   className={styles.logoLokalnie}
                 />
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   Miło nam jest poinformować, że Stowarzyszenie &bdquo;Babki
@@ -109,13 +109,13 @@ const Activity = () => (
               </div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>
                     II Festiwal Ziół w Blankach
                   </h2>
                 </div>
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   &bdquo;Zioło daje moc&rdquo; &ndash; tym hasłem przywitał
@@ -148,7 +148,7 @@ const Activity = () => (
                   ziołowe lekarstwo i ziołowa nalewka.
                 </p>
 
-                <Segment className={styles.galleryList}>
+                <div className={styles.galleryList}>
                   <img
                     src={Festiwal1}
                     alt="Festiwal Ziół"
@@ -164,7 +164,7 @@ const Activity = () => (
                     alt="Festiwal Ziół"
                     className={styles.galleryListItem}
                   />
-                </Segment>
+                </div>
               </div>
               &nbsp;
               <span className={styles.source}>
@@ -173,13 +173,13 @@ const Activity = () => (
               <div></div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>
                     Magiczna Noc Kupały
                   </h2>
                 </div>
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   W sobotę, 17.06.2017r. nad jeziorem Blanki odbyła się
@@ -214,7 +214,7 @@ const Activity = () => (
                 </p>
                 <div class="gallery">
                   <div class="row text-center text-lg-center">
-                    <Segment className={styles.galleryList}>
+                    <div className={styles.galleryList}>
                       <img
                         src={Nockupaly1}
                         alt="Magiczna Noc Kupały"
@@ -230,7 +230,7 @@ const Activity = () => (
                         alt="Magiczna Noc Kupały"
                         className={styles.galleryListItem}
                       />
-                    </Segment>
+                    </div>
                   </div>
                 </div>
                 &nbsp;
@@ -240,13 +240,13 @@ const Activity = () => (
               </div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>
                     Blanki ziołami pachnące
                   </h2>
                 </div>
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   Nalewki z miejscowych zi&oacute;ł i owoc&oacute;w, ciasteczka
@@ -275,7 +275,7 @@ const Activity = () => (
                   Damszel, zesp&oacute;l muzyczny z Gminnego Ośrodka Kultury i
                   Sportu w Pilniku oraz Kapela ludowa Rog&oacute;żanie.
                 </p>
-                <Segment className={styles.galleryList}>
+                <div className={styles.galleryList}>
                   <img
                     src={Pachnaceblanki1}
                     alt="Blanki ziołami pachnące"
@@ -291,7 +291,7 @@ const Activity = () => (
                     alt="Blanki ziołami pachnące"
                     className={styles.galleryListItem}
                   />
-                </Segment>
+                </div>
                 &nbsp;
                 <span className={styles.source}>
                   Tekst/Foto: gminalidzbark.com
@@ -299,11 +299,11 @@ const Activity = () => (
               </div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>Noc Kupały</h2>
                 </div>
-              </Segment>
+              </div>
 
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
@@ -325,7 +325,7 @@ const Activity = () => (
                   konkursy i zabawy: puszczanie wiank&oacute;w czy szukanie
                   kwiatu paproci.
                 </p>
-                <Segment className={styles.galleryList}>
+                <div className={styles.galleryList}>
                   <img
                     src={Nockupaly4}
                     alt="Noc Kupały"
@@ -341,7 +341,7 @@ const Activity = () => (
                     alt="Noc Kupały"
                     className={styles.galleryListItem}
                   />
-                </Segment>
+                </div>
                 &nbsp;
                 <span className={styles.source}>
                   Tekst/Foto: gminalidzbark.com
@@ -349,13 +349,13 @@ const Activity = () => (
               </div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>
                     Wizyta delegacji niemieckiej z Gminy Rhede (Ems)
                   </h2>
                 </div>
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   Po raz trzeci Gmina Lidzbark Warmiński gościła niemiecką
@@ -382,13 +382,13 @@ const Activity = () => (
               </div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>
                     Wizyta studyjna w Blankach
                   </h2>
                 </div>
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   Stowarzyszenie &bdquo;Babki Zielarki&rdquo; gościły 28
@@ -408,7 +408,7 @@ const Activity = () => (
                   Przybyli goście mogli zasmakować wypiek&oacute;w i
                   spr&oacute;bować nektaru z zi&oacute;ł.
                 </p>
-                <Segment className={styles.galleryList}>
+                <div className={styles.galleryList}>
                   <img
                     src={Wizyta1}
                     alt="Wizyta studyjna w Blankach"
@@ -424,7 +424,7 @@ const Activity = () => (
                     alt="Wizyta studyjna w Blankach"
                     className={styles.galleryListItem}
                   />
-                </Segment>
+                </div>
                 &nbsp;
                 <span className={styles.source}>
                   Tekst/Foto: gminalidzbark.com
@@ -432,13 +432,13 @@ const Activity = () => (
               </div>
             </Segment>
             <Segment>
-              <Segment>
+              <div>
                 <div className={styles.postHeader}>
                   <h2 className={styles.postHeaderTitle}>
                     Zielarska Wioska Blanki
                   </h2>
                 </div>
-              </Segment>
+              </div>
               <div className={styles.postDescritpion}>
                 <p className={styles.postDescritpionText}>
                   Blanki to wieś położona na Warmii, w gminie Lidzbark
@@ -496,7 +496,7 @@ const Activity = () => (
                   nie tylko.
                 </p>
 
-                <Segment className={styles.galleryList}>
+                <div className={styles.galleryList}>
                   <img
                     src={Zielarskawies1}
                     alt="Zielarska Wieś"
@@ -512,7 +512,7 @@ const Activity = () => (
                     alt="Zielarska Wieś"
                     className={styles.galleryListItem}
                   />
-                </Segment>
+                </div>
 
                 <span className={styles.source}>
                   Tekst/Foto: gminalidzbark.com

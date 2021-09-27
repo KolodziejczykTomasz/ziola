@@ -17,7 +17,11 @@ const Footer = () => (
     </div>
     <div className={styles.copyright}>
       <span className={styles.copyrighttext}>
-        &copy; 2020. Zielarska Wieś Blanki - All Rights Reserved. | <Link to="/rodo" className={styles.footerRodoLink}>Polityka prywatności</Link>
+        Copyright © {new Date().getFullYear()}. Zielarska Wieś Blanki - All
+        Rights Reserved. |{" "}
+        <Link to="/rodo" className={styles.footerRodoLink}>
+          Polityka prywatności
+        </Link>
       </span>
     </div>
     <div className={styles.social}>
