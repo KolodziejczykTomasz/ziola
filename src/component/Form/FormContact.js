@@ -19,11 +19,11 @@ handleSubmit(e) {
       message_html: message,
      }
      emailjs.send(
-      'gmail',
-      'template_PLASrObN',
+       "service_nmx9k2e",
+       "template_PLASrObN",
        templateParams,
-      'user_ymZDj61vGImVYg00trXH8'
-     )
+       "user_ymZDj61vGImVYg00trXH8"
+     );
      this.resetForm()
  }
 resetForm() {

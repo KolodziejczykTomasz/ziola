@@ -20,12 +20,16 @@ const Contact = () => (
         <Grid.Column width={8}>
           <div className={styles.wrapperAddress}>
             <div className={styles.wrapperAddressText}>
-              <p className={styles.wrapperAddressText}>Stowarzyszenie „Babki Zielarki”</p>
+              <p className={styles.wrapperAddressText}>
+                Stowarzyszenie „Babki Zielarki”
+              </p>
               <p className={styles.wrapperAddressText}>Blanki 50</p>
-              <p className={styles.wrapperAddressText}>11-100 Lidzbark Warmiński</p>
+              <p className={styles.wrapperAddressText}>
+                11-100 Lidzbark Warmiński
+              </p>
             </div>
             <div className={styles.wrapperAddressTextContact}>
-             <PhoneIcon/> 508 221 057 | <EmailIcon/> poczta@zielarskawiesblanki.pl
+              <PhoneIcon /> 606 960 191 | <EmailIcon /> iwona.blanki@wp.pl
             </div>
           </div>
         </Grid.Column>
@@ -33,7 +37,7 @@ const Contact = () => (
     </Grid>
     <Divider />
     <div className={styles.wrapperContact}>
-      <h2 className={styles.wrapperText} >Napisz do nas</h2>
+      <h2 className={styles.wrapperText}>Napisz do nas</h2>
       <FormContact />
     </div>
 
