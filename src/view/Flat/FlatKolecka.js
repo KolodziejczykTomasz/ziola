@@ -19,8 +19,8 @@ const FlatKolecka = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
-        <Grid.Row>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
+        <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div class="text-center post-header">
@@ -34,14 +34,12 @@ const FlatKolecka = () => (
               src={Kolecka}
               alt="Gospodarstwo Agroturystyczne Janina Zach- Kołecka"
             />
-
             <div class="post-content">
               <p class="description">
                 Dom położony jest na półwyspie o powierzchni 23.000 m2, z linią
                 brzegową o długości 800 metrów. W pobliży sklep spożywczy (1
                 km), piękne lasy i miasto Lidzbark Warmiński (12 km)
               </p>
-
               <p class="description">
                 Oferuję dom całoroczny, na 6 osób, piętrowy. Parter – salon z
                 kominkiem i TV-sat, kuchnia z pełnym wyposażeniem i łazienka z
@@ -49,25 +47,24 @@ const FlatKolecka = () => (
                 ogród i grill. Piętro – trzy pokoje dwuosobowe, łazienka z
                 umywalką i wc.
               </p>
-
               <p class="description">
                 Do dyspozycji gości kąpielisko wyposażone w dwa pomosty, łódź
                 motorowa, łódź wiosłowa, rowery, dla dzieci huśtawka,
                 piaskownica.
               </p>
               <p class="contact">
-                <AddressIcon/> Suryty 18, 11-100 Lidzbark Warmiński | <PhoneIcon/> (+48) 89
-                766 17 60 | <MobileIcon/> 503 505 887
+                <AddressIcon /> Suryty 18, 11-100 Lidzbark Warmiński |{" "}
+                <PhoneIcon /> (+48) 89 766 17 60 | <MobileIcon /> 503 505 887
               </p>
-
               <p class="source">Źródło: http://gminalidzbark.com/ </p>
-              <ButtonBackFlat />
+              <div style={{ display: "flex", justifyContent: "right" }}>
+                <ButtonBackFlat />
+              </div>
             </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

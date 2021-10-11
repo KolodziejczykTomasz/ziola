@@ -10,8 +10,8 @@
 
 
 .wrapperContact {
-    width: 30vw;
-    font-family: 'Lato', sans-serif;
+    width: 80%;
+    max-width: 400px;
 }
 
 .wrapperText {
@@ -36,8 +36,9 @@
 
 .singleImg {
     display: block;
-    width: 90%;
-    margin: 20px 10px 50px 100px;
+     width: 80%;
+     max-width: 500px;
+    margin: 60px auto;
     border-radius: 7%;
     box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
 

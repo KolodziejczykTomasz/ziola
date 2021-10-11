@@ -13,11 +13,11 @@ const Contact = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Row>
-        <Grid.Column width={7}>
+      <Grid.Row style={{ padding: "0 30px" }}>
+        <Grid.Column width={7} only="computer">
           <Image src={Logo} alt="Logo" className={styles.wrapperImage} />
         </Grid.Column>
-        <Grid.Column width={8}>
+        <Grid.Column width={8} mobile={16} tablet={8} computer={8}>
           <div className={styles.wrapperAddress}>
             <div className={styles.wrapperAddressText}>
               <p className={styles.wrapperAddressText}>

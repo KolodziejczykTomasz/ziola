@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "semantic-ui-react";
+
+import styles from "./ButtonBackFlat.module.scss";
+
 
 const ButtonBackFlat = () => (
-    <div>
-        <Link as={Link} to="/flat">
-            <Button>Powrót</Button>
-        </Link>
-    </div>
+  <div>
+    <Link as={Link} to="/flat">
+      <button className={styles.buttonClass}>Powrót</button>
+    </Link>
+  </div>
 );
 
 export default ButtonBackFlat;

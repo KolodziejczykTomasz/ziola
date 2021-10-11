@@ -17,8 +17,8 @@ const HerbsSzalwia = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
-        <Grid.Row>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
+        <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div class="text-center post-header">
@@ -58,12 +58,14 @@ const HerbsSzalwia = () => (
                 bólach gardła, kłopotach z dziąsłami, przy problemach z cerą,
                 swędzeniu czy łupieżu.
               </p>
-              <ButtonBack />
+              <div style={{ display: "flex", justifyContent: "right" }}>
+                <ButtonBack />
+              </div>
             </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

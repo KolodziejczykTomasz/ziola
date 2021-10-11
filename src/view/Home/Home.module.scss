@@ -15,8 +15,7 @@ h2 {
 
 .wrapper {
     display: block;
-    width: 95vw;
-    margin: 0 0 0 30px;
+    width: 100%; 
 }
 
 
@@ -49,12 +48,12 @@ h2 {
     display: block;
     text-align: center;
     margin: 20px auto;
-   
+   width: 100%;
     font-family: 'Lato', sans-serif;
 
     &Title {
         display: inline;
-        text-align: center;
+        text-align: center;width: 100%;
         font-family: 'Lato', sans-serif;
     }
 }

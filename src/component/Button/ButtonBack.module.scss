@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
+
+
+.buttonClass {
+  display: inline-flex;
+  padding: 10px 20px;
+  margin: 2px 2px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background: none;
+  border: 2px solid orange;
+  background-color: orange;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+   -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.buttonClass:hover {
+  color: orange;
+  border: 2px solid orange;
+  background-color: white;
+}

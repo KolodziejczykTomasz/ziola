@@ -23,20 +23,18 @@ const Home = () => (
     <Slide />
     <Grid>
       <Grid.Column mobile={16} tablet={16} computer={12}>
-        <Grid.Row>
-          <Segment className={styles.wrapper}>
+        <Grid.Row style={{ padding: "0 30px" }}>
+          <Segment className={styles.wrapper} style={{ marginBottom: "75px" }}>
             <Segment>
               <div className={styles.postHeader}>
                 <h2 className={styles.postHeaderTitle}>Babki Zielarki</h2>
               </div>
             </Segment>
-
             <img
               src={BabkiZielarki}
               alt="Babki Zielarki"
               className={styles.photo}
             />
-
             <div className={styles.description}>
               <p className={styles.descriptionText}>
                 Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
@@ -47,7 +45,6 @@ const Home = () => (
                 a wśród nowości polecana jest nalewka z rzewienia oraz z
                 dziewanny.
               </p>
-
               <p className={styles.descriptionText}>
                 Na bazie naturalnych surowców powstają również niezwykłe dania i
                 wypieki np. zupa z pokrzywy, pierogi z kapustą i grzybami z
@@ -55,17 +52,16 @@ const Home = () => (
                 pokrzywą oraz ciastka ze skwarek.
               </p>
             </div>
-            <Segment>
-              <div className={styles.postHeader}>
-                <h2 className={styles.postHeaderTitle}>Aktualności</h2>
-              </div>
-            </Segment>
-            <List />
           </Segment>
+          <Segment style={{ width: "100%" }}>
+            <div className={styles.postHeader}>
+              <h2 className={styles.postHeaderTitle}>Aktualności</h2>
+            </div>
+          </Segment>
+          <List />
         </Grid.Row>
       </Grid.Column>
-
-      <Grid.Column width={4} only='computer'>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
         <AsideHerbs />
@@ -77,13 +73,29 @@ const Home = () => (
       location="bottom"
       buttonText="Wyrażam zgodę"
       cookieName="myAwesomeCookieName2"
-      style={{ background: "#2B373B" }}
+      style={{ background: "#2B373B", width: "100%", padding: "0 10px"}}
       buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
       expires={150}
     >
-     <span> Nasz serwis, jak większość serwisów internetowych, wykorzystuje tzw. pliki cookies.
- Korzystanie z serwisu oznacza zgodę na ich zapis lub wykorzystanie. Zgodnie z Rozporządzeniem Parlamentu Europejskiego ws. ochrony danych osobowych oraz Ustawą o ochronie danych osobowych informujemy, że korzystanie z elektronicznych formularzy zgłoszeń odbywa się z poszanowaniem prawa ochrony danych osobowych. Państwa dane osobowe wykorzystywane są tylko na potrzeby świadczonych poprzez media elektroniczne usług na Państwa rzecz. Powierzone nam tu dane nie są wykorzystywane w żadnych innych celach. Jednocześnie informujemy, że mają Państwo prawo żądać ograniczenia przetwarzania powierzonych danych, wglądu w posiadane przez nasz serwis dane i usunięcia posiadanych danych osobowych. Więcej informacji można znaleźć w „Polityce prywatności”.
-Akceptuję <Link to="/rodo" className={styles.footerRodoLink}>"Politykę prywatności"</Link> i wykorzystania plików cookies w serwisie. </span>
+      <span>
+        Nasz serwis, jak większość serwisów internetowych, wykorzystuje tzw.
+        pliki cookies. Korzystanie z serwisu oznacza zgodę na ich zapis lub
+        wykorzystanie. Zgodnie z Rozporządzeniem Parlamentu Europejskiego ws.
+        ochrony danych osobowych oraz Ustawą o ochronie danych osobowych
+        informujemy, że korzystanie z elektronicznych formularzy zgłoszeń odbywa
+        się z poszanowaniem prawa ochrony danych osobowych. Państwa dane osobowe
+        wykorzystywane są tylko na potrzeby świadczonych poprzez media
+        elektroniczne usług na Państwa rzecz. Powierzone nam tu dane nie są
+        wykorzystywane w żadnych innych celach. Jednocześnie informujemy, że
+        mają Państwo prawo żądać ograniczenia przetwarzania powierzonych danych,
+        wglądu w posiadane przez nasz serwis dane i usunięcia posiadanych danych
+        osobowych. Więcej informacji można znaleźć w „Polityce prywatności”.
+        Akceptuję
+        <Link to="/rodo" className={styles.footerRodoLink}>
+          "Politykę prywatności"
+        </Link>
+        i wykorzystania plików cookies w serwisie.
+      </span>
     </CookieConsent>
   </>
 );

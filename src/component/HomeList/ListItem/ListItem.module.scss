@@ -1,5 +1,6 @@
 .wrapper {
     width: 100%;
+    
 }
 
 p {
@@ -35,15 +36,12 @@ p {
     }
 }
 
-
-
-
-
-
 .postImage {
     display: block;
     max-height: 500px;
     max-width: 500px;
+    width: 90%;
+    height: auto;
     margin: 40px auto;
     border-radius: 2%;
     box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);

@@ -14,17 +14,13 @@ const GalleryListGarden = () => (
     <Header />
     <Grid>
       <Grid.Column mobile={16} tablet={16} computer={12}>
-        <Grid.Row>
-          <Segment>
-            <Segment>
-              <div class="text-center post-header">
-                <h2 class="post-title">Galeria - ogródek</h2>
-              </div>
-            </Segment>
-            <Segment style={{ marginTop: 60, marginBottom: 60 }}>
-              <GalleryGarden />
-            </Segment>
+       <Grid.Row style={{ padding: "0 30px" }}>
+          <Segment style={{ width: "100%" }}>
+            <div class="text-center post-header">
+              <h2 class="post-title">Galeria - ogródek</h2>
+            </div>
           </Segment>
+          <GalleryGarden />
         </Grid.Row>
       </Grid.Column>
       <Grid.Column width={4} only="computer">

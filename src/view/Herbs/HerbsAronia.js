@@ -17,8 +17,8 @@ const HerbsAronia = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
-        <Grid.Row>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
+        <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div class="text-center post-header">
@@ -31,7 +31,7 @@ const HerbsAronia = () => (
             </div>
 
             <div class="post-content">
-              <p class="description" >
+              <p class="description">
                 To krzew liściasty posiadający owoce jagodowe w kolorze
                 ciemnogranatowym (prawie czarnym) o smaku słodko-cierpkim.
                 Liście przebarwiają się jesienią na kolor czerwony lub
@@ -57,12 +57,14 @@ const HerbsAronia = () => (
                 działają antyoksydacyjnie, więc przeciwdziałają miażdżycy,
                 obniżają ciśnienie, hamują utlenianie LDL.
               </p>
-              <ButtonBack />
+              <div style={{ display: "flex", justifyContent: "right" }}>
+                <ButtonBack />
+              </div>
             </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

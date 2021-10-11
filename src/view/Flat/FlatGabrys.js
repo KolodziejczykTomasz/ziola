@@ -18,8 +18,8 @@ const FlatGabrys = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
-        <Grid.Row>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
+        <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div class="text-center post-header">
@@ -31,7 +31,6 @@ const FlatGabrys = () => (
               src={Gabrys}
               alt="Gospodarstwo Agroturystyczne GABRYŚ"
             />
-
             <div class="post-content">
               <p class="description">
                 Gospodarstwo Agroturystyczne znajdujące się nad Jeziorem Blanki
@@ -43,18 +42,18 @@ const FlatGabrys = () => (
                 wyjechać.
               </p>
               <p class="contact">
-                <AddressIcon /> Suryty 9, 11-100 Lidzbark Warmiński | <PhoneIcon /> +48 501 642
-                195
+                <AddressIcon /> Suryty 9, 11-100 Lidzbark Warmiński |{" "}
+                <PhoneIcon /> +48 501 642 195
               </p>
-
               <p class="source"> Źródło: http://gabrys.lidzbark.com/ </p>
-              <ButtonBackFlat />
+              <div style={{ display: "flex", justifyContent: "right" }}>
+                <ButtonBackFlat />
+              </div>
             </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

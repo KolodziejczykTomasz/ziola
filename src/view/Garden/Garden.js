@@ -20,12 +20,11 @@ const Garden = () => (
     <Header />
     <Grid>
       <Grid.Column mobile={16} tablet={16} computer={12}>
-        <Grid.Row>
+       <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div className={styles.postHeader}>
-                <h2 className={styles.postHeaderTitle}>
-                  Ogród Ziołowy</h2>
+                <h2 className={styles.postHeaderTitle}>Ogród Ziołowy</h2>
               </div>
             </Segment>
             <div className={styles.post}>
@@ -47,18 +46,18 @@ const Garden = () => (
                 czarnego.
               </p>
             </div>
+          </Segment>
+          <Segment>
             <Segment>
               <div class="text-center post-header">
                 <h2 class="post-title">Galeria</h2>
               </div>
             </Segment>
-            <Segment>
-              <GalleryGarden />
-            </Segment>
+            <GalleryGarden />
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4} only='computer'>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
         <AsideHerbs />

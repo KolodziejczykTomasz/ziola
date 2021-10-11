@@ -14,7 +14,7 @@ const rodo = () => (
 
     <Grid>
       <Grid.Column mobile={16} tablet={16} computer={12}>
-        <Grid.Row>
+       <Grid.Row style={{ padding: "0 30px" }}>
           <Segment className={styles.wrapper}>
             <Segment className={styles.post}>
               <Segment className={styles.postHeader}>

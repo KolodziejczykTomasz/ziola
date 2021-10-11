@@ -36,8 +36,8 @@ const Activity = () => (
 
     <Grid>
       <Grid.Column mobile={16} tablet={16} computer={12}>
-        <Grid.Row>
-          <Segment className={styles.wrapper}>
+       <Grid.Row style={{ padding: "0 30px" }}>
+          
             <Segment className={styles.post}>
               <div className={styles.postHeader}>
                 <h2 className={styles.postHeaderTitle}>
@@ -47,6 +47,7 @@ const Activity = () => (
                   src={Dzialajlokalnie}
                   alt="Logo Działaj Lokalnie"
                   className={styles.logoLokalnie}
+                  style={{width: "80%"}}
                 />
               </div>
               <div className={styles.postDescritpion}>
@@ -374,7 +375,11 @@ const Activity = () => (
                   zielarskiej we wsi Blanki przygotowanej przez Stowarzyszenie
                   &bdquo;Babki Zielarki&rdquo;.
                 </p>
-                <img src={Rhede} alt="Wizyta z Rhede" className={styles.singleImg}/>
+                <img
+                  src={Rhede}
+                  alt="Wizyta z Rhede"
+                  className={styles.singleImg}
+                />
                 &nbsp;
                 <span className={styles.source}>
                   Tekst/Foto: gminalidzbark.com
@@ -517,12 +522,11 @@ const Activity = () => (
                 <span className={styles.source}>
                   Tekst/Foto: gminalidzbark.com
                 </span>
-              </div>
-            </Segment>
+              </div>        
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4} only='computer'>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

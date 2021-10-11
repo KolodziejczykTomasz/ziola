@@ -15,7 +15,7 @@ const History = () => (
     <Header />
     <Grid>
       <Grid.Column mobile={16} tablet={16} computer={12}>
-        <Grid.Row>
+       <Grid.Row style={{ padding: "0 30px" }}>
           <Segment className={styles.wrapper}>
             <Segment>
               <div className={styles.postHeader}>
@@ -26,11 +26,7 @@ const History = () => (
             </Segment>
             <div className={styles.post}>
               <div className={styles.postDescritpion}>
-                <img
-                  src={Logo}
-                  alt="Babki Zielarki"
-                  className={styles.photo}
-                />
+                <img src={Logo} alt="Babki Zielarki" className={styles.photo} />
 
                 <p className={styles.postDescritpionText}>
                   Pomysł na założenie Stowarzyszenia „Babki Zielarki” zrodził
@@ -64,7 +60,7 @@ const History = () => (
         </Grid.Row>
       </Grid.Column>
 
-      <Grid.Column width={4} only='computer'>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
         <AsideHerbs />

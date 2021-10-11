@@ -17,8 +17,8 @@ const HerbsRokitnik = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
-        <Grid.Row>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
+        <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div class="text-center post-header">
@@ -27,8 +27,8 @@ const HerbsRokitnik = () => (
             </Segment>
 
             <div class="post-preview">
-              <img 
-              class="Logo"
+              <img
+                class="Logo"
                 src={Rokitnik}
                 alt="Rokitnik (łac. Hippophaë rhamnoides) "
               />
@@ -54,7 +54,7 @@ const HerbsRokitnik = () => (
                 i E oraz sterole roślinne obniżają poziom "złego" cholesterolu
                 LDL, który doprowadza do zmian miażdżycowych, a dalej do
                 schorzeń, takich jak, m.in. choroba wieńcowa (niedokrwienna
-                serca), udar mózgu i zawał serca. Ponadto udowodniono, że sam
+                serca), uda r mózgu i zawał serca. Ponadto udowodnio no, że sam
                 kwas askorbinowy obniża ciśnienie krwi. Zawiera ponad 190
                 bioaktywnych substancji, które pozytywnie wpływają na zdrowie.
                 Wśród nich znajdują się antyoksydanty, flawonoidy, aminokwasy, a
@@ -64,12 +64,14 @@ const HerbsRokitnik = () => (
                 leczniczych i pielęgnacyjnych wykorzystuje się owoce rokitnika,
                 liście, a także olej z pulpy owoców lub nasion rokitnika.
               </p>
-              <ButtonBack />
+              <div style={{ display: "flex", justifyContent: "right" }}>
+                <ButtonBack />
+              </div>
             </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

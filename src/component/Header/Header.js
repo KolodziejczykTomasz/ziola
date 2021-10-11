@@ -7,7 +7,7 @@ import styles from "./Header.module.scss";
 const Header = () => (
   <>
     <div className={styles.wrapper}>
-      <img className={styles.wrapperimg} src={Logo} alt="Logo" />
+      <img className={styles.wrapperimg} src={Logo} alt="Logo Stowarzyszenia" />
     </div>
     <div>
       <Navigation />

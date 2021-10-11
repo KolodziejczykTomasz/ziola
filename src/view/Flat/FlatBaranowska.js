@@ -19,8 +19,8 @@ const FlatBaranowska = () => (
   <>
     <Header />
     <Grid>
-      <Grid.Column width={12}>
-        <Grid.Row>
+      <Grid.Column mobile={16} tablet={16} computer={12}>
+        <Grid.Row style={{ padding: "0 30px" }}>
           <Segment>
             <Segment>
               <div class="text-center post-header">
@@ -28,7 +28,6 @@ const FlatBaranowska = () => (
               </div>
             </Segment>
             <img class="Logo" src={Baranowska} alt="Agroturystyka Mario" />
-
             <div class="post-content">
               <p class="description">
                 Gospodarstwo Agroturystyczne „Mario” znajduje się 13 km od
@@ -40,17 +39,19 @@ const FlatBaranowska = () => (
                 wymarzone miejsce na odpoczynek od codziennego życia w biegu.
               </p>
               <p class="contact">
-                <AddressIcon/> Teresa Baranowska Suryty 16, 11-100 Lidzbark Warmiński
-                | <PhoneIcon/> +48 662 113 470, (89) 766 17 28 | <EmailIcon/> suryty16@wp.pl
+                <AddressIcon /> Teresa Baranowska Suryty 16, 11-100 Lidzbark
+                Warmiński | <PhoneIcon /> +48 662 113 470, (89) 766 17 28 |{" "}
+                <EmailIcon /> suryty16@wp.pl
               </p>
-
               <p class="source">Źródło: http://www.suryty16.pl </p>
-              <ButtonBackFlat />
+              <div style={{ display: "flex", justifyContent: "right" }}>
+                <ButtonBackFlat />
+              </div>
             </div>
           </Segment>
         </Grid.Row>
       </Grid.Column>
-      <Grid.Column width={4}>
+      <Grid.Column width={4} only="computer">
         <AsideAbout />
         <AsideSocial />
       </Grid.Column>

@@ -23,11 +23,11 @@ const Navigation = props => {
 
   return (
     <div className={styles.wrapper}>
-      <Navbar color="light" light expand="md">
+      <Navbar expand="md" className="navbar" color="faded" light>
         <NavbarBrand href="/" className={styles.logobox}>
           <img src={Logo} alt="Logo Stowarzyszenia" />
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle} mr-2 />
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar className={styles.topnav}>
             <Nav navbar className={styles.navigationmenu}>
