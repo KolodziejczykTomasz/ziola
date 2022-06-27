@@ -1,10 +1,20 @@
 import Zioła2018 from "../assets/images/home/FZ2018.jpg";
 import Zioła2019 from "../assets/images/home/FZ2019.JPG";
+import Ziola2022 from "../assets/images/news/ziola_2022_3.jpg";
 import Dożynki from "../assets/images/home/doz2019.JPG";
 import Forum from "../assets/images/home/forum2019.jpg";
 import Dziennikarze from "../assets/images/home/dziennikarze2019.jpg";
 
 const newsHomepage = [
+  {
+    src: Ziola2022,
+    title: "V Festyn Ziół w Blankach",
+    text1: "",
+    text2: "",
+    text3: "",
+    text4: "",
+    text5: "",
+  },
   {
     src: Dziennikarze,
     title: "Dziennikarze odwiedzili Blanki",
@@ -14,8 +24,10 @@ const newsHomepage = [
       "Celem projektu była promocja atrakcji turystycznych oraz potencjału gospodarczego Warmii. W wizycie wzięli udział przedstawiciele mediów ogólnopolskich takich jak: Onet.pl, Weranda Country, Życie na Gorąco, Radio Czwórka, Świat i ludzie, Dobry Tydzień, Kropka TV, Poznaj Świat i inne. Oprócz takich miejscowości jak Olsztyn, Gietrzwałd, Lidzbark Warmiński dziennikarze zawitali również do gminy Lidzbark Warmiński do wsi Blanki. ",
     text3:
       "Zainteresowanie tematyką ziół było bardzo duże. Przedstawicielki Stowarzyszenia „Babki Zielarki”: Jolanta Wiącek – Prezes Stowarzyszenia, Lucja Kuczyńska i Anna Pacanowska z wielkim zaangażowaniem opowiadały jak stworzyły stowarzyszenie i jak działają na rzecz promocji ziół, wsi i gminy Lidzbark Warmiński. ",
-    text4: "Oprócz wiedzy teoretycznej przedstawiciele mediów mogli zobaczyć jak tworzy się np. nalewkę miętowa i poznać na nią przepis, a także na własne oczy zobaczyć uprawiane zioła, dotknąć ich i posmakować. Nie obyło się bez degustacji. Goście do wyboru mieli m.in. zupę z pokrzywy, pierogi z marchewką, naleśniki z pokrzywą, dżem z rabarbarem i miętą.",
-    text5: "Na koniec wizyty dziennikarze spędzili chwilę relaksu nad jeziorem Blanki."
+    text4:
+      "Oprócz wiedzy teoretycznej przedstawiciele mediów mogli zobaczyć jak tworzy się np. nalewkę miętowa i poznać na nią przepis, a także na własne oczy zobaczyć uprawiane zioła, dotknąć ich i posmakować. Nie obyło się bez degustacji. Goście do wyboru mieli m.in. zupę z pokrzywy, pierogi z marchewką, naleśniki z pokrzywą, dżem z rabarbarem i miętą.",
+    text5:
+      "Na koniec wizyty dziennikarze spędzili chwilę relaksu nad jeziorem Blanki.",
   },
   {
     src: Forum,
@@ -27,7 +39,7 @@ const newsHomepage = [
     text3:
       "Babki Zielarki prezentowały mocne strony zielarskiej wsi, w tym zrealizowane inwestycje. Opowiadały o ziołach, które rosną wokół nas i ich wykorzystaniu w codziennym życiu. Goście mogli spróbować niespotykanych potraw z pokrzywą oraz ziołowych syropów.",
     text4: null,
-    text5: null
+    text5: null,
   },
   {
     src: Dożynki,
@@ -39,7 +51,7 @@ const newsHomepage = [
     text3:
       "W trakcie święta plonów Babki Zielarki miały okazję porozmawiać z parą prezydencką Andrzejem Dudą i Agatą Kornhanuser-Dudą, a także z ministrem rolnictwa Janem Krzysztofem Ardanowskim.",
     text4: null,
-    text5: null
+    text5: null,
   },
   {
     src: Zioła2019,
@@ -53,7 +65,7 @@ const newsHomepage = [
     text4:
       "Podczas imprezy rozstrzygnięto ziołowe konkursy: na nalewkę, bukiet, michę i lekarstwo.Festiwal był doskonałą okazją do sprawdzenia swoich sił podczas warsztatów zielarskich, wyrobu świec i papieru czerpanego. Festiwal zakończono zabawa taneczną.",
     text5:
-      "Organizatorami było Stowarzyszenie „Babki Zielarki”, Gmina Lidzbark Warmiński oraz Gminny Ośrodek Kultury i Sportu w Pilniku. Wydarzenie sfinansowano ze środków Samorządu Województwa Warmińsko – Mazurskiego."
+      "Organizatorami było Stowarzyszenie „Babki Zielarki”, Gmina Lidzbark Warmiński oraz Gminny Ośrodek Kultury i Sportu w Pilniku. Wydarzenie sfinansowano ze środków Samorządu Województwa Warmińsko – Mazurskiego.",
   },
   {
     src: Zioła2018,
@@ -65,8 +77,8 @@ const newsHomepage = [
     text3:
       "Festyn ten nie odbyłby się gdyby nie wsparcie finansowe samorządu województwa warmińsko-mazurskiego. Dzięki pozyskanemu dofinansowaniu można było zobaczyć na scenie tak wspaniały zespół, jakim jest „Czerwony Tulipan”.",
     text4: null,
-    text5: null
-  }
+    text5: null,
+  },
 ];
 
 export default newsHomepage;
