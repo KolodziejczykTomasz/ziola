@@ -4,8 +4,124 @@ import Ziola2022 from "../assets/images/news/ziola_2022_3.jpg";
 import Dożynki from "../assets/images/home/doz2019.JPG";
 import Forum from "../assets/images/home/forum2019.jpg";
 import Dziennikarze from "../assets/images/home/dziennikarze2019.jpg";
+import ziola_2022_1 from "../assets/images/ziola2022/ziola2022 (1).jpg";
+import ziola_2022_2 from "../assets/images/ziola2022/ziola2022 (2).jpg";
+import ziola_2022_3 from "../assets/images/ziola2022/ziola2022 (3).jpg";
+import ziola_2022_4 from "../assets/images/ziola2022/ziola2022 (4).jpg";
+import ziola_2022_5 from "../assets/images/ziola2022/ziola2022 (5).jpg";
+import ziola_2022_6 from "../assets/images/ziola2022/ziola2022 (6).jpg";
+import ziola_2022_7 from "../assets/images/ziola2022/ziola2022 (7).jpg";
+import ziola_2022_8 from "../assets/images/ziola2022/ziola2022 (8).jpg";
+import ziola_2022_9 from "../assets/images/ziola2022/ziola2022 (9).jpg";
+import ziola_2022_10 from "../assets/images/ziola2022/ziola2022 (10).jpg";
+import ziola_2022_11 from "../assets/images/ziola2022/ziola2022 (11).jpg";
+import ziola_2022_12 from "../assets/images/ziola2022/ziola2022 (12).jpg";
+import ziola_2022_13 from "../assets/images/ziola2022/ziola2022 (13).jpg";
+import ziola_2022_14 from "../assets/images/ziola2022/ziola2022 (14).jpg";
+import ziola_2022_15 from "../assets/images/ziola2022/ziola2022 (15).jpg";
+import ziola_2022_16 from "../assets/images/ziola2022/ziola2022 (16).jpg";
+import ziola_2022_17 from "../assets/images/ziola2022/ziola2022 (17).jpg";
+import ziola_2022_18 from "../assets/images/ziola2022/ziola2022 (18).jpg";
+import ziola_2022_19 from "../assets/images/ziola2022/ziola2022 (19).jpg";
+import ziola_2022_20 from "../assets/images/ziola2022/ziola2022 (20).jpg";
 
 const newsHomepage = [
+  {
+    src: ziola_2022_1,
+    title: "Odbył się V Festiwal Ziół",
+    text1:
+      "O tym skąd wziął się pomysł na Zielarską Wieś Blanki, o mocy ziół i ich zastosowaniu, w sobotę 25 maja br.  mogła dowiedzieć się grupa dziennikarzy,  która przybyła na wizytę  studyjną w ramach projektu realizowanego przez Stowarzyszenie „Dom Warmiński”. ",
+    text2:
+      "Celem projektu była promocja atrakcji turystycznych oraz potencjału gospodarczego Warmii. W wizycie wzięli udział przedstawiciele mediów ogólnopolskich takich jak: Onet.pl, Weranda Country, Życie na Gorąco, Radio Czwórka, Świat i ludzie, Dobry Tydzień, Kropka TV, Poznaj Świat i inne. Oprócz takich miejscowości jak Olsztyn, Gietrzwałd, Lidzbark Warmiński dziennikarze zawitali również do gminy Lidzbark Warmiński do wsi Blanki. ",
+    text3:
+      "Zainteresowanie tematyką ziół było bardzo duże. Przedstawicielki Stowarzyszenia „Babki Zielarki”: Jolanta Wiącek – Prezes Stowarzyszenia, Lucja Kuczyńska i Anna Pacanowska z wielkim zaangażowaniem opowiadały jak stworzyły stowarzyszenie i jak działają na rzecz promocji ziół, wsi i gminy Lidzbark Warmiński. ",
+    text4:
+      "Oprócz wiedzy teoretycznej przedstawiciele mediów mogli zobaczyć jak tworzy się np. nalewkę miętowa i poznać na nią przepis, a także na własne oczy zobaczyć uprawiane zioła, dotknąć ich i posmakować. Nie obyło się bez degustacji. Goście do wyboru mieli m.in. zupę z pokrzywy, pierogi z marchewką, naleśniki z pokrzywą, dżem z rabarbarem i miętą.",
+    text5:
+      "Na koniec wizyty dziennikarze spędzili chwilę relaksu nad jeziorem Blanki.",
+    gallery: [
+      {
+        id: 1,
+        src: ziola_2022_1,
+      },
+      {
+        id: 2,
+        src: ziola_2022_2,
+      },
+      {
+        id: 3,
+        src: ziola_2022_3,
+      },
+      {
+        id: 4,
+        src: ziola_2022_4,
+      },
+      {
+        id: 5,
+        src: ziola_2022_5,
+      },
+      {
+        id: 6,
+        src: ziola_2022_6,
+      },
+      {
+        id: 7,
+        src: ziola_2022_7,
+      },
+      {
+        id: 8,
+        src: ziola_2022_8,
+      },
+      {
+        id: 9,
+        src: ziola_2022_9,
+      },
+      {
+        id: 10,
+        src: ziola_2022_10,
+      },
+      {
+        id: 11,
+        src: ziola_2022_11,
+      },
+      {
+        id: 12,
+        src: ziola_2022_12,
+      },
+      {
+        id: 13,
+        src: ziola_2022_13,
+      },
+      {
+        id: 14,
+        src: ziola_2022_14,
+      },
+      {
+        id: 15,
+        src: ziola_2022_15,
+      },
+      {
+        id: 16,
+        src: ziola_2022_16,
+      },
+      {
+        id: 17,
+        src: ziola_2022_17,
+      },
+      {
+        id: 18,
+        src: ziola_2022_18,
+      },
+      {
+        id: 19,
+        src: ziola_2022_19,
+      },
+      {
+        id: 20,
+        src: ziola_2022_20,
+      },
+    ],
+  },
   {
     src: Ziola2022,
     title: "V Festyn Ziół w Blankach",
@@ -18,16 +134,11 @@ const newsHomepage = [
   {
     src: Dziennikarze,
     title: "Dziennikarze odwiedzili Blanki",
-    text1:
-      "O tym skąd wziął się pomysł na Zielarską Wieś Blanki, o mocy ziół i ich zastosowaniu, w sobotę 25 maja br.  mogła dowiedzieć się grupa dziennikarzy,  która przybyła na wizytę  studyjną w ramach projektu realizowanego przez Stowarzyszenie „Dom Warmiński”. ",
-    text2:
-      "Celem projektu była promocja atrakcji turystycznych oraz potencjału gospodarczego Warmii. W wizycie wzięli udział przedstawiciele mediów ogólnopolskich takich jak: Onet.pl, Weranda Country, Życie na Gorąco, Radio Czwórka, Świat i ludzie, Dobry Tydzień, Kropka TV, Poznaj Świat i inne. Oprócz takich miejscowości jak Olsztyn, Gietrzwałd, Lidzbark Warmiński dziennikarze zawitali również do gminy Lidzbark Warmiński do wsi Blanki. ",
-    text3:
-      "Zainteresowanie tematyką ziół było bardzo duże. Przedstawicielki Stowarzyszenia „Babki Zielarki”: Jolanta Wiącek – Prezes Stowarzyszenia, Lucja Kuczyńska i Anna Pacanowska z wielkim zaangażowaniem opowiadały jak stworzyły stowarzyszenie i jak działają na rzecz promocji ziół, wsi i gminy Lidzbark Warmiński. ",
-    text4:
-      "Oprócz wiedzy teoretycznej przedstawiciele mediów mogli zobaczyć jak tworzy się np. nalewkę miętowa i poznać na nią przepis, a także na własne oczy zobaczyć uprawiane zioła, dotknąć ich i posmakować. Nie obyło się bez degustacji. Goście do wyboru mieli m.in. zupę z pokrzywy, pierogi z marchewką, naleśniki z pokrzywą, dżem z rabarbarem i miętą.",
-    text5:
-      "Na koniec wizyty dziennikarze spędzili chwilę relaksu nad jeziorem Blanki.",
+    text1: "",
+    text2: "",
+    text3: "",
+    text4: "",
+    text5: "",
   },
   {
     src: Forum,

@@ -7,7 +7,7 @@ import styles from "./List.module.scss";
 
 const List = () => (
   <div className={styles.wrapper}>
-    {items.map(item => (
+    {items.map((item) => (
       <ListItem key={item.title} {...item} />
     ))}
   </div>
