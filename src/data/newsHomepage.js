@@ -24,8 +24,33 @@ import ziola_2022_17 from "../assets/images/ziola2022/ziola2022 (17).jpg";
 import ziola_2022_18 from "../assets/images/ziola2022/ziola2022 (18).jpg";
 import ziola_2022_19 from "../assets/images/ziola2022/ziola2022 (19).jpg";
 import ziola_2022_20 from "../assets/images/ziola2022/ziola2022 (20).jpg";
+import ziola_2023 from "../assets/images/news/ziola_2023.jpg";
 
 const newsHomepage = [
+  {
+    src: ziola_2023,
+    title: "VI Festiwal Ziół Blanki ziołami pachnące",
+    text1:
+      "Jak pachnie świeża szałwia? Czym smakuje mięta czekoladowa? Czy ogród może leczyć?", 
+    text2:
+      "Już 25 czerwca (niedziela) – zapraszamy na VI Festiwal Ziół w Zielarskiej Wsi Blanki w Gminie Wiejskiej Lidzbark Warmiński. O niezwykłej mocy ziół przekonywać będą Panie ze Stowarzyszenia „Babki Zielarki” – współorganizatorki festiwalu, które przygotują prezentacje wyrobów z ziół oraz poprowadzą warsztaty, których tematem przewodnim będzie zupa z pokrzywy. Wspomnijmy, że wydarzenie poprowadzi znany dziennikarz, piosenkarz, lider zespołu Partita – Andrzej Frajndt. Podczas festiwalu, oprócz rozstrzygnięcia konkursu kulinarnego „Ziołowa potrawa”, odbędą się konkursy dla publiczności m.in. konkurs „Poznaj zioła po zapachu”. Zapraszamy również na panel ze specjalistą dotyczący hortiterapii czyli leczenia ogrodem, dzięki któremu dowiemy się jak spędzanie czasu w ogrodzie i obcowanie z naturą wpływa na zdrowie psychiczne i fizyczne człowieka. Nie zabraknie występów artystycznych i animacji dla dzieci. Na mini jarmarku będzie można zakupić wyroby rękodzieln ",
+    text3:
+      "Podsumowaniem wydarzenia będzie koncert muzyczny i zabawa pod gwiazdami do godzin wieczornych. Festiwal rozpocznie się mszą św. o godz. 13.00 w kościele p.w. Świętego Michała Archanioła w Blankach. Po mszy nastąpi przemarsz na plac i oficjalne otwarcie festiwalu. Wspomnijmy również, że o godz. 12.00 nastąpi uroczyste otwarcie nowo wybudowanej Stacji Uzdatniania Wody w Blankach.",
+    text4:
+      "Organizatorami festiwalu jest Stowarzyszenie „Babki Zielarki” www.zielarskawiesblanki.pl, Urząd Gminy Lidzbark Warmiński oraz Gminne Centrum Kultury w Pilniku. Będzie ziołowo, ekologicznie, klimatycznie!",
+    text5:
+      "Zadanie współfinansowane ze środków Samorządu Województwa Warmińsko-Mazurskiego. Partnerzy: Krajowy Ośrodek Wsparcia Rolnictwa, Związek Gmin Warmińsko-Mazurskich, Restauracja Knajpucha Blanki. Patronat medialny nad wydarzeniem objęli: Radio Olsztyn, Gazeta Olsztyńska i Gazeta Lidzbarska.",
+    gallery: [],
+  },
+  {
+    src: Ziola2022,
+    title: "V Festyn Ziół w Blankach",
+    text1: "",
+    text2: "",
+    text3: "",
+    text4: "",
+    text5: "",
+  },
   {
     src: ziola_2022_1,
     title: "Odbył się V Festiwal Ziół",

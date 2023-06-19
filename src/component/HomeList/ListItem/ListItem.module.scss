@@ -40,9 +40,17 @@ p {
     display: block;
     max-height: 500px;
     max-width: 500px;
-    width: 90%;
+    width: auto;
     height: auto;
     margin: 40px auto;
     border-radius: 2%;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
+}
+
+.postImage:hover {
+    transform: scale(1.5);
+    width: auto;
+    height: auto;
 }

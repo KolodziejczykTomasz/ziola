@@ -46,7 +46,7 @@ const Footer = () => (
         </div>
         <div>
           Webside developed by
-          <span style={{ color: "#d2ad36", fontWeight: 600 }}> NETTOM</span>
+          <span style={{ color: "#d2ad36", fontWeight: 600 }}> <a style={{ color: "orange", fontWeight: 600, marginLeft: "-20px" }} href="https://www.nettom24.com" target="_blank" rel="noopener noreferrer">NETTOM24</a></span>
         </div>
       </div>
     </Segment>
