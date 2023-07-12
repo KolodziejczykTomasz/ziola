@@ -25,8 +25,74 @@ import ziola_2022_18 from "../assets/images/ziola2022/ziola2022 (18).jpg";
 import ziola_2022_19 from "../assets/images/ziola2022/ziola2022 (19).jpg";
 import ziola_2022_20 from "../assets/images/ziola2022/ziola2022 (20).jpg";
 import ziola_2023 from "../assets/images/news/ziola_2023.jpg";
+import ziola_2023_1 from "../assets/images/ziola2023/z2023_1.JPG";
+import ziola_2023_2 from "../assets/images/ziola2023/z2023_2.JPG";
+import ziola_2023_3 from "../assets/images/ziola2023/z2023_3.JPG";
+import ziola_2023_4 from "../assets/images/ziola2023/z2023_4.JPG";
+import ziola_2023_5 from "../assets/images/ziola2023/z2023_5.JPG";
+import ziola_2023_6 from "../assets/images/ziola2023/z2023_6.JPG";
+import ziola_2023_7 from "../assets/images/ziola2023/z2023_7.JPG";
+import ziola_2023_8 from "../assets/images/ziola2023/z2023_8.JPG";
+import ziola_2023_9 from "../assets/images/ziola2023/z2023_9.JPG";
+import ziola_2023_10 from "../assets/images/ziola2023/z2023_10.JPG";
+import ziola_2023_11 from "../assets/images/ziola2023/z2023_11.jpg";
 
 const newsHomepage = [
+  {
+    src: ziola_2023_1,
+    title: "VI Festiwal Ziół w Blankach - relacja",
+    text1: "W Zielarskiej Wsi Blanki, w niedzielę 25 czerwca 2023 r., odbył się VI Festiwal Ziół.",
+    text2: "Na placu przy świetlicy wiejskiej oficjalnie rozpoczęto VI Festiwal Ziół w Blankach, który jest niezwykle barwnym i aromatycznym wydarzeniem promującym gminę Lidzbark Warmiński poprzez zielarstwo i ekologię.",
+    text3: "Na scenie zaprezentowały się zespoły taneczne i muzyczne m.in. Zespół Tańca Ludowego Perła Warmii, Blask Reaktywacja, uczestnicy pracowni wokalnej Gminnego Centrum Kultury w Pilniku, Reprezentacyjna Orkiestra Dęta Gminy Lidzbark Warmiński, Zespół Ludowy Furman z Kraszewa, Kapela Ludowa Rogóżanie, Zespół Elektroniczni z Centrum Rozpoznania i Wsparcia Walki Radioelektronicznej Lidzbark Warmiński oraz zespół muzyczny Silver.",
+    text4: "Każdy mógł skosztować syropów z miejscowych ziół oraz zupy z pokrzywy przygotowanej przez Babki Zielarki. Zainteresowaniem cieszyły się usługi zielarskie m.in. wachlowanie ziołem czy chłostanie pokrzywą. Babka Zielarka polecała również dodatkowe usługi: wałkowanie niedobrych chłopów, loty na miotle, drapanie pleców i masaż mózgu.",
+    text5: "Podczas festiwalu odbył się panel dyskusyjny z prekursorką hortiterapii Beatą Płoszaj – Witkowską, która opowiedziała w jaki sposób zorganizować przestrzeń w ogrodzie, żeby miał on na nas pozytywny wpływ w tych trudnych i dynamicznych czasach. Nie zabrakło również mini jarmarku, gdzie można było kupić wyroby rękodzielników oraz dmuchańców i animacji dla dzieci. Organizatorami festiwalu było Stowarzyszenie „Babki Zielarki”, Urząd Gminy Lidzbark Warmiński oraz Gminne Centrum Kultury w Pilniku. (Tekst/Foto: gminalidzbark.com)",
+    gallery: [
+      {
+        id: 1,
+        src: ziola_2023_1,
+      },
+      {
+        id: 2,
+        src: ziola_2023_2,
+      },
+      {
+        id: 3,
+        src: ziola_2023_3,
+      },
+      {
+        id: 4,
+        src: ziola_2023_4,
+      },
+      {
+        id: 5,
+        src: ziola_2023_5,
+      },
+      {
+        id: 6,
+        src: ziola_2023_6,
+      },
+      {
+        id: 7,
+        src: ziola_2023_7,
+      },
+      {
+        id: 8,
+        src: ziola_2023_8,
+      },
+      {
+        id: 9,
+        src: ziola_2023_9,
+      },
+      {
+        id: 10,
+        src: ziola_2023_10,
+      },
+      {
+        id: 11,
+        src: ziola_2023_11,
+      },      
+    ],
+  },  
   {
     src: ziola_2023,
     title: "VI Festiwal Ziół Blanki ziołami pachnące",

@@ -1,9 +1,10 @@
 import React from "react";
 import { Divider, Segment } from "semantic-ui-react";
 import PostIcon from "../../Icon/Post/PostIcon";
-//import ListItemGallery from "../ListItem/ListItemGallery";
+
 
 import styles from "./ListItem.module.scss";
+
 
 const ListItem = ({
   title,
@@ -30,7 +31,10 @@ const ListItem = ({
           <p className={styles.descriptionText}>{text4}</p>
           <p className={styles.descriptionText}>{text5}</p>
         </div>
-        <div></div>
+        <div>
+      
+     
+        </div>
       </div>
     </Segment>
   );
