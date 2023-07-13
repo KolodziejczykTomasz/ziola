@@ -2,7 +2,6 @@ import React from "react";
 import { Divider, Segment } from "semantic-ui-react";
 import PostIcon from "../../Icon/Post/PostIcon";
 
-
 import styles from "./ListItem.module.scss";
 
 
@@ -14,10 +13,12 @@ const ListItem = ({
   text3,
   text4,
   text5,
-  gallery,
-}) => {
-  return (
-    <Segment key={title} className={styles.wrapper}>
+  gallery
+}) => { 
+
+  
+ return (
+    <Segment className={styles.wrapper}>
       <div className={styles.post}>
         <div className={styles.postHeader}>
           <PostIcon /> <h3 className={styles.postHeaderTitle}>{title} </h3>
@@ -29,15 +30,13 @@ const ListItem = ({
           <p className={styles.descriptionText}>{text2}</p>
           <p className={styles.descriptionText}>{text3}</p>
           <p className={styles.descriptionText}>{text4}</p>
-          <p className={styles.descriptionText}>{text5}</p>
-        </div>
-        <div>
-      
-     
-        </div>
+          <p className={styles.descriptionText}>{text5}</p>         
+        </div>       
       </div>
-    </Segment>
+    </Segment>  
   );
 };
 
 export default ListItem;
+
+

@@ -14,7 +14,6 @@ import {
 } from "reactstrap";
 
 import Logo from "../../../assets/images/logo/logoStowMin.jpg";
-
 import styles from "./Navigation.module.scss";
 
 const Navigation = props => {
@@ -27,7 +26,7 @@ const Navigation = props => {
         <NavbarBrand href="/" className={styles.logobox}>
           <img src={Logo} alt="Logo Stowarzyszenia" />
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} mr-2 />
+        <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar className={styles.topnav}>
             <Nav navbar className={styles.navigationmenu}>
@@ -136,7 +135,7 @@ const Navigation = props => {
                 </Link>
               </NavItem>
             </Nav>
-          </Nav>{" "}
+          </Nav>
         </Collapse>
       </Navbar>
     </div>

@@ -5,10 +5,11 @@ import footerBarData from "../../../data/footerBarData";
 import styles from "../footerBar/FooterBar.module.scss";
 
 const FooterBar = () => {
-  const imageBar = footerBarData.map((item) => {
+
+  const imageBar = footerBarData.map((item, index) => {
     return (
-      <div className={styles.wrapper}>
-        <li key={item.altText}>
+      <div className={styles.wrapper} key={index}>
+        <li>
           <img
             className={styles.wrapperimages}
             src={item.src}

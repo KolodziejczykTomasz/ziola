@@ -4,7 +4,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import photosHerbs from '../../data/galleryHerbs';
 
 const GalleryHerbs = () => {
-    const [currentImage, setCurrentImage] = useState(0);
+  const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const openLightbox = useCallback((event, { photo, index }) => {
