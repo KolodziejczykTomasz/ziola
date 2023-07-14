@@ -116,6 +116,7 @@ const newsHomepage = [
     text3: "",
     text4: "",
     text5: "",
+    gallery: [],
   },
   {
     src: ziola_2022_1,
@@ -221,6 +222,7 @@ const newsHomepage = [
     text3: "",
     text4: "",
     text5: "",
+    gallery: [],
   },
   {
     src: Dziennikarze,
@@ -230,6 +232,7 @@ const newsHomepage = [
     text3: "",
     text4: "",
     text5: "",
+    gallery: [],
   },
   {
     src: Forum,
@@ -242,6 +245,7 @@ const newsHomepage = [
       "Babki Zielarki prezentowały mocne strony zielarskiej wsi, w tym zrealizowane inwestycje. Opowiadały o ziołach, które rosną wokół nas i ich wykorzystaniu w codziennym życiu. Goście mogli spróbować niespotykanych potraw z pokrzywą oraz ziołowych syropów.",
     text4: null,
     text5: null,
+    gallery: [],
   },
   {
     src: Dożynki,
@@ -254,6 +258,7 @@ const newsHomepage = [
       "W trakcie święta plonów Babki Zielarki miały okazję porozmawiać z parą prezydencką Andrzejem Dudą i Agatą Kornhanuser-Dudą, a także z ministrem rolnictwa Janem Krzysztofem Ardanowskim.",
     text4: null,
     text5: null,
+    gallery: [],
   },
   {
     src: Zioła2019,
@@ -268,7 +273,8 @@ const newsHomepage = [
       "Podczas imprezy rozstrzygnięto ziołowe konkursy: na nalewkę, bukiet, michę i lekarstwo.Festiwal był doskonałą okazją do sprawdzenia swoich sił podczas warsztatów zielarskich, wyrobu świec i papieru czerpanego. Festiwal zakończono zabawa taneczną.",
     text5:
       "Organizatorami było Stowarzyszenie „Babki Zielarki”, Gmina Lidzbark Warmiński oraz Gminny Ośrodek Kultury i Sportu w Pilniku. Wydarzenie sfinansowano ze środków Samorządu Województwa Warmińsko – Mazurskiego.",
-  },
+      gallery: [],
+    },
   {
     src: Zioła2018,
     title: "Festiwal Ziół 2018",
@@ -280,6 +286,7 @@ const newsHomepage = [
       "Festyn ten nie odbyłby się gdyby nie wsparcie finansowe samorządu województwa warmińsko-mazurskiego. Dzięki pozyskanemu dofinansowaniu można było zobaczyć na scenie tak wspaniały zespół, jakim jest „Czerwony Tulipan”.",
     text4: null,
     text5: null,
+    gallery: [],
   },
 ];
 

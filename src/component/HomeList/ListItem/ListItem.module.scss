@@ -45,12 +45,36 @@ p {
     margin: 40px auto;
     border-radius: 2%;
     cursor: pointer;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: .2s;
     box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
 }
 
 .postImage:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     width: auto;
     height: auto;
+}
+
+.galleryWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    z-index: 0;
+}
+
+.galleryItemPhoto {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px;
+    transition: .2s; 
+}
+
+.galleryItemPhoto:hover {
+    display: block;
+    transform: scale(1.6);
+    width: auto;
+    height: auto;
+    z-index: 999;
+    position: absolute;
 }
