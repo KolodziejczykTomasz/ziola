@@ -1,7 +1,6 @@
 import React from "react";
-import { Divider, Segment } from "semantic-ui-react";
+import { Divider, Segment, Image} from "semantic-ui-react";
 import PostIcon from "../../Icon/Post/PostIcon";
-import { Image } from 'semantic-ui-react'
 import styles from "./ListItem.module.scss";
 
 
@@ -43,7 +42,7 @@ const ListItem = ({
 
           <div className={styles.gallery}> <p>______________ </p>
           <div className={styles.galleryWrapper}>
-          {dataItem.map((item, index) => <Image key={index} className={styles.galleryItemPhoto} src={item} alt='Ilustracja do tekstu'/>) }</div></div>
+          {dataItem.map((item, index) => <img key={index} className={styles.galleryItemPhoto} src={item} alt='Ilustracja do tekstu'/>) }</div></div>
           ) : null
         }
       
