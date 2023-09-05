@@ -30,11 +30,7 @@ const Home = () => (
                 <h2 className={styles.postHeaderTitle}>Babki Zielarki</h2>
               </div>
             </Segment>
-            <img
-              src={BabkiZielarki}
-              alt="Babki Zielarki"
-              className={styles.photo}
-            />
+           
             <div className={styles.description}>
               <p className={styles.descriptionText}>
                 Blanki słyną z produktów wytwarzanych na bazie ziół. „Babki
@@ -44,7 +40,12 @@ const Home = () => (
                 wyjątkowych nazwach są bez wątpienia flagowym produktem Blanek,
                 a wśród nowości polecana jest nalewka z rzewienia oraz z
                 dziewanny.
-              </p>
+              </p> 
+                <img
+                src={BabkiZielarki}
+                alt="Babki Zielarki"
+                className={styles.photo}
+              />
               <p className={styles.descriptionText}>
                 Na bazie naturalnych surowców powstają również niezwykłe dania i
                 wypieki np. zupa z pokrzywy, pierogi z kapustą i grzybami z
