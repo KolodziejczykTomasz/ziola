@@ -10,3 +10,15 @@
     margin: 0 auto;
   }
 }
+
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    &img {
+      display:none;
+    }
+  }
+}

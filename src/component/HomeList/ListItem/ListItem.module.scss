@@ -16,7 +16,7 @@ p {
 
 .postImage {
     display: block;
-    max-width: 600px;
+    max-width: 500px;    
     width: auto;    
     height: auto;
     max-height: 700px;
@@ -24,7 +24,7 @@ p {
     margin: 60px auto;
     border-radius: 2%;
     box-shadow: 15px 15px 15px rgba(83, 83, 83, 0.63);
-
+    cursor: pointer;
 }
 
 .postHeader {
@@ -49,8 +49,6 @@ p {
         display: flex;
     }
 }
-
-
 
 .galleryWrapper {
     display: grid;
@@ -78,6 +76,14 @@ p {
         grid-template-rows: repeat(1, 1fr);
         padding: 0 50px;
     }
+    .postImage {
+        display: block;
+        max-width: 80%;    
+        width: auto;    
+        height: auto;        
+        object-fit: cover;       
+    }
+    
   }
 .galleryItemPhoto {
     width: 100%;
