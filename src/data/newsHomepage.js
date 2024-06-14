@@ -36,8 +36,81 @@ import ziola_2023_8 from "../assets/images/ziola2023/z2023_8.JPG";
 import ziola_2023_9 from "../assets/images/ziola2023/z2023_9.JPG";
 import ziola_2023_10 from "../assets/images/ziola2023/z2023_10.JPG";
 import ziola_2023_11 from "../assets/images/ziola2023/z2023_11.jpg";
+import ziola_2024 from "../assets/images/ziola2024/festiwal_2024.jpg";
+import remont1 from "../assets/images/remont/remont1.jpg";
+import remont2 from "../assets/images/remont/remont2.jpg";
+import remont3 from "../assets/images/remont/remont3.jpg";
+import remont4 from "../assets/images/remont/remont4.jpg";
+import remont5 from "../assets/images/remont/remont5.jpg";
+import remont6 from "../assets/images/remont/remont6.jpg";
+import remont7 from "../assets/images/remont/remont7.jpg";
+import remont8 from "../assets/images/remont/remont8.jpg";
+import remont9 from "../assets/images/remont/remont9.jpg";
 
 const newsHomepage = [
+  {
+    src: remont1,
+    title: "Ziołowy zakątek na mapie Warmii - wieś Blanki",
+    text1: "Już 30 czerwca zapraszamy na VII Festiwal Ziół w Blankach! 🍀🎋🌿 ZIELARSKA WIEŚ BLANKI to miejsce wyjątkowe, szczególnie za sprawą swoich mieszkańców z pomysłem na swoje miejsce na ziemi.🫶",
+    text2: "Wokół świeżo oddanej po termomodernizacji świetlicy wiejskiej powstaje BAJKOWY ZIOŁOWY OGRÓD kuszący zapachami i barwami.🌸🌱🌼",
+    text3: "Ogród powstaje dzięki dofinansowaniu na realizację zadania pod nazwą 'Ziołowy zakątek na mapie Warmii - wieś Blanki' uzyskanemu przez Gminę Lidzbark Warmiński z konkursu 'Aktywna Wieś Warmii, Mazur i Powiśla', kwotą 12 500,00 zł Całkowita kwota zadania 25 000,00 zł. ",
+    text4: "Zapraszamy na Festiwal Ziół!",
+    text5: "W programie konkursy kulinarne, zabawy, występy artystyczne i wszystko w towarzystwie ziół. 🍀😀👍",
+    gallery: [
+      {
+        id: 1,
+        src: remont2,
+      },
+      {
+        id: 2,
+        src: remont3,
+      },
+      {
+        id: 3,
+        src: remont4,
+      },
+      {
+        id: 4,
+        src: remont5,
+      },
+      {
+        id: 5,
+        src: remont6,
+      },
+      {
+        id: 6,
+        src: remont7,
+      },
+      {
+        id: 7,
+        src: remont8,
+      },
+      {
+        id: 8,
+        src: remont9,
+      },
+    ],
+  },  
+  {
+    src: ziola_2024,
+    title: "Poznaj praktyczne zastosowanie ziół i ,,chwastów” rosnących obok Ciebie!",
+    text1: "Zielarska Wieś Blanki zaprasza wszystkich miłośników zielarstwa, przyrody, ekologii, naturalnych smaków i zapachów na ,,VII Festiwal Ziół”. Jak co roku odbędą się prezentacje wyrobów z ziół, warsztaty oraz konkursy o tematyce zielarskiej. Uczestnicy będą mieli okazję wziąć udział w warsztatach tworzenia eko-wianków z kwiatów i innych roślin czy warsztatach zupy pokrzywowej. Podczas tej edycji wydarzenia odbędzie się panel poświęcony roli zielarstwa w życiu dawnych Warmiaków oraz wierzeniom i magicznym właściwościom ziół, który poprowadzi dr hab. Stanisław Czachorowski, prof. Uniwersytetu Warmińsko–Mazurskiego na Wydziale Biologii i Biotechnologii w Olsztynie.",
+    text2: "W trakcie festiwalu, oprócz  konkursów dla publiczności,  rozstrzygnięte zostaną konkursy kulinarne „Ziołowy napój” i „Ziołowe pieczywo” - zachęcamy do zgłaszania się do ww. konkursów - termin mija 23 czerwca br. Na scenie zaprezentują się grupy artystyczne z regionu oraz zespoły ludowe, a także po raz pierwszy odbędą się występy grupy bębniarskiej. W ramach festiwalu będzie można odwiedzić jarmark z wyrobami lokalnych rzemieślników i stoiska z naturalnymi przetworami czy przyprawami. Na wszystkich uczestników festiwalu będą czekały różnorodne atrakcje, w tym strefa animacji dla najmłodszych. Wydarzenie zwieńczy koncert muzyczny  z zabawą pod gwiazdami. Festiwal rozpocznie się tradycyjnie mszą św. o godz. 13.00 w kościele p.w. Świętego Michała Archanioła w Blankach. Po mszy nastąpi przemarsz na plac i oficjalne otwarcie festiwalu.",
+    text3: "Organizatorami festiwalu jest Stowarzyszenie „Babki Zielarki”, Mieszkańcy Blanek, Urząd Gminy Lidzbark Warmiński oraz Gminne Centrum Kultury w Pilniku Zadanie współfinansowane ze środków Samorządu Województwa Warmińsko-Mazurskiego.",
+    text4: "Partnerzy strategiczni: Akustyk Mont Sp. z o. o., Veolia Północ Sp. z o. o. Patronat medialny nad wydarzeniem objęło: Radio Olsztyn Opiekę medialną nad wydarzeniem objęła: TVP3 Olsztyn",
+    text5: "Będzie ziołowo, ekologicznie, klimatycznie! Czekamy na Was 30 czerwca 2024 roku w Blankach od godziny 13:00. To będzie dzień bliżej natury!",
+    gallery: [],
+  },  
+  {
+    src: ziola_2024,
+    title: "VII Festiwal Ziół w Blankach",
+    text1: "Stowarzyszenie Babki Zielarki oraz mieszkańcy wsi Blanki zapraszają na VII Festiwal Ziół - już 30 czerwca (niedziela) 2024 r. 🌿🌼 Jak co roku, odbędą się prezentacje wyrobów z ziół, warsztaty oraz konkursy o tematyce zielarskiej.💡",
+    text2: "W tym roku podczas festiwalu odbędzie się panel poświęcony roli zielarstwa w życiu codziennym oraz wierzeniom i magicznym właściwościom ziół, który poprowadzi dr hab. Stanisław Czachorowski, profesor Uniwersytetu Warmińsko-Mazurskiego na Wydziale Biologii i Biotechnologii w Olsztynie. 📚✨ Chętni będą mieli okazję wziąć udział w warsztatach tworzenia eko-wianków z kwiatów i innych roślin. 🌸🌿",
+    text3: "W trakcie festiwalu, oprócz konkursów dla publiczności, rozstrzygnięte zostaną konkursy kulinarne „Ziołowy napój” i „Ziołowe pieczywo”. Zachęcamy do zgłaszania się do tych konkursów – termin mija 23 czerwca br. 🍵🥖 Na scenie zaprezentują się grupy artystyczne z regionu oraz zespoły ludowe, a także po raz pierwszy odbędą się występy grupy bębniarskiej - Boomeranci. 🎶🥁 W ramach festiwalu będzie można odwiedzić jarmark z wyrobami lokalnych rzemieślników i stoiska z naturalnymi przetworami oraz przyprawami. 🛍️🍯 Na wszystkich uczestników festiwalu czekają różnorodne atrakcje, w tym strefa animacji dla najmłodszych. Wydarzenie zwieńczy koncert muzyczny z zabawą pod gwiazdami. 🌟🎉",
+    text4: "Organizatorzy: • Stowarzyszenie „Babki Zielarki” Zielarska Wieś Blanki • Mieszkańcy Blanek • Urząd Gminy Lidzbark Warmiński • Gminne Centrum Kultury w Pilniku",
+    text5: "Zadanie współfinansowane ze środków Samorządu Województwa Warmińsko-Mazurskiego. Będzie ziołowo, ekologicznie, klimatycznie. 🌞 To będzie dzień bliżej natury! 🌿🌍",
+    gallery: [],
+  },  
   {
     src: ziola_2023_1,
     title: "VI Festiwal Ziół w Blankach - relacja",
