@@ -37,6 +37,7 @@ import ziola_2023_9 from "../assets/images/ziola2023/z2023_9.JPG";
 import ziola_2023_10 from "../assets/images/ziola2023/z2023_10.JPG";
 import ziola_2023_11 from "../assets/images/ziola2023/z2023_11.jpg";
 import ziola_2024 from "../assets/images/ziola2024/festiwal_2024.jpg";
+import ziola_2024_konkurs from "../assets/images/ziola2024/konkursZiol2024.jpg";
 import remont1 from "../assets/images/remont/remont1.jpg";
 import remont2 from "../assets/images/remont/remont2.jpg";
 import remont3 from "../assets/images/remont/remont3.jpg";
@@ -92,7 +93,7 @@ const newsHomepage = [
     ],
   },  
   {
-    src: ziola_2024,
+    src: ziola_2024_konkurs,
     title: "Poznaj praktyczne zastosowanie ziół i ,,chwastów” rosnących obok Ciebie!",
     text1: "Zielarska Wieś Blanki zaprasza wszystkich miłośników zielarstwa, przyrody, ekologii, naturalnych smaków i zapachów na ,,VII Festiwal Ziół”. Jak co roku odbędą się prezentacje wyrobów z ziół, warsztaty oraz konkursy o tematyce zielarskiej. Uczestnicy będą mieli okazję wziąć udział w warsztatach tworzenia eko-wianków z kwiatów i innych roślin czy warsztatach zupy pokrzywowej. Podczas tej edycji wydarzenia odbędzie się panel poświęcony roli zielarstwa w życiu dawnych Warmiaków oraz wierzeniom i magicznym właściwościom ziół, który poprowadzi dr hab. Stanisław Czachorowski, prof. Uniwersytetu Warmińsko–Mazurskiego na Wydziale Biologii i Biotechnologii w Olsztynie.",
     text2: "W trakcie festiwalu, oprócz  konkursów dla publiczności,  rozstrzygnięte zostaną konkursy kulinarne „Ziołowy napój” i „Ziołowe pieczywo” - zachęcamy do zgłaszania się do ww. konkursów - termin mija 23 czerwca br. Na scenie zaprezentują się grupy artystyczne z regionu oraz zespoły ludowe, a także po raz pierwszy odbędą się występy grupy bębniarskiej. W ramach festiwalu będzie można odwiedzić jarmark z wyrobami lokalnych rzemieślników i stoiska z naturalnymi przetworami czy przyprawami. Na wszystkich uczestników festiwalu będą czekały różnorodne atrakcje, w tym strefa animacji dla najmłodszych. Wydarzenie zwieńczy koncert muzyczny  z zabawą pod gwiazdami. Festiwal rozpocznie się tradycyjnie mszą św. o godz. 13.00 w kościele p.w. Świętego Michała Archanioła w Blankach. Po mszy nastąpi przemarsz na plac i oficjalne otwarcie festiwalu.",
