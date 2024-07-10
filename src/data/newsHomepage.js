@@ -47,8 +47,501 @@ import remont6 from "../assets/images/remont/remont6.jpg";
 import remont7 from "../assets/images/remont/remont7.jpg";
 import remont8 from "../assets/images/remont/remont8.jpg";
 import remont9 from "../assets/images/remont/remont9.jpg";
+import relacja2 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (2).JPG";
+import relacja3 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (3).JPG";
+import relacja4 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (4).JPG";
+import relacja5 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (5).JPG";
+import relacja6 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (6).JPG";
+import relacja7 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (7).JPG";
+import relacja8 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (8).JPG";
+import relacja9 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (9).JPG";
+import relacja10 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (10).JPG";
+import relacja11 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (11).JPG";
+import relacja12 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (12).JPG";
+import relacja13 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (13).jpg";
+import relacja14 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (14).JPG";
+import relacja15 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (15).JPG";
+import relacja16 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (16).JPG";
+import relacja17 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (17).JPG";
+import relacja18 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (18).JPG";
+import relacja19 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (19).JPG";
+import relacja20 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (20).JPG";
+import relacja21 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (21).JPG";
+import relacja22 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (22).JPG";
+import relacja23 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (23).JPG";
+import relacja24 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (24).JPG";
+import relacja25 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (25).JPG";
+import relacja26 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (26).JPG";
+import relacja27 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (27).JPG";
+import relacja28 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (28).JPG";
+import relacja29 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (29).JPG";
+import relacja30 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (30).JPG";
+import relacja31 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (31).JPG";
+import relacja32 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (32).JPG";
+import relacja33 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (33).JPG";
+import relacja34 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (34).JPG";
+import relacja35 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (35).JPG";
+import relacja36 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (36).JPG";
+import relacja37 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (37).JPG";
+import relacja38 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (38).JPG";
+import relacja39 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (39).JPG";
+import relacja40 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (40).JPG";
+import relacja41 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (41).JPG";
+import relacja42 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (42).JPG";
+import relacja43 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (43).JPG";
+import relacja44 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (44).JPG";
+import relacja45 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (45).JPG";
+import relacja46 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (46).JPG";
+import relacja47 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (47).JPG";
+import relacja48 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (48).JPG";
+import relacja49 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (49).JPG";
+import relacja50 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (50).JPG";
+import relacja51 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (51).JPG";
+import relacja52 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (52).JPG";
+import relacja53 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (53).JPG";
+import relacja54 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (54).JPG";
+import relacja55 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (55).JPG";
+import relacja56 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (56).JPG";
+import relacja57 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (57).JPG";
+import relacja58 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (58).JPG";
+import relacja59 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (59).JPG";
+import relacja60 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (60).JPG";
+import relacja61 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (61).JPG";
+import relacja62 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (62).JPG";
+import relacja63 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (63).JPG";
+import relacja64 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (64).JPG";
+import relacja65 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (65).JPG";
+import relacja66 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (66).JPG";
+import relacja67 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (67).JPG";
+import relacja68 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (68).JPG";
+import relacja69 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (69).JPG";
+import relacja70 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (70).JPG";
+import relacja71 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (71).JPG";
+import relacja72 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (72).JPG";
+import relacja73 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (73).JPG";
+import relacja74 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (74).JPG";
+import relacja75 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (75).JPG";
+import relacja76 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (76).JPG";
+import relacja77 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (77).JPG";
+import relacja78 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (78).JPG";
+import relacja79 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (79).JPG";
+import relacja80 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (80).JPG";
+import relacja81 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (81).JPG";
+import relacja82 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (82).JPG";
+import relacja83 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (83).JPG";
+import relacja84 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (84).JPG";
+import relacja85 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (85).JPG";
+import relacja86 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (86).JPG";
+import relacja87 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (87).JPG";
+import relacja88 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (88).JPG";
+import relacja89 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (89).JPG";
+import relacja90 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (90).JPG";
+import relacja91 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (91).JPG";
+import relacja92 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (92).JPG";
+import relacja93 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (93).JPG";
+import relacja94 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (94).JPG";
+import relacja95 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (95).JPG";
+import relacja96 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (96).JPG";
+import relacja97 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (97).JPG";
+import relacja98 from "../assets/images/festiwal_2024/Festiwal Ziół 2024_ (98).jpg";
+
 
 const newsHomepage = [
+  {
+    src: relacja2,
+    title: "VII Festiwal Ziół w Zielarskiej Wsi Blanki.",
+    text1: "Już siódmy raz spotkaliśmy się w wyjątkowych okolicznościach przyrody, żeby wspólnie cieszyć się bogactwem i różnorodnością warmińskiego krajobrazu Gminy Wiejskiej Lidzbark Warmiński podczas Festiwalu Ziół w Blankach. Zielarska Wieś Blanki to jedyna miejscowość tematyczna na terenie Gminy Lidzbark Warmiński. Wszystkich przybyłych gości powitał Wójt Gminy Fabian Andrukajtis, który wraz z Iwoną Plaskota oraz Lucją Kuczyńską ze Stowarzyszenia Babki Zielarki otworzył Festiwal. Pani Lucja, która jest również sołtysem wsi Blanki obchodziła tego dnia imieniny, więc nie mogło zabraknąć życzeń i tortu. /n Licznie przybyli mieszkańcy, goście oraz turyści mogli skorzystać z atrakcji przygotowanych przez organizatorów m.in. spróbować zupy pokrzywowej czy naleśników z pokrzywą. Na najmłodszych czekały animacje i zabawy przygotowane przez harcerzy hufca Hufiec ZHP Ziemi Lidzbarskiej, Gminne Centrum Kultury w Pilniku Gminny Ośrodek Pomocy Społecznej w Lidzbarku Warmińskim. Na placu pojawiły się stoiska wystawiennicze z produktami regionalnymi, oryginalnymi zabawkami, pamiątkami i przysmakami. Dużym zainteresowaniem cieszył się punkt wyplatania eko-wianków – oczywiście z warmińskich ziół. W części artystycznej na scenie zaprezentowali się: Kapela Ludowa Furman Kraszewo, Kapela Ludowa Rogóżanie, Zespół Kalina Barcji, ZTL Perła Warmii, Reprezentacyjna Orkiestra Dęta Gminy Lidzbark Warmiński, Trąbale – zespół muzyki myśliwskiej, Zespół Elektroniczni z Centrum Rozpoznania i Wsparcia Walki Radioelektronicznej Lidzbark Warmiński oraz wokaliści z Gminnego Centrum Kultury w Pilniku. Po raz pierwszy w Blankach wystąpiła grupa bębniarska Boomeranci z Olsztyna.",
+    text2: "Tradycyjnie podczas Festiwalu rozstrzygnięto konkursy kulinarne. W konkursie „Ziołowe Pieczywo”:I miejsce zdobyła Jadwiga Żmijewska za paluchy z czosnkiem i pietruszką, II miejsce zajęła Joanna Łobata za chlebek nadziewany ziołami,III miejsce zdobyła Katarzyna Cybulska za chlebek czosnkowo – ziołowy.",
+    text3: "W konkursie „Ziołowy Napój”: I miejsce zdobyło KGW Ignalin za żabi płyn, czyli nalewkę z piołuna, II miejsce otrzymała Agnieszka Ostap za napój moc natury, III miejsce – Joanna Łobata za ziołową lemoniadę.",
+    text4: "Nie zabrakło również rozmów o ziołach, wielu ciekawostek o zastosowaniu ziół przez dawnych Warmiaków nie tylko w kuchni, ale i w życiu codziennym o którym dowiedzieliśmy się podczas panelu pt. ,,Etnograficzne spojrzenie na zielarstwo” z dr hab. Stanisławem Czachorowskim prof. Uniwersytetu Warmińsko-Mazurskiego w Olsztynie. A na tych, którzy chcieli sprawdzić swoją wiedzę z zakresu zielarstwa czekały konkursy przygotowane przez Babkę Zielarkę Annę Pacanowską, która przeprowadziła również przyśpieszony kurs „odlotów” na miotłach. Wieczór zwieńczyła zabawa pod gwiazdami z Zespołem Czesław Band. W przyszłym roku mamy nadzieję spotkać się na VIII Festiwalu Ziół połączonym z jubileuszem dziesięciolecia istnienia Stowarzyszenia Babki Zielarki.Organizatorami festiwalu byli: Stowarzyszenie „Babki Zielarki”, Mieszkańcy Blanek, Urząd Gminy Lidzbark Warmiński oraz Gminne Centrum Kultury w Pilniku.Zadanie współfinansowane ze środków Samorządu Województwa Warmińsko-Mazurskiego. Partnerzy strategiczni: Akustyk Mont Sp. z o. o., Veolia PL Veoli Północ Sp. z o. o. Patronat medialny nad wydarzeniem objęło: Radio Olsztyn. Opiekę medialną nad wydarzeniem objęła: TVP3 Olsztyn",
+    text5: "Serdeczne podziękowania dla: GOPS Lidzbark Warmiński, Hufca ZHP Ziemi Lidzbarskiej, Lidzbarskiego Domu Kultury, Zespołu Tańca Ludowego Perła Warmii, Zespołu Elektroniczni z Centrum Rozpoznania i Wsparcia Walki Radioelektronicznej Lidzbark Warmiński, Trąbali - zespołu muzyki myśliwskiej, Zespołu Kalina Barcji, Kasi i Roberta Kimbar Group, Państwa Stolarskich za udostępnienie miejsca na parking oraz WSZYSTKICH, którzy brali udział w przygotowaniach do wydarzenia!",
+    gallery: [
+      {
+        id: 1,
+        src: relacja3,
+      },
+      {
+        id: 2,
+        src: relacja4,
+      },
+      {
+        id: 3,
+        src: relacja5,
+      },
+      {
+        id: 4,
+        src: relacja6,
+      },
+      {
+        id: 5,
+        src: relacja7,
+      },
+      {
+        id: 6,
+        src: relacja8,
+      },
+      {
+        id: 7,
+        src: relacja9,
+      },
+      {
+        id: 8,
+        src: relacja10,
+      },
+      {
+        id: 9,
+        src: relacja11,
+      },
+      {
+        id: 10,
+        src: relacja12,
+      },
+      {
+        id: 11,
+        src: relacja13,
+      },
+      {
+        id: 12,
+        src: relacja14,
+      },
+      {
+        id: 13,
+        src: relacja15,
+      },
+      {
+        id: 14,
+        src: relacja16,
+      },
+      {
+        id: 15,
+        src: relacja17,
+      },
+      {
+        id: 16,
+        src: relacja18,
+      },
+      {
+        id: 17,
+        src: relacja19,
+      },
+      {
+        id: 18,
+        src: relacja20,
+      },
+      {
+        id: 19,
+        src: relacja21,
+      },
+      {
+        id: 20,
+        src: relacja22,
+      },
+      {
+        id: 21,
+        src: relacja23,
+      },
+      {
+        id: 22,
+        src: relacja24,
+      },
+      {
+        id: 23,
+        src: relacja25,
+      },
+      {
+        id: 24,
+        src: relacja26,
+      },
+      {
+        id: 25,
+        src: relacja27,
+      },
+      {
+        id: 26,
+        src: relacja28,
+      },
+      {
+        id: 27,
+        src: relacja29,
+      },
+      {
+        id: 28,
+        src: relacja30,
+      },
+      {
+        id: 29,
+        src: relacja31,
+      },
+      {
+        id: 30,
+        src: relacja32,
+      },
+      {
+        id: 31,
+        src: relacja33,
+      },
+      {
+        id: 32,
+        src: relacja34,
+      },
+      {
+        id: 33,
+        src: relacja35,
+      },
+      {
+        id: 34,
+        src: relacja36,
+      },
+      {
+        id: 35,
+        src: relacja37,
+      },
+      {
+        id: 36,
+        src: relacja38,
+      },
+      {
+        id: 37,
+        src: relacja39,
+      },
+      {
+        id: 38,
+        src: relacja40,
+      },
+      {
+        id: 39,
+        src: relacja41,
+      },
+      {
+        id: 40,
+        src: relacja42,
+      },
+      {
+        id: 41,
+        src: relacja43,
+      },
+      {
+        id: 42,
+        src: relacja44,
+      },
+      {
+        id: 43,
+        src: relacja45,
+      },
+      {
+        id: 44,
+        src: relacja46,
+      },
+      {
+        id: 45,
+        src: relacja47,
+      },
+      {
+        id: 46,
+        src: relacja48,
+      },
+      {
+        id: 47,
+        src: relacja49,
+      },
+      {
+        id: 48,
+        src: relacja50,
+      },
+      {
+        id: 49,
+        src: relacja51,
+      },
+      {
+        id: 50,
+        src: relacja52,
+      },
+      {
+        id: 51,
+        src: relacja53,
+      },
+      {
+        id: 52,
+        src: relacja54,
+      },
+      {
+        id: 53,
+        src: relacja55,
+      },
+      {
+        id: 54,
+        src: relacja56,
+      },
+      {
+        id: 55,
+        src: relacja57,
+      },
+      {
+        id: 56,
+        src: relacja58,
+      },
+      {
+        id: 57,
+        src: relacja59,
+      },
+      {
+        id: 58,
+        src: relacja60,
+      },
+      {
+        id: 59,
+        src: relacja61,
+      },
+      {
+        id: 60,
+        src: relacja62,
+      },
+      {
+        id: 61,
+        src: relacja63,
+      },
+      {
+        id: 62,
+        src: relacja64,
+      },
+      {
+        id: 63,
+        src: relacja65,
+      },
+      {
+        id: 64,
+        src: relacja66,
+      },
+      {
+        id: 65,
+        src: relacja67,
+      },
+      {
+        id: 66,
+        src: relacja68,
+      },
+      {
+        id: 67,
+        src: relacja69,
+      },
+      {
+        id: 68,
+        src: relacja70,
+      },
+      {
+        id: 69,
+        src: relacja71,
+      },
+      {
+        id: 70,
+        src: relacja72,
+      },
+      {
+        id: 71,
+        src: relacja73,
+      },
+      {
+        id: 72,
+        src: relacja74,
+      },
+      {
+        id: 73,
+        src: relacja75,
+      },
+      {
+        id: 74,
+        src: relacja76,
+      },
+      {
+        id: 75,
+        src: relacja77,
+      },
+      {
+        id: 76,
+        src: relacja78,
+      },
+      {
+        id: 77,
+        src: relacja79,
+      },
+      {
+        id: 78,
+        src: relacja80,
+      },
+      {
+        id: 79,
+        src: relacja81,
+      },
+      {
+        id: 80,
+        src: relacja82,
+      },
+      {
+        id: 81,
+        src: relacja83,
+      },
+      {
+        id: 82,
+        src: relacja84,
+      },
+      {
+        id: 83,
+        src: relacja85,
+      },
+      {
+        id: 84,
+        src: relacja86,
+      },
+      {
+        id: 85,
+        src: relacja87,
+      },
+      {
+        id: 86,
+        src: relacja88,
+      },
+      {
+        id: 87,
+        src: relacja89,
+      },
+      {
+        id: 88,
+        src: relacja90,
+      },
+      {
+        id: 89,
+        src: relacja91,
+      },
+      {
+        id: 90,
+        src: relacja92,
+      },
+      {
+        id: 91,
+        src: relacja93,
+      },
+      {
+        id: 92,
+        src: relacja94,
+      },
+      {
+        id: 93,
+        src: relacja95,
+      },
+      {
+        id: 94,
+        src: relacja96,
+      },
+      {
+        id: 95,
+        src: relacja97,
+      },
+      {
+        id: 96,
+        src: relacja98,
+      },     
+    ],
+  },  
   {
     src: remont1,
     title: "Ziołowy zakątek na mapie Warmii - wieś Blanki",
